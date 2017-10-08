@@ -4,7 +4,7 @@
 
 Testare php : <?php echo'test';?>
 <br>
-Testare conexiune db:
+Testare conexiune db: <?php echo'test';?>
 
 </body>
 </html>
