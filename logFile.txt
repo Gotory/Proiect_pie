@@ -1,0 +1,34 @@
+DEBUG::2017-10-12 21:33:07::test 123
+DEBUG::2017-10-12 21:33:12::test 123
+DEBUG::2017-10-12 21:33:40::- test 123
+DEBUG::2017-10-12 21:47:17::- Intrat in constructor Conexiune
+DEBUG::2017-10-12 21:47:17::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 21:48:53::- Intrat in constructor Conexiune
+ALERT::2017-10-12 21:48:53::- configInfoDB.ini file is not loaded
+ALERT::2017-10-12 21:48:53::- PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php:30
+Stack trace:
+#0 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(30): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(54): Conexiune->__construct()
+#2 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(60): ConexiuneFactory::getConexiune()
+#3 {main}
+DEBUG::2017-10-12 22:08:34::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:08:34::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:08:34::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:08:40::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:08:40::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:08:40::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:09:07::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:09:07::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:09:07::- 1
+DEBUG::2017-10-12 22:09:07::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:09:10::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:09:10::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:09:10::- 1
+DEBUG::2017-10-12 22:09:10::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:09:18::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:09:18::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:09:18::- Array
+DEBUG::2017-10-12 22:09:18::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:11:08::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:11:08::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:11:08::- Iesit din constructor Conexiune
