@@ -2,19 +2,19 @@
 # Pentru anularea de PHP Notice:
 error_reporting(E_ALL ^ E_NOTICE);
 
-
+include '../debugerClass/Log4Debug.php';
 class Conexiune
 {
-	protected $log4Debug;
+	
     protected $dbh;
-    
+
     public function __construct()
     {
-    	require_once("./../debugerClass/Log4Debug.php");
-    	$log4Debug =  new Log4Debug();
-    	$log4Debug->debug_String("Intrat in constructor Conexiune");
+
         try {
-            
+        	
+        	$log4Debug =  new Log4Debug();
+        	$log4Debug->debug_String("Intrat in constructor Conexiune");
         	$ini_array= parse_ini_file("../../../DB_development/mySQL/configInfoDB.ini");
         	if ($ini_array) {
         		$log4Debug->alert_String('Loaded configInfoDB.ini: ');
@@ -31,6 +31,7 @@ class Conexiune
             $con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);  
             $con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
             $con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8  
+            $log4Debug->debug_String("conexiune creata cu succese");
         }
         catch (PDOException $err) {  
             echo "Connection to MySQL failed: ";
@@ -44,6 +45,7 @@ class Conexiune
         $log4Debug->debug_String("Iesit din constructor Conexiune");
     }
 }
+
 class ConexiuneFactory
 {
     public static function getConexiune()
@@ -54,5 +56,5 @@ class ConexiuneFactory
 
 
 #Exemplu instantiere pentru conexiune
-#$conn= (new ConexiuneFactory())->getConexiune();
+$conn= (new ConexiuneFactory())->getConexiune();
 

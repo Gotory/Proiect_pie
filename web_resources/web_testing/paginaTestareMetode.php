@@ -5,12 +5,12 @@
 <!-- Report all errors except E_NOTICE -->
 <!-- This is the default value set in php.ini -->
 
-Testare configInfoDB.ini luare de valori din proprietati:<br>
+
 <?php 
 
 #define('HOME_DIR', 'C:\xampp\htdocs\project\e-commerce\');
 
-
+//Testare configInfoDB.ini luare de valori din proprietati:<br>
 // error_reporting(E_ALL ^ E_NOTICE);
 // $ini_array= parse_ini_file("../../DB_development/mySQL/configInfoDB.ini");
 // if ($ini_array) {
@@ -43,13 +43,18 @@ Testare configInfoDB.ini luare de valori din proprietati:<br>
 
 
 
+include './../../BE_development/PHP/dbConnectorClasses/ConexiuneFactory.php';
+//require "./../../BE_development/PHP/dbConnectorClasses/ConexiuneFactory.php";
+// require "./../../BE_development/PHP/debugerClass/Log4Debug.php";
+
+
+$conn= new ConexiuneFactory();
 
 
 
-include "./../../BE_development/PHP/dbConnectorClasses/ConexiuneFactory.php";
 
 
-$conn= (new ConexiuneFactory())->getConexiune();
+
 
 
 ?>

@@ -1,4 +1,4 @@
-<?php
+<?php 
 # Pentru anularea de PHP Notice:
 error_reporting(E_ALL ^ E_NOTICE);
 
@@ -24,6 +24,11 @@ class Log4Debug{
 		file_put_contents('../../../logFile.txt',$msgErr.PHP_EOL, FILE_APPEND);
 	}
 	public static function alert_StringValue($string,$value){
+		$msgErr = "ALERT"."::".(new DateTime())->format('Y-m-d H:i:s')."::- ".$string.$value;
+		file_put_contents('../../../logFile.txt',$msgErr.PHP_EOL, FILE_APPEND);
+	}
+	
+	public static function alert_Array($array){
 		$msgErr = "ALERT"."::".(new DateTime())->format('Y-m-d H:i:s')."::- ".$string.$value;
 		file_put_contents('../../../logFile.txt',$msgErr.PHP_EOL, FILE_APPEND);
 	}

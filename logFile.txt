@@ -32,3 +32,102 @@ DEBUG::2017-10-12 22:09:18::- Iesit din constructor Conexiune
 DEBUG::2017-10-12 22:11:08::- Intrat in constructor Conexiune
 ALERT::2017-10-12 22:11:08::- Loaded configInfoDB.ini: 
 DEBUG::2017-10-12 22:11:08::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:51:32::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:51:32::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:51:32::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:52:22::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:52:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:52:22::- conexiune creata cu succese
+DEBUG::2017-10-12 22:52:22::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:55:26::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:55:26::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:55:26::- conexiune creata cu succese
+DEBUG::2017-10-12 22:55:26::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:57:47::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:57:47::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:57:47::- conexiune creata cu succese
+DEBUG::2017-10-12 22:57:47::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:57:50::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:57:50::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:57:50::- conexiune creata cu succese
+DEBUG::2017-10-12 22:57:50::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 22:57:51::- Intrat in constructor Conexiune
+ALERT::2017-10-12 22:57:51::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 22:57:51::- conexiune creata cu succese
+DEBUG::2017-10-12 22:57:51::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 23:00:22::- Intrat in constructor Conexiune
+ALERT::2017-10-12 23:00:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 23:00:22::- conexiune creata cu succese
+DEBUG::2017-10-12 23:00:22::- Iesit din constructor Conexiune
+DEBUG::2017-10-12 23:00:23::- Intrat in constructor Conexiune
+ALERT::2017-10-12 23:00:23::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-12 23:00:23::- conexiune creata cu succese
+DEBUG::2017-10-12 23:00:23::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 17:58:29::- Intrat in constructor Conexiune
+ALERT::2017-10-13 17:58:29::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 17:58:29::- conexiune creata cu succese
+DEBUG::2017-10-13 17:58:29::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 18:20:08::- Intrat in constructor Conexiune
+ALERT::2017-10-13 18:20:08::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 18:20:08::- conexiune creata cu succese
+DEBUG::2017-10-13 18:20:08::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 18:20:26::- Intrat in constructor Conexiune
+ALERT::2017-10-13 18:20:26::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 18:20:26::- conexiune creata cu succese
+DEBUG::2017-10-13 18:20:26::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 18:20:38::- Intrat in constructor Conexiune
+ALERT::2017-10-13 18:20:38::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 18:20:38::- conexiune creata cu succese
+DEBUG::2017-10-13 18:20:38::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 21:37:37::- Intrat in constructor Conexiune
+ALERT::2017-10-13 21:37:37::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 21:37:37::- conexiune creata cu succese
+DEBUG::2017-10-13 21:37:37::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 21:45:22::- Intrat in constructor Conexiune
+ALERT::2017-10-13 21:45:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 21:45:22::- conexiune creata cu succese
+DEBUG::2017-10-13 21:45:22::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 22:03:39::- Intrat in constructor Conexiune
+ALERT::2017-10-13 22:03:39::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 22:03:39::- conexiune creata cu succese
+DEBUG::2017-10-13 22:03:39::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 22:03:49::- Intrat in constructor Conexiune
+ALERT::2017-10-13 22:03:49::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 22:03:49::- conexiune creata cu succese
+DEBUG::2017-10-13 22:03:49::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 22:43:10::- Intrat in constructor Conexiune
+ALERT::2017-10-13 22:43:10::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 22:43:10::- conexiune creata cu succese
+DEBUG::2017-10-13 22:43:10::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 22:43:24::- Intrat in constructor Conexiune
+ALERT::2017-10-13 22:43:24::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 22:43:24::- conexiune creata cu succese
+DEBUG::2017-10-13 22:43:24::- Iesit din constructor Conexiune
+DEBUG::2017-10-13 22:43:52::- Intrat in constructor Conexiune
+ALERT::2017-10-13 22:43:52::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-13 22:43:52::- conexiune creata cu succese
+DEBUG::2017-10-13 22:43:52::- Iesit din constructor Conexiune
+DEBUG::2017-10-14 10:37:29::- Intrat in constructor Conexiune
+ALERT::2017-10-14 10:37:29::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-14 10:37:29::- conexiune creata cu succese
+DEBUG::2017-10-14 10:37:29::- Iesit din constructor Conexiune
+DEBUG::2017-10-14 10:37:41::- Intrat in constructor Conexiune
+ALERT::2017-10-14 10:37:41::- Loaded configInfoDB.ini: 
+ALERT::2017-10-14 10:37:41::- PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) in C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php:31
+Stack trace:
+#0 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(31): PDO->__construct('mysql:host=loca...', NULL, 'proiectpie')
+#1 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(53): Conexiune->__construct()
+#2 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(59): ConexiuneFactory::getConexiune()
+#3 {main}
+DEBUG::2017-10-14 10:37:55::- Intrat in constructor Conexiune
+ALERT::2017-10-14 10:37:55::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-14 10:37:55::- conexiune creata cu succese
+DEBUG::2017-10-14 10:37:55::- Iesit din constructor Conexiune
+DEBUG::2017-10-14 11:46:11::- Intrat in constructor Conexiune
+ALERT::2017-10-14 11:46:11::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-14 11:46:11::- conexiune creata cu succese
+DEBUG::2017-10-14 11:46:11::- Iesit din constructor Conexiune
+DEBUG::2017-10-14 11:47:30::- Intrat in constructor Conexiune
+ALERT::2017-10-14 11:47:30::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-14 11:47:30::- conexiune creata cu succese
+DEBUG::2017-10-14 11:47:30::- Iesit din constructor Conexiune

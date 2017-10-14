@@ -17,3 +17,5 @@ class UserView implements ConexiuneFactory{
        $this->id = $id;
     }
 }
+
+?>
