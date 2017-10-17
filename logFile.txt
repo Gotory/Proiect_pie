@@ -427,3 +427,575 @@ DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
 DEBUG::2017-10-17 17:17:58::- $db_hostV: localhost
 DEBUG::2017-10-17 17:17:58::- conexiune creata cu succese
 DEBUG::2017-10-17 17:17:58::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:28:15
+DEBUG::2017-10-17 17:28:15::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:28:15::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:28:15::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:28:15::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:28:15::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:28:15::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:28:15::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:28:15::- $db_hostV: localhost
+DEBUG::2017-10-17 17:28:15::- conexiune creata cu succese
+DEBUG::2017-10-17 17:28:15::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:29:30
+DEBUG::2017-10-17 17:29:30::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:29:30::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:29:30::- $db_hostV: localhost
+DEBUG::2017-10-17 17:29:30::- conexiune creata cu succese
+DEBUG::2017-10-17 17:29:30::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:29:30
+DEBUG::2017-10-17 17:29:30::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:29:30::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:29:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:29:30::- $db_hostV: localhost
+DEBUG::2017-10-17 17:29:30::- conexiune creata cu succese
+DEBUG::2017-10-17 17:29:30::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:30:01
+DEBUG::2017-10-17 17:30:01::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:30:01::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:30:01::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:30:01::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:30:01::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:30:01::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:30:01::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:30:01::- $db_hostV: localhost
+DEBUG::2017-10-17 17:30:01::- conexiune creata cu succese
+DEBUG::2017-10-17 17:30:01::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:30:02
+DEBUG::2017-10-17 17:30:02::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:30:02::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:30:02::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:30:02::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:30:02::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:30:02::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:30:02::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:30:02::- $db_hostV: localhost
+DEBUG::2017-10-17 17:30:02::- conexiune creata cu succese
+DEBUG::2017-10-17 17:30:02::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:30:09
+DEBUG::2017-10-17 17:30:09::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:30:09::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:30:09::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:30:09::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:30:09::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:30:09::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:30:09::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:30:09::- $db_hostV: localhost
+DEBUG::2017-10-17 17:30:09::- conexiune creata cu succese
+DEBUG::2017-10-17 17:30:09::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:30:10
+DEBUG::2017-10-17 17:30:10::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:30:10::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:30:10::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:30:10::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:30:10::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:30:10::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:30:10::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:30:10::- $db_hostV: localhost
+DEBUG::2017-10-17 17:30:10::- conexiune creata cu succese
+DEBUG::2017-10-17 17:30:10::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:32:19
+DEBUG::2017-10-17 17:32:19::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:32:19::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:32:19::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:32:19::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:32:19::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:32:19::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:32:19::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:32:19::- $db_hostV: localhost
+DEBUG::2017-10-17 17:32:19::- conexiune creata cu succese
+DEBUG::2017-10-17 17:32:19::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:32:20
+DEBUG::2017-10-17 17:32:20::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:32:20::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:32:20::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:32:20::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:32:20::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:32:20::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:32:20::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:32:20::- $db_hostV: localhost
+DEBUG::2017-10-17 17:32:20::- conexiune creata cu succese
+DEBUG::2017-10-17 17:32:20::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:33:00
+DEBUG::2017-10-17 17:33:00::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:33:00::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:33:00::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:33:00::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:33:00::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:33:00::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:33:00::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:33:00::- $db_hostV: localhost
+DEBUG::2017-10-17 17:33:00::- conexiune creata cu succese
+DEBUG::2017-10-17 17:33:00::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:33:01
+DEBUG::2017-10-17 17:33:01::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:33:01::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:33:01::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:33:01::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:33:01::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:33:01::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:33:01::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:33:01::- $db_hostV: localhost
+DEBUG::2017-10-17 17:33:01::- conexiune creata cu succese
+DEBUG::2017-10-17 17:33:01::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:33:02
+DEBUG::2017-10-17 17:33:02::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:33:02::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:33:02::- $db_hostV: localhost
+DEBUG::2017-10-17 17:33:02::- conexiune creata cu succese
+DEBUG::2017-10-17 17:33:02::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:33:02
+DEBUG::2017-10-17 17:33:02::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:33:02::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:33:02::- $db_hostV: localhost
+DEBUG::2017-10-17 17:33:02::- conexiune creata cu succese
+DEBUG::2017-10-17 17:33:02::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:33:02
+DEBUG::2017-10-17 17:33:02::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:33:02::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:33:02::- $db_hostV: localhost
+DEBUG::2017-10-17 17:33:02::- conexiune creata cu succese
+DEBUG::2017-10-17 17:33:02::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:33:02
+DEBUG::2017-10-17 17:33:02::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:33:02::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:33:02::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:33:02::- $db_hostV: localhost
+DEBUG::2017-10-17 17:33:02::- conexiune creata cu succese
+DEBUG::2017-10-17 17:33:02::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:35:13
+DEBUG::2017-10-17 17:35:13::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:35:13::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:35:13::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:35:13::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:35:13::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:35:13::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:35:13::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:35:13::- $db_hostV: localhost
+DEBUG::2017-10-17 17:35:13::- conexiune creata cu succese
+DEBUG::2017-10-17 17:35:13::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:35:22
+DEBUG::2017-10-17 17:35:22::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:35:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:35:22::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:35:22::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:35:22::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:35:22::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:35:22::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:35:22::- $db_hostV: localhost
+DEBUG::2017-10-17 17:35:22::- conexiune creata cu succese
+DEBUG::2017-10-17 17:35:22::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:53:51
+DEBUG::2017-10-17 17:53:51::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:53:51::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:53:51::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:53:51::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:53:52::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:53:52::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:53:52::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:53:52::- $db_hostV: localhost
+DEBUG::2017-10-17 17:53:52::- conexiune creata cu succese
+DEBUG::2017-10-17 17:53:52::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:53:53
+DEBUG::2017-10-17 17:53:53::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:53:53::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:53:53::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:53:53::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:53:53::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:53:53::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:53:53::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:53:53::- $db_hostV: localhost
+DEBUG::2017-10-17 17:53:53::- conexiune creata cu succese
+DEBUG::2017-10-17 17:53:53::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:53:54
+DEBUG::2017-10-17 17:53:54::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:53:54::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:53:54::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:53:54::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:53:54::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:53:54::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:53:54::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:53:54::- $db_hostV: localhost
+DEBUG::2017-10-17 17:53:54::- conexiune creata cu succese
+DEBUG::2017-10-17 17:53:54::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:54:26
+DEBUG::2017-10-17 17:54:26::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:54:26::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:54:26::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:54:26::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:54:26::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:54:26::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:54:26::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:54:27::- $db_hostV: localhost
+DEBUG::2017-10-17 17:54:27::- conexiune creata cu succese
+DEBUG::2017-10-17 17:54:27::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:54:27
+DEBUG::2017-10-17 17:54:27::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:54:27::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:54:27::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:54:27::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:54:27::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:54:27::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:54:27::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:54:27::- $db_hostV: localhost
+DEBUG::2017-10-17 17:54:27::- conexiune creata cu succese
+DEBUG::2017-10-17 17:54:27::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:54:28
+DEBUG::2017-10-17 17:54:28::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:54:28::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:54:28::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:54:28::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:54:28::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:54:28::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:54:28::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:54:28::- $db_hostV: localhost
+DEBUG::2017-10-17 17:54:28::- conexiune creata cu succese
+DEBUG::2017-10-17 17:54:28::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:56:11
+DEBUG::2017-10-17 17:56:11::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:56:11::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:56:11::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:56:11::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:56:11::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:56:12::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:56:12::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:56:12::- $db_hostV: localhost
+DEBUG::2017-10-17 17:56:12::- conexiune creata cu succese
+DEBUG::2017-10-17 17:56:12::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:57:06
+DEBUG::2017-10-17 17:57:06::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:57:06::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:57:06::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:57:06::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:57:06::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:57:06::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:57:06::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:57:06::- $db_hostV: localhost
+DEBUG::2017-10-17 17:57:06::- conexiune creata cu succese
+DEBUG::2017-10-17 17:57:06::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:57:07
+DEBUG::2017-10-17 17:57:07::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:57:07::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:57:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:57:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:57:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:57:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:57:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:57:07::- $db_hostV: localhost
+DEBUG::2017-10-17 17:57:07::- conexiune creata cu succese
+DEBUG::2017-10-17 17:57:07::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:57:21
+DEBUG::2017-10-17 17:57:21::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:57:21::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:57:21::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:57:21::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:57:21::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:57:21::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:57:21::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:57:21::- $db_hostV: localhost
+DEBUG::2017-10-17 17:57:21::- conexiune creata cu succese
+DEBUG::2017-10-17 17:57:21::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:57:22
+DEBUG::2017-10-17 17:57:22::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:57:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:57:22::- $db_hostV: localhost
+DEBUG::2017-10-17 17:57:22::- conexiune creata cu succese
+DEBUG::2017-10-17 17:57:22::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:57:22
+DEBUG::2017-10-17 17:57:22::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:57:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:57:22::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:57:22::- $db_hostV: localhost
+DEBUG::2017-10-17 17:57:22::- conexiune creata cu succese
+DEBUG::2017-10-17 17:57:22::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:58:25
+DEBUG::2017-10-17 17:58:25::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:58:25::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:58:25::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:58:25::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:58:25::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:58:25::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:58:25::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:58:25::- $db_hostV: localhost
+DEBUG::2017-10-17 17:58:25::- conexiune creata cu succese
+DEBUG::2017-10-17 17:58:25::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:58:26
+DEBUG::2017-10-17 17:58:26::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:58:26::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:58:26::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:58:26::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:58:26::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:58:26::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:58:26::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:58:26::- $db_hostV: localhost
+DEBUG::2017-10-17 17:58:26::- conexiune creata cu succese
+DEBUG::2017-10-17 17:58:26::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:59:16
+DEBUG::2017-10-17 17:59:16::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:59:16::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:59:16::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:59:16::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:59:16::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:59:16::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:59:16::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:59:16::- $db_hostV: localhost
+DEBUG::2017-10-17 17:59:16::- conexiune creata cu succese
+DEBUG::2017-10-17 17:59:16::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:59:17
+DEBUG::2017-10-17 17:59:17::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:59:17::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:59:17::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:59:17::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:59:17::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:59:17::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:59:17::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:59:17::- $db_hostV: localhost
+DEBUG::2017-10-17 17:59:17::- conexiune creata cu succese
+DEBUG::2017-10-17 17:59:17::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:02:46
+DEBUG::2017-10-17 18:02:46::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:02:46::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:02:46::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:02:46::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:02:46::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:02:46::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:02:46::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:02:46::- $db_hostV: localhost
+DEBUG::2017-10-17 18:02:46::- conexiune creata cu succese
+DEBUG::2017-10-17 18:02:46::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:02:47
+DEBUG::2017-10-17 18:02:47::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:02:47::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:02:47::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:02:47::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:02:47::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:02:47::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:02:47::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:02:47::- $db_hostV: localhost
+DEBUG::2017-10-17 18:02:47::- conexiune creata cu succese
+DEBUG::2017-10-17 18:02:47::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:02:48
+DEBUG::2017-10-17 18:02:48::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:02:48::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:02:48::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:02:48::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:02:48::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:02:48::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:02:48::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:02:48::- $db_hostV: localhost
+DEBUG::2017-10-17 18:02:48::- conexiune creata cu succese
+DEBUG::2017-10-17 18:02:48::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:03:04
+DEBUG::2017-10-17 18:03:04::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:03:04::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:03:04::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:03:04::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:03:04::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:03:04::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:03:04::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:03:04::- $db_hostV: localhost
+DEBUG::2017-10-17 18:03:04::- conexiune creata cu succese
+DEBUG::2017-10-17 18:03:04::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:03:12
+DEBUG::2017-10-17 18:03:12::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:03:12::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:03:12::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:03:12::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:03:12::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:03:12::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:03:12::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:03:12::- $db_hostV: localhost
+DEBUG::2017-10-17 18:03:12::- conexiune creata cu succese
+DEBUG::2017-10-17 18:03:12::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:03:17
+DEBUG::2017-10-17 18:03:17::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:03:17::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:03:17::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:03:17::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:03:17::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:03:17::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:03:17::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:03:17::- $db_hostV: localhost
+DEBUG::2017-10-17 18:03:17::- conexiune creata cu succese
+DEBUG::2017-10-17 18:03:17::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:05:51
+DEBUG::2017-10-17 18:05:51::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:05:51::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:05:51::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:05:51::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:05:51::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:05:51::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:05:51::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:05:51::- $db_hostV: localhost
+DEBUG::2017-10-17 18:05:51::- conexiune creata cu succese
+DEBUG::2017-10-17 18:05:51::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:05:52
+DEBUG::2017-10-17 18:05:52::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:05:52::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:05:52::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:05:52::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:05:52::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:05:52::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:05:52::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:05:52::- $db_hostV: localhost
+DEBUG::2017-10-17 18:05:52::- conexiune creata cu succese
+DEBUG::2017-10-17 18:05:52::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:05:59
+DEBUG::2017-10-17 18:05:59::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:05:59::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:05:59::- $db_hostV: localhost
+DEBUG::2017-10-17 18:05:59::- conexiune creata cu succese
+DEBUG::2017-10-17 18:05:59::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:05:59
+DEBUG::2017-10-17 18:05:59::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:05:59::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:05:59::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:05:59::- $db_hostV: localhost
+DEBUG::2017-10-17 18:05:59::- conexiune creata cu succese
+DEBUG::2017-10-17 18:05:59::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:06:00
+DEBUG::2017-10-17 18:06:00::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:06:00::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:06:00::- $db_hostV: localhost
+DEBUG::2017-10-17 18:06:00::- conexiune creata cu succese
+DEBUG::2017-10-17 18:06:00::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:06:00
+DEBUG::2017-10-17 18:06:00::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:06:00::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:06:00::- $db_hostV: localhost
+DEBUG::2017-10-17 18:06:00::- conexiune creata cu succese
+DEBUG::2017-10-17 18:06:00::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:06:00
+DEBUG::2017-10-17 18:06:00::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:06:00::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:06:00::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:06:00::- $db_hostV: localhost
+DEBUG::2017-10-17 18:06:01::- conexiune creata cu succese
+DEBUG::2017-10-17 18:06:01::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:06:01
+DEBUG::2017-10-17 18:06:01::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:06:01::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:06:01::- $db_hostV: localhost
+DEBUG::2017-10-17 18:06:01::- conexiune creata cu succese
+DEBUG::2017-10-17 18:06:01::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:06:01
+DEBUG::2017-10-17 18:06:01::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:06:01::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:06:01::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:06:01::- $db_hostV: localhost
+DEBUG::2017-10-17 18:06:01::- conexiune creata cu succese
+DEBUG::2017-10-17 18:06:01::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:09:26
+DEBUG::2017-10-17 18:09:26::- test 123
+----------------------------------------------------------2017-10-17 18:11:47
+----------------------------------------------------------2017-10-17 18:11:58
+DEBUG::2017-10-17 18:11:58::- test 
+DEBUG::2017-10-17 18:11:58::- test 123
+ALERT::2017-10-17 18:11:58::- test 
+ALERT::2017-10-17 18:11:58::- test 123
+----------------------------------------------------------2017-10-17 18:14:08
+headerDebug2017-10-17 18:14:08::- test 
+headerDebug2017-10-17 18:14:08::- test 123
+ALERT::2017-10-17 18:14:08::- test 
+ALERT::2017-10-17 18:14:08::- test 123
+----------------------------------------------------------2017-10-17 18:14:31
+DEBUG::2017-10-17 18:14:31::- test 
+DEBUG::2017-10-17 18:14:32::- test 123
+ALERT::2017-10-17 18:14:32::- test 
+ALERT::2017-10-17 18:14:32::- test 123
+----------------------------------------------------------2017-10-17 18:15:24
+DEBUG::2017-10-17 18:15:24::- test 
+DEBUG::2017-10-17 18:15:24::- test 123
+ALERT::2017-10-17 18:15:24::- test 
+ALERT::2017-10-17 18:15:24::- test 123
+----------------------------------------------------------2017-10-17 18:16:02
+DEBUG::2017-10-17 18:16:02::- test 
+DEBUG::2017-10-17 18:16:02::- test 123
+ALERT::2017-10-17 18:16:02::- test 
+ALERT::2017-10-17 18:16:02::- test 123
+----------------------------------------------------------2017-10-17 18:18:49
+DEBUG::2017-10-17 18:18:49::- test 
+DEBUG::2017-10-17 18:18:49::- test 123
+ALERT::2017-10-17 18:18:49::- test 
+ALERT::2017-10-17 18:18:49::- test 123
+----------------------------------------------------------2017-10-17 18:20:47
+DEBUG::2017-10-17 18:20:47::- Intrat in constructor Conexiune
+ALERT::2017-10-17 18:20:47::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 18:20:47::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 18:20:47::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 18:20:47::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 18:20:47::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 18:20:47::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 18:20:47::- $db_hostV: localhost
+DEBUG::2017-10-17 18:20:47::- conexiune creata cu succese
+DEBUG::2017-10-17 18:20:47::- Iesit din constructor Conexiune
