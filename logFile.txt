@@ -220,3 +220,210 @@ DEBUG::2017-10-14 13:02:29::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
 DEBUG::2017-10-14 13:02:29::- ARRAY Array: (KEY)DbPort - (VALUE)3306
 DEBUG::2017-10-14 13:02:29::- conexiune creata cu succese
 DEBUG::2017-10-14 13:02:29::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 16:48:09::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 16:48:09::- Intrat in constructor Conexiune
+ALERT::2017-10-17 16:48:09::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 16:48:09::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 16:48:09::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 16:48:09::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 16:48:09::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 16:48:09::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 16:48:09::- conexiune creata cu succese
+DEBUG::2017-10-17 16:48:09::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 16:48:14::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 16:48:14::- Intrat in constructor Conexiune
+ALERT::2017-10-17 16:48:14::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 16:48:14::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 16:48:14::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 16:48:14::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 16:48:14::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 16:48:14::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 16:48:14::- conexiune creata cu succese
+DEBUG::2017-10-17 16:48:14::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 16:49:32::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 16:49:32::- Intrat in constructor Conexiune
+ALERT::2017-10-17 16:49:32::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 16:49:32::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 16:49:32::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 16:49:32::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 16:49:32::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 16:49:32::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 16:49:32::- conexiune creata cu succese
+DEBUG::2017-10-17 16:49:32::- Iesit din constructor Conexiune
+2017-10-17 16:51:02::- Intrat in constructor Log4Debug
+DEBUG::::- Intrat in constructor Conexiune
+ALERT::::- Loaded configInfoDB.ini: 
+DEBUG::::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::::- conexiune creata cu succese
+DEBUG::::- Iesit din constructor Conexiune
+2017-10-17 16:51:55::- Intrat in constructor Log4Debug
+DEBUG::::- Intrat in constructor Conexiune
+ALERT::::- Loaded configInfoDB.ini: 
+DEBUG::::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::::- conexiune creata cu succese
+DEBUG::::- Iesit din constructor Conexiune
+2017-10-17 16:56:23::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+DEBUG::2017-10-17 16:57:13::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+DEBUG::2017-10-17 16:57:56::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+DEBUG::2017-10-17 16:58:22::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+2017-10-17 16:58:34::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+2017-10-17 16:58:43::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+2017-10-17 16:59:27::- Intrat in constructor Log4Debug
+DEBUG::::- test 123
+::- Intrat in constructor Log4Debug
+::- test 123
+::- Intrat in constructor Log4Debug
+::- test 123
+::- Intrat in constructor Log4Debug
+::- test 123
+::- Intrat in constructor Log4Debug
+::- test 123
+DEBUG::2017-10-17 17:05:45::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:05:45::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:05:45::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:05:45::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:05:45::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:05:45::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:05:45::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:05:45::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:05:45::- conexiune creata cu succese
+DEBUG::2017-10-17 17:05:45::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 17:09:09::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:09:39::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:09:39::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:09:39::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:09:39::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:09:39::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:09:39::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:09:39::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:09:39::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:09:39::- conexiune creata cu succese
+DEBUG::2017-10-17 17:09:39::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 17:13:14::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:13:14::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:13:14::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:13:14::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:13:14::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:13:14::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:13:14::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:13:14::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:13:14::- $db_hostV:
+ALERT::2017-10-17 17:13:35::- PDOException: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php:36
+Stack trace:
+#0 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(36): PDO->__construct('mysql:host=5.13...', 'user_pie', 'proiectpie')
+#1 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(58): Conexiune->__construct()
+#2 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(64): ConexiuneFactory::getConexiune()
+#3 {main}
+DEBUG::2017-10-17 17:14:15::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:14:15::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:14:15::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:14:15::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:14:15::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:14:15::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:14:15::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:14:15::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:14:15::- $db_hostV:
+DEBUG::2017-10-17 17:14:23::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:14:23::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:14:23::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:14:23::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:14:23::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:14:23::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:14:23::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:14:23::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:14:23::- $db_hostV:
+ALERT::2017-10-17 17:14:36::- PDOException: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php:36
+Stack trace:
+#0 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(36): PDO->__construct('mysql:host=5.13...', 'user_pie', 'proiectpie')
+#1 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(58): Conexiune->__construct()
+#2 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(64): ConexiuneFactory::getConexiune()
+#3 {main}
+ALERT::2017-10-17 17:14:44::- PDOException: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php:36
+Stack trace:
+#0 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(36): PDO->__construct('mysql:host=5.13...', 'user_pie', 'proiectpie')
+#1 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(58): Conexiune->__construct()
+#2 C:\Users\Asus Home\git\Proiect_pie\BE_development\PHP\dbConnectorClasses\ConexiuneFactory.php(64): ConexiuneFactory::getConexiune()
+#3 {main}
+DEBUG::2017-10-17 17:15:21::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:15:21::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:15:21::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:15:21::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:15:21::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:15:21::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:15:21::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:15:21::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:15:21::- $db_hostV:
+DEBUG::2017-10-17 17:15:21::- conexiune creata cu succese
+DEBUG::2017-10-17 17:15:21::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 17:15:33::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:15:33::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:15:33::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:15:33::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:15:33::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:15:33::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:15:33::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:15:33::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:15:33::- $db_hostV:
+DEBUG::2017-10-17 17:15:33::- conexiune creata cu succese
+DEBUG::2017-10-17 17:15:33::- Iesit din constructor Conexiune
+DEBUG::2017-10-17 17:16:29::- Intrat in constructor Log4Debug
+DEBUG::2017-10-17 17:16:29::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:16:29::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:16:29::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:16:29::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:16:29::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:16:29::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:16:29::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:16:29::- $db_hostV:localhost
+DEBUG::2017-10-17 17:16:29::- conexiune creata cu succese
+DEBUG::2017-10-17 17:16:29::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:17:53
+DEBUG::2017-10-17 17:17:53::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:17:53::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:17:53::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:17:53::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:17:53::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:17:53::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:17:53::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:17:53::- $db_hostV: localhost
+DEBUG::2017-10-17 17:17:54::- conexiune creata cu succese
+DEBUG::2017-10-17 17:17:54::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:17:58
+DEBUG::2017-10-17 17:17:58::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:17:58::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:17:58::- $db_hostV: localhost
+DEBUG::2017-10-17 17:17:58::- conexiune creata cu succese
+DEBUG::2017-10-17 17:17:58::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 17:17:58
+DEBUG::2017-10-17 17:17:58::- Intrat in constructor Conexiune
+ALERT::2017-10-17 17:17:58::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.13.245.154
+DEBUG::2017-10-17 17:17:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 17:17:58::- $db_hostV: localhost
+DEBUG::2017-10-17 17:17:58::- conexiune creata cu succese
+DEBUG::2017-10-17 17:17:58::- Iesit din constructor Conexiune

@@ -5,16 +5,13 @@ error_reporting(E_ALL ^ E_NOTICE);
 // Exemplu
 // $log4Debug =  new Log4Debug();
 // $log4Debug->debug_StringValue("test ",123);
-
 class Log4Debug{
 
 	protected $msgErr;
 	
 	public function __construct(){
-		echo "Intrat in constructor Log4Debug\n";
-		$msgErr = "DEBUG"."::".(new DateTime())->format('Y-m-d H:i:s')."::- "."Intrat in constructor Log4Debug";
+		$msgErr = "----------------------------------------------------------".(new DateTime())->format('Y-m-d H:i:s');
 		file_put_contents('../../../logFile.txt',$msgErr.PHP_EOL, FILE_APPEND);
-		echo "Iesit din constructor Log4Debug\n";
 	}
 	
 	public static function debug_String($string){
