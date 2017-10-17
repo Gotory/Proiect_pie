@@ -1,8 +1,9 @@
 <?php
+namespace Utility\Connection;
 # Pentru anularea de PHP Notice:
+use Utility\Log;
 error_reporting(E_ALL ^ E_NOTICE);
 
-include '../debugerClass/Log4Debug.php';
 class Conexiune
 {
 	
@@ -12,8 +13,8 @@ class Conexiune
     {
 
         try {
-        	
-        	$log4Debug =  new Log4Debug();
+//         	include '../debugerClass/Log4Debug.php';
+        	$log4Debug =  new \Utility\Log\Log4Debug();
         	$log4Debug->debug_String("Intrat in constructor Conexiune");
         	$ini_array= parse_ini_file("../../../DB_development/mySQL/configInfoDB.ini");
         	if ($ini_array) {
@@ -21,7 +22,7 @@ class Conexiune
         	} else {
         		$log4Debug->alert_String('configInfoDB.ini file is not loaded');
         	}
-        	print_r($ini_array); 
+        	$log4Debug->debug_AssArray($ini_array); 
 //         	$db_host      = $ini_array[DbIP].":".$ini_array[DbPort];   // hostname
         	$db_host      = 'localhost';   // hostname
         	$db_name      = $ini_array[DbSchemaName];                  // databasename

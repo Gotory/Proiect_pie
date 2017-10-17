@@ -43,11 +43,20 @@
 
 
 
-include './../../BE_development/PHP/dbConnectorClasses/ConexiuneFactory.php';
 //require "./../../BE_development/PHP/dbConnectorClasses/ConexiuneFactory.php";
 // require "./../../BE_development/PHP/debugerClass/Log4Debug.php";
+echo dirname(__FILE__);
 
 
+
+
+
+
+
+
+
+
+include './../../BE_development/PHP/dbConnectorClasses/ConexiuneFactory.php';
 $conn= new ConexiuneFactory();
 
 
