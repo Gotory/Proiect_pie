@@ -14,7 +14,6 @@ interface ILog4Debug{
 	 */
 	public static function alert_AssArray($array);
 	public static function debug_AssArray($array);
-	
-	
+
 }
 ?>

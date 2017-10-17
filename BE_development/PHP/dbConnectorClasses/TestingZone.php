@@ -5,5 +5,4 @@ include 'ConexiuneFactory.php';
 
 #Exemplu instantiere pentru conexiune
 $conn= (new ConexiuneFactory())->getConexiuneObject();
-
 //verifica acuma log-ul dupa ce ai dat run si vezi ora ! este ora_actuala-1h

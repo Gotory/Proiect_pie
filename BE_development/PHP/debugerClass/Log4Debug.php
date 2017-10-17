@@ -2,7 +2,6 @@
 # Pentru anularea de PHP Notice:
 error_reporting(E_ALL ^ E_NOTICE);
 include 'ILog4Debug.php';
-
 class Log4Debug implements ILog4Debug{
 	const headerDebug = "DEBUG"."::";
 	const headerAlert = "ALERT"."::";
@@ -49,4 +48,3 @@ class Log4Debug implements ILog4Debug{
 	#---------------------------------------------------------------------------------------------------------------------
 	
 }
-

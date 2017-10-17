@@ -999,3 +999,35 @@ DEBUG::2017-10-17 18:20:47::- ARRAY Array: (KEY)DbPort - (VALUE)3306
 DEBUG::2017-10-17 18:20:47::- $db_hostV: localhost
 DEBUG::2017-10-17 18:20:47::- conexiune creata cu succese
 DEBUG::2017-10-17 18:20:47::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 18:35:11
+DEBUG::2017-10-17 18:35:11::- test 
+----------------------------------------------------------2017-10-17 18:35:29
+DEBUG::2017-10-17 18:35:29::- ------ UserView enter ------
+----------------------------------------------------------2017-10-17 18:39:33
+DEBUG::2017-10-17 18:39:33::- ------ UserView enter ------
+----------------------------------------------------------2017-10-17 19:30:57
+DEBUG::2017-10-17 19:30:57::- test 
+DEBUG::2017-10-17 19:30:57::- test 123
+ALERT::2017-10-17 19:30:57::- test 
+ALERT::2017-10-17 19:30:57::- test 123
+----------------------------------------------------------2017-10-17 19:33:34
+DEBUG::2017-10-17 19:33:34::- test 
+DEBUG::2017-10-17 19:33:34::- test 123
+ALERT::2017-10-17 19:33:34::- test 
+ALERT::2017-10-17 19:33:34::- test 123
+----------------------------------------------------------2017-10-17 21:56:36
+DEBUG::2017-10-17 21:56:36::- Intrat in constructor Conexiune
+ALERT::2017-10-17 21:56:36::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-17 21:56:36::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-17 21:56:36::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-17 21:56:36::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-17 21:56:36::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-17 21:56:36::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-17 21:56:36::- $db_hostV: localhost
+DEBUG::2017-10-17 21:56:36::- conexiune creata cu succese
+DEBUG::2017-10-17 21:56:36::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-17 21:56:38
+DEBUG::2017-10-17 21:56:38::- test 
+DEBUG::2017-10-17 21:56:38::- test 123
+ALERT::2017-10-17 21:56:38::- test 
+ALERT::2017-10-17 21:56:38::- test 123
