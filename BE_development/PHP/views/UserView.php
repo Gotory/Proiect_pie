@@ -8,7 +8,7 @@ class UserView{
     protected $prenume;
     protected $pass; 
     protected $email;
-  
+    protected $ip;
  
      function __construct() {
      	$log4Debug = new Log4Debug();
@@ -49,11 +49,14 @@ class UserView{
     function setEmail($email) {
     	$this->email = $email;
     }
+    //-----------------------------
+    function getIp() {
+    	return $this->ip;
+    }
+    function setIp($ip) {
+    	$this->ip = $ip;
+    }
        
 }
 
-
-$userView = new UserView();
-$userView->setId(4);
-echo $userView->getId();
 ?>
