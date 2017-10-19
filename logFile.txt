@@ -1070,3 +1070,22 @@ DEBUG::2017-10-18 20:16:38::- set_CurrentUser_ID: 4
 DEBUG::2017-10-18 20:16:38::- set_CurrentUser_NUME: Lorek
 DEBUG::2017-10-18 20:16:38::- set_CurrentUser_PRENUME: Bolek
 DEBUG::2017-10-18 20:16:38::- ------ UserView exiting ------
+----------------------------------------------------------2017-10-18 22:38:53
+DEBUG::2017-10-18 22:38:53::- Intrat in constructor Conexiune
+ALERT::2017-10-18 22:38:53::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-18 22:38:53::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-18 22:38:53::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-18 22:38:53::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-18 22:38:53::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-18 22:38:53::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-18 22:38:53::- $db_hostV: localhost
+DEBUG::2017-10-18 22:38:53::- conexiune creata cu succese
+DEBUG::2017-10-18 22:38:53::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-19 20:22:41
+DEBUG::2017-10-19 20:22:41::- ------ UserView enter ------
+DEBUG::2017-10-19 20:22:41::- set_CurrentUser_ID: 4
+DEBUG::2017-10-19 20:22:41::- ------ UserView exiting ------
+----------------------------------------------------------2017-10-19 20:22:49
+DEBUG::2017-10-19 20:22:49::- ------ UserView enter ------
+DEBUG::2017-10-19 20:22:49::- set_CurrentUser_ID: 4
+DEBUG::2017-10-19 20:22:49::- ------ UserView exiting ------

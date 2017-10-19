@@ -1,8 +1,7 @@
 <?php
 # Pentru anularea de PHP Notice:
 error_reporting(E_ALL ^ E_NOTICE);
-include("../debugerClass/Log4debug.php");
-
+spl_autoload_register('my_autoloader');
 class UserView{
     protected $id;  
     protected $nume;

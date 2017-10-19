@@ -1,6 +1,6 @@
 <?php
-include '../debugerClass/Log4Debug.php';
-include 'IConexiune.php';
+// include '../debugerClass/Log4Debug.php';
+// include 'IConexiune.php';
 class Conexiune implements IConexiune
 {
 	
@@ -9,7 +9,11 @@ public function __construct(){
 	try {
 		$log4Debug =  new Log4Debug();
 		$log4Debug->debug_String("Intrat in constructor Conexiune");
-		$ini_array= parse_ini_file("../../../DB_development/mySQL/configInfoDB.ini");
+		
+		$pathSistemPCstr = getcwd();
+		$pathSistemPC= substr($pathSistemPCstr, 0, strpos($pathSistemPCstr, "Proiect_pie"))."Proiect_pie\\";
+		$ini_array= parse_ini_file($pathSistemPC."DB_development\\mySQL\\configInfoDB.ini");
+		
 		if ($ini_array) {
 			$log4Debug->alert_String('Loaded configInfoDB.ini: ');
 		} else {
