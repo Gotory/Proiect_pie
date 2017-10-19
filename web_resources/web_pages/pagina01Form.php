@@ -26,8 +26,8 @@
 				</button>
 			</div>
 			<div class="etc-login-form">
-				<p>forgot your password? <a href="#">click here</a></p>
-				<p>new user? <a href="#">create new account</a></p>
+				<p>forgot your password? <a href="pagina05Background.php">click here</a></p>
+				<p>new user? <a href="pagina04Background.php">create new account</a></p>
 			</div>
 		</form>
 	</div>

@@ -40,7 +40,7 @@
                         <div class="col-md-12">
 
                             <!--  include form -->
-                            <!-- //include("pagina01Form.php"); -->
+                            <?php include("pagina05ForgotPass.php"); ?>
 
                         </div>
                     </div>
