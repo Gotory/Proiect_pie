@@ -37,27 +37,27 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  display: table;
+  display: table;      /*Let the element behave like a <table> element.Adica trece pe un nou rand*/
   width: 100%;
-  height: 100%; /* For at least Firefox */
+  height: 100%;        /* For at least Firefox */
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
           box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
+  display: table-cell;  /*Let the element behave like a <td> element*/
+  vertical-align: top;  /* Vertical align an image:*/
 }
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+/*background-color: darkred; debug*/
+ margin-right: auto;
+ margin-left:  auto;
 }
 
 /* Padding for spacing */
 .inner {
   padding: 2rem;
 }
-
 
 /*
  * Header
@@ -102,11 +102,9 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
-
 .cover {
   padding: 0 1.5rem;
 }
@@ -115,7 +113,6 @@ body {
   font-weight: bold;
 }
 
-
 /*
  * Footer
  */
@@ -123,7 +120,6 @@ body {
 .mastfoot {
   color: rgba(255,255,255,.5);
 }
-
 
 /*
  * Affix and center
@@ -150,7 +146,6 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-
 @media (min-width: 62em) {
   .masthead,
   .mastfoot,
