@@ -6,7 +6,6 @@
         <meta name="author" content="Paladuta Stefan">
     	<meta name="description" content="Proiect PIE, CTI ANUL 4">
    		<link rel="icon" href="../web_pictures/tabIcon.ico">
-
     	<title>Bootstrap testing PIE</title>
     	<!-- Bootstrap -->
     	<link href="../lib_frameworkuri/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +14,7 @@
         <link href="../lib_frameworkuri/FontAwesome/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
+
 	 <div class="site-wrapper">
          <div class="site-wrapper-inner">
              <div class="cover-container" style="">
@@ -42,4 +42,5 @@
     <script src="../lib_frameworkuri/Bootstrap/js/bootstrap.min.js"></script>
     <script src="../lib_frameworkuri/Bootstrap/form.js"></script>
 	</body>
+
 </html>
