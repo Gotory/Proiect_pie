@@ -40,9 +40,7 @@ function my_autoloader($class) {
 spl_autoload_register('my_autoloader');
 
 $log4Debug = new Log4Debug();
-
-$log4Debug->alert_String(testare );
-$log4Debug->alert_StringValue(testare ,ASD);
+$log4Debug->logingIp("53.168.23.1");
 ?>
 </body>
 </html>

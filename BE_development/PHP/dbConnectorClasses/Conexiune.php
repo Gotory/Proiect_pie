@@ -3,7 +3,7 @@
 // include 'IConexiune.php';
 class Conexiune implements IConexiune
 {
-	
+	private $conn;
 	
 public function __construct(){
 	try {
@@ -36,7 +36,8 @@ public function __construct(){
 		$con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);
 		$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 		$con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8
-		$log4Debug->debug_String("conexiune creata cu succese");
+		self::setConn($con);
+        $log4Debug->debug_String("conexiune creata cu succese");
 	}
 	catch (PDOException $err) {
 		echo "Connection to MySQL failed: ";
@@ -49,7 +50,12 @@ public function __construct(){
 	}
 	$log4Debug->debug_String("Iesit din constructor Conexiune");
 }
-	
+   public function  setConn($conn){
+        $this->conn=$conn;
+   }
+	public function getConn(){
+        return $this->conn;
+    }
 	
 }
 

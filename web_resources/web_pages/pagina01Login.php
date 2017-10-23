@@ -10,14 +10,14 @@
 				<div class="login-group">
 					<div class="form-group">
 						<label for="lg_username" class="sr-only">Username</label>
-						<input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
+						<input type="text" class="form-control" id="lg_username" name="tmp_username" placeholder="username">
 					</div>
 					<div class="form-group">
 						<label for="lg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
+						<input type="password" class="form-control" id="lg_password" name="tmp_password" placeholder="password">
 					</div>
 					<div class="form-group login-group-checkbox">
-						<input type="checkbox" id="lg_remember" name="lg_remember">
+						<input type="checkbox" id="lg_remember" name="tmp_remember">
 						<label for="lg_remember">remember</label>
 					</div>
 				</div>

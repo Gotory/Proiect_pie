@@ -16,9 +16,9 @@ function my_autoloader($class) {
 }
 spl_autoload_register('my_autoloader');
 
-
-$userView = new UserView();
-$userView->setId(4);
-
-echo $userView->getId();
-
+//
+//$userView = new UserView();
+//$userView->setId(4);
+//
+//echo $userView->getId();
+//

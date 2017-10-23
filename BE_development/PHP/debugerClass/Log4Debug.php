@@ -1,7 +1,7 @@
 <?php 
 # Pentru anularea de PHP Notice:
 error_reporting(E_ALL ^ E_NOTICE);
-//include 'ILog4Debug.php';
+include 'ILog4Debug.php';
 class Log4Debug implements ILog4Debug{
 	const headerDebug = "DEBUG"."::";
 	const headerAlert = "ALERT"."::";
@@ -64,5 +64,13 @@ class Log4Debug implements ILog4Debug{
 		}
 	}
 	#---------------------------------------------------------------------------------------------------------------------
-
+    public function logingIp($adresaIP){
+	    $conn = (new ConexiuneFactory())->getConexiuneObject();
+        $sql = "INSERT INTO web_project_pie.ch_visitlog (CH_VISITLOG_IP) VALUES ('$adresaIP');";
+        if (($conn->getConn())->exec($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    }
 }
