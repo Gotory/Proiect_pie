@@ -23,14 +23,6 @@ function my_autoloader($class) {
         include $pathSistemPC."BE_development\\PHP\\dbConnectorClasses\\". $class . '.php';
     }elseif($class== 'Conexiune'){
         include $pathSistemPC."BE_development\\PHP\\dbConnectorClasses\\". $class . '.php';
-    }elseif($class== 'MessageView'){
-        include $pathSistemPC."BE_development\\PHP\\views\\". $class . '.php';
-    }elseif($class== 'FriendView'){
-        include $pathSistemPC."BE_development\\PHP\\views\\". $class . '.php';
-    }elseif($class== 'ChatException'){
-        include $pathSistemPC."BE_development\\PHP\\exceptions\\". $class . '.php';
-    }elseif($class== 'IChatException'){
-        include $pathSistemPC."BE_development\\PHP\\exceptions\\". $class . '.php';
     }elseif($class== 'handlerDB'){
         include $pathSistemPC."BE_development\\PHP\\handlerDB\\". $class . '.php';
     }elseif($class== 'OS_USER_INFO'){

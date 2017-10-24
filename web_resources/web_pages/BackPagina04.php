@@ -7,7 +7,7 @@
     <meta name="description" content="Proiect PIE, CTI ANUL 4">
     <link rel="icon" href="../web_pictures/tabIcon.ico">
 
-    <title>Bootstrap testing PIE</title>
+    <title>SayHi Register</title>
     <!-- Bootstrap -->
     <link href="../lib_frameworkuri/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles -->
