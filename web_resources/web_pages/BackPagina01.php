@@ -1,3 +1,16 @@
+<?php
+//#Pas  check for cookie
+//if(!isset($_COOKIE['chat_rmbUser'])){
+//    if($rememberUser=='on'){
+//        handlerCookie::setCookie("chat_rmbUser",$rememberUser);
+//    }
+//}else{
+//    $CK_USER = $_COOKIE["chat_rmbUser"];
+//    if($CK_USER=='on'){
+//        header("Location: ../../../web_resources/web_pages/BackPagina06.php");
+//    }
+//}
+?>
 <html>
 	<head>	
 		<!-- Required meta -->
