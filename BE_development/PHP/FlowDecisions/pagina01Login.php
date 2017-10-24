@@ -25,13 +25,19 @@ IF(isset($_REQUEST['tmp_password'])){
 
 
 
-
+    try{
     #Pas  check if account does exist with this EMAIL or NICKNAME
     handlerDB::checkEmail($userName);
     #Pas  check if password incorrect
     handlerDB::getUserWithEmailAndPass($userName,$userPassIn);
+        header("Location: ../../../web_resources/web_pages/BackPagina06.php");
+    }catch(Exception $exceptione){
+        echo "Code: ".$exceptione->getCode()."<br>";
+        echo "File: ".$exceptione->getFile()."<br>";
+        echo "Line: ".$exceptione->getLine()."<br>";
+        echo "Msg: ".$exceptione->getMessage()."<br>";
+    }
 
-    header("Location: ../../../web_resources/web_pages/BackPagina06.php");
 
 
 

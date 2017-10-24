@@ -36,13 +36,12 @@ class handlerDB
         if ($result[0] >= 1){
             $exist= true;
         }else{
-            throw new Exception("Nu exista acest email in Baza de Date");
+            throw new Exception("Cont neinregistrat cu acest mail");
         }
        return $exist;
     }
     public static function getUserWithEmailAndPass($emailUser,$userPassInput)
     {
-
         $conn = (new ConexiuneFactory())->getConexiuneObject();
         $stmt = $conn->prepare("SELECT CH_USER_PASS FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
         $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);
@@ -63,9 +62,20 @@ class handlerDB
                     // If so, create a new hash, and replace the old one
                 }
             }else{
-                throw new Exception("Parola este incorecta");
+                throw new Exception("Parola incorecta");
             }
     }
+    public static function getChatUser(){
+
+    }
+    public static function registerChatUser(){
+
+    }
+    public static function updateChatUser(){
+
+    }
+
+
 }
 
 
