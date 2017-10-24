@@ -24,13 +24,13 @@ IF(isset($_REQUEST['tmp_password'])){
 
 
 
-#Pas  check if XSS Attack!
 
 
     #Pas  check if account does exist with this EMAIL or NICKNAME
     handlerDB::checkEmail($userName);
     #Pas  check if password incorrect
     handlerDB::getUserWithEmailAndPass($userName,$userPassIn);
+
     header("Location: ../../../web_resources/web_pages/BackPagina06.php");
 
 

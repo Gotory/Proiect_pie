@@ -10,10 +10,10 @@
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
 
-#echo handlerDB::numberOfVisitorDay();
+echo "Nr. vizitatori: ".handlerDB::numberOfVisitorDay();
 //-----------------------------------------
 $userPassInput = password_hash('test1234',PASSWORD_DEFAULT);
-echo $userPassInput;
+echo "Parola hasurata: ".$userPassInput;
 //-----------------------------------------
 
 #echo handlerDB::getUserWithEmailAndPass('stefan.paladuta17@gmail.com',$userPassInput);
