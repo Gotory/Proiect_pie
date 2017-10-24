@@ -27,20 +27,21 @@ function my_autoloader($class) {
         include $pathSistemPC."BE_development\\PHP\\views\\". $class . '.php';
     }elseif($class== 'FriendView'){
         include $pathSistemPC."BE_development\\PHP\\views\\". $class . '.php';
-    }elseif($class== 'IQueryDB '){
-        include $pathSistemPC."BE_development\\PHP\\handlerBH\\". $class . '.php';
-    }elseif($class== 'QueryDB '){
-        include $pathSistemPC."BE_development\\PHP\\handlerBH\\". $class . '.php';
     }elseif($class== 'ChatException'){
         include $pathSistemPC."BE_development\\PHP\\exceptions\\". $class . '.php';
     }elseif($class== 'IChatException'){
         include $pathSistemPC."BE_development\\PHP\\exceptions\\". $class . '.php';
+    }elseif($class== 'handlerDB'){
+        include $pathSistemPC."BE_development\\PHP\\handlerDB\\". $class . '.php';
+    }elseif($class== 'OS_USER_INFO'){
+        include $pathSistemPC."BE_development\\PHP\\extra\\". $class . '.php';
     }
 }
 spl_autoload_register('my_autoloader');
 
 $log4Debug = new Log4Debug();
-$log4Debug->logingIp("53.168.23.1");
+//$log4Debug->logingVisitorActiviti("53.168.23.1");
+$log4Debug->numberOfVisitorDay();
 ?>
 </body>
 </html>

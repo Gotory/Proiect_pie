@@ -56,9 +56,9 @@ function my_autoloader($class) {
     }elseif($class== 'FriendView'){
         include $pathSistemPC."BE_development\\PHP\\views\\". $class . '.php';
     }elseif($class== 'IQueryDB '){
-        include $pathSistemPC."BE_development\\PHP\\handlerBH\\". $class . '.php';
+        include $pathSistemPC."BE_development\\PHP\\handlerDB\\". $class . '.php';
     }elseif($class== 'QueryDB '){
-        include $pathSistemPC."BE_development\\PHP\\handlerBH\\". $class . '.php';
+        include $pathSistemPC."BE_development\\PHP\\handlerDB\\". $class . '.php';
     }elseif($class== 'ChatException'){
         include $pathSistemPC."BE_development\\PHP\\exceptions\\". $class . '.php';
     }elseif($class== 'IChatException'){

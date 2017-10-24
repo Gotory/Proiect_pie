@@ -7,6 +7,6 @@ class ConexiuneFactory
 {
     public static function getConexiuneObject()
     {  
-    	return (new Conexiune());
+    	return (new Conexiune())->getConn();
     }
 }

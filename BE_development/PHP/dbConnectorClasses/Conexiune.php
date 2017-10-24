@@ -1,6 +1,4 @@
 <?php
-// include '../debugerClass/Log4Debug.php';
-// include 'IConexiune.php';
 class Conexiune implements IConexiune
 {
 	private $conn;

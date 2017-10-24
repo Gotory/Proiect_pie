@@ -64,13 +64,22 @@ class Log4Debug implements ILog4Debug{
 		}
 	}
 	#---------------------------------------------------------------------------------------------------------------------
-    public function logingIp($adresaIP){
-	    $conn = (new ConexiuneFactory())->getConexiuneObject();
-        $sql = "INSERT INTO web_project_pie.ch_visitlog (CH_VISITLOG_IP) VALUES ('$adresaIP');";
-        if (($conn->getConn())->exec($sql) === TRUE) {
-            echo "New record created successfully";
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
+    public function logingVisitorActiviti($adresaIP){
+            self::debug_String(" ->INTRAT IN logingVisitorActiviti<- ");
+            $osOBJ          = new OS_USER_INFO();
+            $brower         = $osOBJ->showInfo('browser');
+            $browerVersion  = $osOBJ->showInfo('version');
+            $os             = $osOBJ->showInfo('os');
+            self::debug_StringValue("Brower: ",$brower);
+            self::debug_StringValue("Brower version: ",$browerVersion);
+            self::debug_StringValue("OS: ",$os);
+        handlerDB::logVisitor($adresaIP,$brower,$browerVersion,$os);
     }
+    public function numberOfVisitorDay(){
+        self::debug_String(" ->INTRAT IN numberOfVisitorDay<- ");
+        $nrOfVisitators = handlerDB::numberOfVisitorDay();
+        self::debug_StringValue("Nr de vizitatori astazi: ",$nrOfVisitators);
+        return $nrOfVisitators;
+    }
+
 }
