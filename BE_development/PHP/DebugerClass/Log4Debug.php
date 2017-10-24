@@ -75,11 +75,5 @@ class Log4Debug implements ILog4Debug{
             self::debug_StringValue("OS: ",$os);
         handlerDB::logVisitor($adresaIP,$brower,$browerVersion,$os);
     }
-    public function numberOfVisitorDay(){
-        self::debug_String(" ->INTRAT IN numberOfVisitorDay<- ");
-        $nrOfVisitators = handlerDB::numberOfVisitorDay();
-        self::debug_StringValue("Nr de vizitatori astazi: ",$nrOfVisitators);
-        return $nrOfVisitators;
-    }
 
 }

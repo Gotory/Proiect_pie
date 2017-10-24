@@ -1537,7 +1537,7 @@ var Dropdown = function ($) {
       }
       this._popper = new Popper(element, this._menu, this._getPopperConfig());
 
-      // if this is a touch-enabled device we add extra
+      // if this is a touch-enabled device we add Extra
       // empty mouseover listeners to the body's immediate children;
       // only needed because of broken event delegation on iOS
       // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
@@ -1697,7 +1697,7 @@ var Dropdown = function ($) {
           continue;
         }
 
-        // if this is a touch-enabled device we remove the extra
+        // if this is a touch-enabled device we remove the Extra
         // empty mouseover listeners we added for iOS support
         if ('ontouchstart' in document.documentElement) {
           $('body').children().off('mouseover', null, $.noop);
@@ -3227,7 +3227,7 @@ var Tooltip = function ($) {
 
         $(tip).addClass(ClassName.SHOW);
 
-        // if this is a touch-enabled device we add extra
+        // if this is a touch-enabled device we add Extra
         // empty mouseover listeners to the body's immediate children;
         // only needed because of broken event delegation on iOS
         // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
@@ -3287,7 +3287,7 @@ var Tooltip = function ($) {
 
       $(tip).removeClass(ClassName.SHOW);
 
-      // if this is a touch-enabled device we remove the extra
+      // if this is a touch-enabled device we remove the Extra
       // empty mouseover listeners we added for iOS support
       if ('ontouchstart' in document.documentElement) {
         $('body').children().off('mouseover', null, $.noop);
