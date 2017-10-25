@@ -2,29 +2,38 @@
 session_start();
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
-$log4Debug = new Log4Debug();
+$log4Debug = (new Log4DebugFactory())->getLog4DebugObject();
 $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
 ?>
-
 <!-- Introducerea form-ului -->
 <div class="text-center" style="padding:50px 0">
-	<div class="logo">login</div>
-	<!-- Main Form -->
 
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-            <div class="alert alert-danger alert-dismissable" style="max-width: 300px;font-size: 10px; padding: 10px;">
+            <div class="logo">login</div>
+            <!-- Main Form -->
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+
+    <div class="row" style="display:<?php if(!isset(($_SESSION['exceptie']))){print("none");}?>;">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="alert alert-danger alert-dismissable">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                 <?php
-                print_r($_SESSION['exceptie']->getMessage());
+                    if(isset(($_SESSION['exceptie']))){print_r($_SESSION['exceptie']->getMessage());}
+                    unset($_SESSION['exceptie']);
                 ?>
             </div>
         </div>
         <div class="col-sm-3"></div>
     </div>
 
-
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
 	  <div class="login-form-1">
 		<form id="login-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/pagina01Login.php" METHOD="POST">
 			<div class="login-form-main-message"></div>
@@ -52,6 +61,10 @@ $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
 				<p>new user? <a href="BackPagina04.php">create new account</a></p>
 			</div>
 		</form>
-	</div>
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
 </div>
 <!-- end:Main Form -->

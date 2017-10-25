@@ -5,6 +5,8 @@ function my_autoloader($class) {
     //echo $pathSistemPC."BE_development\\PHP\\Views\\". $class;
     if($class == 'UserView'){
         include $pathSistemPC."BE_development\\PHP\\Views\\". $class . '.php';
+    } elseif($class== 'Log4DebugFactory'){
+        include $pathSistemPC."BE_development\\PHP\\DebugerClass\\". $class . '.php';
     } elseif($class== 'Log4Debug'){
         include $pathSistemPC."BE_development\\PHP\\DebugerClass\\". $class . '.php';
     } elseif($class== 'ILog4Debug'){
