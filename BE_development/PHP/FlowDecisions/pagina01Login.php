@@ -18,13 +18,17 @@ spl_autoload_register('my_autoloader');
         handlerDB::checkEmail($userName);
         #Pas  check if password incorrect
         handlerDB::getUserWithEmailAndPass($userName,$userPassIn);
-
+        $_SESSION['login'] = true;
         header("Location: ../../../web_resources/web_pages/BackPagina06.php");
     }catch(Exception $exceptione){
-        echo "Code: ".$exceptione->getCode()."<br>";
-        echo "File: ".$exceptione->getFile()."<br>";
-        echo "Line: ".$exceptione->getLine()."<br>";
-        echo "Msg: ".$exceptione->getMessage()."<br>";
+        session_start();
+
+        $_SESSION['exceptie'] = $exceptione;
+//        echo "Code: ".$exceptione->getCode()."<br>";
+//        echo "File: ".$exceptione->getFile()."<br>";
+//        echo "Line: ".$exceptione->getLine()."<br>";
+//        echo "Msg: ".$exceptione->getMessage()."<br>";
+        header("Location: ../../../web_resources/web_pages/BackPagina01.php");
     }
 
 

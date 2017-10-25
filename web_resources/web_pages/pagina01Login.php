@@ -1,15 +1,30 @@
 <?php
-
+session_start();
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
-
 $log4Debug = new Log4Debug();
 $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
 ?>
+
 <!-- Introducerea form-ului -->
 <div class="text-center" style="padding:50px 0">
 	<div class="logo">login</div>
 	<!-- Main Form -->
+
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="alert alert-danger alert-dismissable" style="max-width: 300px;font-size: 10px; padding: 10px;">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                <?php
+                print_r($_SESSION['exceptie']->getMessage());
+                ?>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+
+
 	  <div class="login-form-1">
 		<form id="login-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/pagina01Login.php" METHOD="POST">
 			<div class="login-form-main-message"></div>

@@ -1,4 +1,9 @@
 <html>
+<?php
+if(!isset($_SESSION['login'])){
+    header("Location: BackPagina01.php");
+}
+?>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">

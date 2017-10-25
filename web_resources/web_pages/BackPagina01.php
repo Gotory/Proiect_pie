@@ -52,6 +52,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../lib_frameworkuri/Bootstrap/js/bootstrap.js"></script>
+     <script src="../lib_frameworkuri/Bootstrap/js/jquery.min.js"></script>
     <script src="../lib_frameworkuri/Bootstrap/js/bootstrap.min.js"></script>
     <script src="../lib_frameworkuri/Bootstrap/form.js"></script>
 	</body>
