@@ -1,9 +1,11 @@
 <?php
-session_start();
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
+#-------------------------------------------------------------------- 1.0 START-Logarea utilizatorului inregistrat/neinregistrat pe site
 $log4Debug = (new Log4DebugFactory())->getLog4DebugObject();
 $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
+#-------------------------------------------------------------------- 1.0 END-Logarea utilizatorului inregistrat/neinregistrat pe site
+session_start();
 ?>
 <!-- Introducerea form-ului -->
 <div class="text-center" style="padding:50px 0">
@@ -17,13 +19,13 @@ $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
         <div class="col-sm-3"></div>
     </div>
 
-    <div class="row" style="display:<?php if(!isset(($_SESSION['exceptie']))){print("none");}?>;">
+    <div class="row" style="display:<?php if(!isset($_SESSION['exceptie'])){print("none");}?>;">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
             <div class="alert alert-danger alert-dismissable">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                 <?php
-                    if(isset(($_SESSION['exceptie']))){print_r($_SESSION['exceptie']->getMessage());}
+                    if(isset($_SESSION['exceptie'])){print_r($_SESSION['exceptie']->getMessage());}
                     unset($_SESSION['exceptie']);
                 ?>
             </div>
@@ -65,6 +67,5 @@ $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
     </div>
     <div class="col-sm-3"></div>
 </div>
-
 </div>
 <!-- end:Main Form -->

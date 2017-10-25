@@ -12,7 +12,7 @@ spl_autoload_register('my_autoloader');
 
 echo "Nr. vizitatori: ".handlerDB::numberOfVisitorDay();
 //-----------------------------------------
-$userPassInput = password_hash('test1234',PASSWORD_DEFAULT);
+$userPassInput = password_hash('undercover22',PASSWORD_DEFAULT);
 echo "Parola hasurata: ".$userPassInput;
 //-----------------------------------------
 #echo handlerDB::getUserWithEmailAndPass('stefan.paladuta17@gmail.com',$userPassInput);

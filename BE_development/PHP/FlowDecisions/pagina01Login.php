@@ -8,9 +8,19 @@ spl_autoload_register('my_autoloader');
 
     try{
         #Pas  scoaterea datelor din form
-        IF(isset( $_REQUEST['tmp_username'])){ $userName       = $_REQUEST['tmp_username'];}ELSE{throw new Exception("Lipseste user name");}
-        IF(isset( $_REQUEST['tmp_remember'])){ $rememberUser   = $_REQUEST['tmp_remember'];}
-        IF(isset( $_REQUEST['tmp_password'])){ $userPassIn     = $_REQUEST['tmp_password'];}ELSE{throw new Exception("Lipseste user password");}
+        IF(isset( $_REQUEST['tmp_username'])){
+            $userName = $_REQUEST['tmp_username'];
+            $userName = htmlEntities($userName);
+        }ELSE{throw new Exception("Lipseste user name");}
+
+        IF(isset( $_REQUEST['tmp_remember'])){
+            $rememberUser = $_REQUEST['tmp_remember'];
+            $rememberUser = htmlEntities($rememberUser);}
+
+        IF(isset( $_REQUEST['tmp_password'])){
+            $userPassIn = $_REQUEST['tmp_password'];
+            $userPassIn = htmlEntities($userPassIn);
+        }ELSE{throw new Exception("Lipseste user password");}
 
 
 
