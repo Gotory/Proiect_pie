@@ -15,8 +15,12 @@ echo "Nr. vizitatori: ".handlerDB::numberOfVisitorDay();
 $userPassInput = password_hash('test1234',PASSWORD_DEFAULT);
 echo "Parola hasurata: ".$userPassInput;
 //-----------------------------------------
-
 #echo handlerDB::getUserWithEmailAndPass('stefan.paladuta17@gmail.com',$userPassInput);
+//-----------------------------------------
+
+//-----------------------------------------
+
+//-----------------------------------------
 ?>
 </body>
 </html>

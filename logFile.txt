@@ -1829,3 +1829,30 @@ DEBUG::2017-10-24 23:35:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
 DEBUG::2017-10-24 23:35:58::- $db_hostV: localhost
 DEBUG::2017-10-24 23:35:58::- conexiune creata cu succese
 DEBUG::2017-10-24 23:35:58::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-25 09:05:21
+DEBUG::2017-10-25 09:05:21::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-25 09:05:21::- Brower: Google Chrome
+DEBUG::2017-10-25 09:05:21::- Brower version: 61.0.3163.
+DEBUG::2017-10-25 09:05:21::- OS: Windows
+----------------------------------------------------------2017-10-25 09:05:21
+DEBUG::2017-10-25 09:05:21::- Intrat in constructor Conexiune
+ALERT::2017-10-25 09:05:21::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-25 09:05:21::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-25 09:05:21::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-25 09:05:21::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-25 09:05:21::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-25 09:05:21::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-25 09:05:21::- $db_hostV: 5.15.221.120:3306
+DEBUG::2017-10-25 09:05:21::- conexiune creata cu succese
+DEBUG::2017-10-25 09:05:21::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-25 09:05:25
+DEBUG::2017-10-25 09:05:25::- Intrat in constructor Conexiune
+ALERT::2017-10-25 09:05:25::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-25 09:05:25::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-25 09:05:25::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-25 09:05:25::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-25 09:05:25::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-25 09:05:25::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-25 09:05:25::- $db_hostV: 5.15.221.120:3306
+DEBUG::2017-10-25 09:05:25::- conexiune creata cu succese
+DEBUG::2017-10-25 09:05:25::- Iesit din constructor Conexiune
