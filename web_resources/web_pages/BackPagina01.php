@@ -19,7 +19,7 @@
         <meta name="author" content="Paladuta Stefan">
     	<meta name="description" content="Proiect PIE, CTI ANUL 4">
    		<link rel="icon" href="../web_pictures/tabIcon.ico">
-        <title>SayHi Forgot password</title>
+        <title>SayHi Login</title>
     	<!-- Bootstrap -->
     	<link href="../lib_frameworkuri/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles -->
