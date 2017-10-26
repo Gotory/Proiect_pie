@@ -10,11 +10,11 @@ class Log4Debug implements ILog4Debug{
 	protected $msgErr;
 	
 	public function __construct(){
-
+        date_default_timezone_set ( "Europe/Bucharest");
         $pathSistemPCstr = getcwd();
         $pathSistemPC= substr($pathSistemPCstr, 0, strpos($pathSistemPCstr, "Proiect_pie"))."Proiect_pie\\";
         self::setPath($pathSistemPC."logFile.txt");
-        self::setDate((new DateTime())->format('Y-m-d H:i:s'));
+            self::setDate((new DateTime())->format('Y-m-d H:i:s'));
         $msgErr = "----------------------------------------------------------".self::getDate();
         file_put_contents(self::getPath(),$msgErr.PHP_EOL, FILE_APPEND);
 	}

@@ -1,4 +1,4 @@
-<?php
+    <?php
 include_once('../../../web_resources/SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
 
@@ -11,15 +11,16 @@ spl_autoload_register('my_autoloader');
         IF(isset( $_REQUEST['tmp_username'])){
             $userName = $_REQUEST['tmp_username'];
             $userName = htmlEntities($userName);
+        $log4Debug->alert_StringValue("numeUser",$userName);
         }ELSE{throw new Exception("Lipseste user name");}
-
         IF(isset( $_REQUEST['tmp_remember'])){
             $rememberUser = $_REQUEST['tmp_remember'];
             $rememberUser = htmlEntities($rememberUser);}
-
+        $log4Debug->alert_StringValue("rememberUser",$rememberUser);
         IF(isset( $_REQUEST['tmp_password'])){
             $userPassIn = $_REQUEST['tmp_password'];
             $userPassIn = htmlEntities($userPassIn);
+        $log4Debug->alert_StringValue("",$userPassIn);
         }ELSE{throw new Exception("Lipseste user password");}
 
 

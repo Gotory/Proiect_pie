@@ -12,12 +12,14 @@ spl_autoload_register('my_autoloader');
 
 echo "Nr. vizitatori: ".handlerDB::numberOfVisitorDay();
 //-----------------------------------------
-$userPassInput = password_hash('undercover22',PASSWORD_DEFAULT);
+$userPassInput = password_hash('undercover22',PASSWORD_DEFAULT)."<br>";
 echo "Parola hasurata: ".$userPassInput;
 //-----------------------------------------
 #echo handlerDB::getUserWithEmailAndPass('stefan.paladuta17@gmail.com',$userPassInput);
 //-----------------------------------------
-
+//echo date_default_timezone_set ( "Europe/Bucharest");
+echo date('Y-m-d H:i:s', time() )."<br>";
+echo date_default_timezone_get()."<br>";
 //-----------------------------------------
 
 //-----------------------------------------
