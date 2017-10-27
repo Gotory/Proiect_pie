@@ -23,6 +23,8 @@ function my_autoloader($class) {
         include $pathSistemPC."BE_development\\PHP\\Handler\\". $class . '.php';
     }elseif($class== 'OS_USER_INFO'){
         include $pathSistemPC."BE_development\\PHP\\Extra\\". $class . '.php';
+    }elseif($class== 'Filtre'){
+        include $pathSistemPC."BE_development\\PHP\\Extra\\". $class . '.php';
     }
 
 }

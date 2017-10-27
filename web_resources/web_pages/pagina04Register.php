@@ -1,15 +1,37 @@
+<?php
+include_once('../SPL_MODULE_STEFAN.php');
+spl_autoload_register('my_autoloader');
+#-------------------------------------------------------------------- 1.0 START-Logarea utilizatorului inregistrat/neinregistrat pe site
+$log4Debug = (new Log4DebugFactory())->getLog4DebugObject();
+$log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
+#-------------------------------------------------------------------- 1.0 END-Logarea utilizatorului inregistrat/neinregistrat pe site
+session_start();
+?>
 <!-- REGISTRATION FORM -->
 <div class="text-center" style="padding:50px 0">
 	<div class="logo">register</div>
 	<!-- Main Form -->
+	  <div class="row" style="display:<?php if(!isset($_SESSION['exceptie'])){print("none");}?>;">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="alert alert-danger alert-dismissable">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                    <?php
+                        if(isset($_SESSION['exceptie'])){print_r($_SESSION['exceptie']->getMessage());}
+                        unset($_SESSION['exceptie']);
+                    ?>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
 	<div class="login-form-1">
-		<form id="register-form" class="text-left">
+		<form id="register-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/flow04Register.php">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
 					<div class="form-group">
 						<label for="reg_username" class="sr-only">Email address</label>
-						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="username">
+						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="nickname">
 					</div>
 					<div class="form-group">
 						<label for="reg_password" class="sr-only">Password</label>
@@ -30,10 +52,10 @@
 					</div>
 
 					<div class="form-group login-group-checkbox">
-						<input type="radio" class="" name="reg_gender" id="male" placeholder="username">
+						<input type="radio" class="" name="reg_gender" id="male" placeholder="username" value="M">
 						<label for="male">male</label>
 
-						<input type="radio" class="" name="reg_gender" id="female" placeholder="username">
+						<input type="radio" class="" name="reg_gender" id="female" placeholder="username"  value="F">
 						<label for="female">female</label>
 					</div>
 

@@ -37,7 +37,7 @@ session_start();
     <div class="col-sm-3"></div>
     <div class="col-sm-6">
 	  <div class="login-form-1">
-		<form id="login-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/pagina01Login.php" METHOD="POST">
+		<form id="login-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/flow01Login.php" METHOD="POST">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">

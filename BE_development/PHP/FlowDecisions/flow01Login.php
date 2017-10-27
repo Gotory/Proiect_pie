@@ -4,7 +4,8 @@ spl_autoload_register('my_autoloader');
 
 #Pas  hash the password la inregistare !!!!
 //$userPassInput = password_hash($userPassIn,PASSWORD_DEFAULT);
-
+    $log4Debug = (new Log4DebugFactory())->getLog4DebugObject();
+    $log4Debug->alert_String("-> Intrat in LogicFlow pagina 1 <-");
 
     try{
         #Pas  scoaterea datelor din form

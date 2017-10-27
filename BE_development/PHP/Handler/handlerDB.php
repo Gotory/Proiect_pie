@@ -29,11 +29,11 @@ class handlerDB
     {
         settype($exist,"boolean");
         $conn = (new ConexiuneFactory())->getConexiuneObject();
-        $stmt = $conn->prepare("SELECT count(CH_USER_ID) FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
+        $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
         $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);
         $stmt->execute();
-        $result = $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
-        if ($result[0] >= 1){
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if ($result){
             $exist= true;
         }else{
             throw new Exception("Cont neinregistrat cu acest mail");
@@ -68,8 +68,34 @@ class handlerDB
     public static function getChatUser(){
 
     }
-    public static function registerChatUser(){
+    public static function registerChatUser($nume,$prenume,$sex,$email,$parola,$ip,$username){
 
+        try{
+        $conn = (new ConexiuneFactory())->getConexiuneObject();
+        $stmt = $conn->prepare("INSERT INTO web_project_pie.ch_user(CH_USER_NAME,CH_USER_SURNAME,CH_USER_SEX,CH_USER_EMAIL,CH_USER_PASS,CH_USER_IP)VALUES(:nume, :prenume, :sex, :email, :pass, :ip);");
+        $stmt->bindParam(':nume', $nume, PDO::PARAM_STR);
+        $stmt->bindParam(':prenume', $prenume, PDO::PARAM_STR);
+        $stmt->bindParam(':sex', $sex, PDO::PARAM_STR);
+        $stmt->bindParam(':email', $email, PDO::PARAM_STR);
+        $stmt->bindParam(':pass', $parola, PDO::PARAM_STR);
+        $stmt->bindParam(':ip', $ip, PDO::PARAM_STR);
+        $stmt->execute();
+        $last_id = $conn->lastInsertId();
+        handlerDB::createProfileUser($last_id,$username);
+        }catch(Exception $e){
+            throw new Exception("Nu sa putut face insertul");
+        }
+
+
+
+    }
+    public static function createProfileUser($id,$username){
+        $conn = (new ConexiuneFactory())->getConexiuneObject();
+        $stmt = $conn->prepare("INSERT INTO web_project_pie.ch_profile(CH_PRF_ID,CH_PRF_NICKNAME)VALUES(:id, :nickname);");
+        $stmt->bindParam(':id', $id, PDO::PARAM_STR);
+        $stmt->bindParam(':nickname', $username, PDO::PARAM_STR);
+        $stmt->execute();
+        return true;
     }
     public static function updateChatUser(){
 
