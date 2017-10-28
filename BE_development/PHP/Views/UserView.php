@@ -12,7 +12,7 @@ class UserView{
     protected $log4Debug;
     //-----------------------------
     function __construct() {
-    	self::setLog(new Log4Debug());
+    	self::setLog(Log4DebugFactory::getLog4DebugObject());
     	self::getLog()->debug_String("------ UserView enter ------");
      }
      //-----------------------------

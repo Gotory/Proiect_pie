@@ -39,17 +39,17 @@ session_start();
     <div class="col-sm-3"></div>
     <div class="col-sm-6">
 	  <div class="login-form-1">
-		<form id="login-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/flow01Login.php" METHOD="POST">
+		<form id="login-form" class="text-left" action="../../BE_development/PHP/FlowDecisions/flow01Login.php" METHOD="POST" >
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
 					<div class="form-group">
 						<label for="lg_username" class="sr-only">Username</label>
-						<input type="text" class="form-control" id="lg_username" name="tmp_username" placeholder="username">
+						<input type="text" class="form-control" id="lg_username" name="tmp_username" placeholder="username or email" required>
 					</div>
 					<div class="form-group">
 						<label for="lg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="lg_password" name="tmp_password" placeholder="password">
+						<input type="password" class="form-control" id="lg_password" name="tmp_password" placeholder="password" required>
 					</div>
 					<div class="form-group login-group-checkbox">
 						<input type="checkbox" id="lg_remember" name="tmp_remember">

@@ -75,7 +75,8 @@ class Log4Debug implements ILog4Debug{
             self::debug_StringValue("Brower: ",$brower);
             self::debug_StringValue("Brower version: ",$browerVersion);
             self::debug_StringValue("OS: ",$os);
-        handlerDB::logVisitor($adresaIP,$brower,$browerVersion,$os);
+            self::debug_StringValue("IP: ",$adresaIP);
+            handlerDB::logVisitor($adresaIP,$brower,$browerVersion,$os);
     }
 
     public function  setLog4Debug($obj){

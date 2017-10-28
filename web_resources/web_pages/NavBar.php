@@ -6,7 +6,6 @@
             <a class="nav-link" href="BackPagina02.php">About</a>
             <a class="nav-link" href="BackPagina03.php">Contact</a>
             <?php
-
             if(!isset($_SESSION['login'])){
                 print("<a class=\"nav-link\" href=\"BackPagina01.php\">Log out</a>");
             }

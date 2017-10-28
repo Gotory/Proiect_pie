@@ -2,6 +2,8 @@
 Class Filtre{
         CONST E_MAIL_FORMAT = "/^[a-zA-Z1-9._]{3,}@[a-zA-Z1-9]{2,15}[.][a-zA-z1-9]{2,5}/";
 
+
+
         public static function checkEmailFormat($emailFormat){
            $rez = preg_match(self::E_MAIL_FORMAT,$emailFormat);
            if($rez !== 1){
@@ -17,11 +19,18 @@ Class Filtre{
         }
 
         public static function checkTypeInput($argInput,$argumentType){
-         #In php exista 5 tipuri de data
-         #String, Integer, Float (floating point numbers - also called double), Boolean, Array, Object, NULL, Resource
-        if($argumentType!==Filtre::getTypeArgument($argInput)){
-            throw new Exception("Verifica formatul introdus a datelor.");
-        }
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            $argInputClean = htmlEntities($argInput);
+             if(strpos($argInputClean, '&lt;') !== false || strpos($argInputClean, '&gt;') !== false){
+                 $log4Debug->alert_StringValue("Tentativa mallware cu: ",$argInputClean);
+                 throw new Exception("Tentativa de mallware !");
+             }
+                 #In php exista 5 tipuri de data
+                 #String, Integer, Float (floating point numbers - also called double), Boolean, Array, Object, NULL, Resource
+            if($argumentType!==Filtre::getTypeArgument($argInputClean)){
+                $log4Debug->alert_StringValue("Formatul datelor, argumentul trebuie sa fie $argumentType dar este: ",$argInputClean);
+                 throw new Exception("Verifica formatul introdus a datelor.");
+            }
 
     }
 

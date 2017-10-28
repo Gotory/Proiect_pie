@@ -21,26 +21,59 @@ class handlerDB
         $result = $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
         return $result[0];
     }
-    public static function checkPassword()
-    {
-
-    }
-    public static function checkEmail($emailUser)
+    public static function checkEmailOrNickname($emailOrNicknameUser)
     {
         settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
-        $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);
+        $stmt->bindParam(':email', $emailOrNicknameUser, PDO::PARAM_STR);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
         if ($result){
             $exist= true;
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            $log4Debug->debug_StringValue("Check made with E-mail for: ",$emailOrNicknameUser);
         }else{
-            throw new Exception("Cont neinregistrat cu acest mail");
+            handlerDB::checkNickname($emailOrNicknameUser);
         }
        return $exist;
     }
-    public static function getUserWithEmailAndPass($emailUser,$userPassInput)
+    public static function checkNickname($nickNameUser)
+    {
+        settype($exist,"boolean");
+        $conn = ConexiuneFactory::getConexiuneObject();
+        $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_profile WHERE ch_prf_nickname = :nickname;");
+        $stmt->bindParam(':nickname', $nickNameUser, PDO::PARAM_STR);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if ($result){
+            $exist = true;
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            $log4Debug->debug_StringValue("Check made with Nickname for: ",$nickNameUser);
+        }else{
+            throw new Exception("Cont neinregistrat cu acest mail sau nickname");
+        }
+        return $exist;
+    }
+    public static function getUserWithNicknameAndPass($nickNameUser,$userPassInput)
+    {
+        $conn = ConexiuneFactory::getConexiuneObject();
+        $stmt = $conn->prepare("SELECT CH_USER_PASS FROM  web_project_pie.ch_user, web_project_pie.ch_profile WHERE CH_USER_ID=CH_PRF_ID AND CH_PRF_NICKNAME=:nickname;");
+        $stmt->bindParam(':nickname', $nickNameUser, PDO::PARAM_STR);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
+        $userPassDB = $result[0];
+        $options = array('cost' => 11);                                                // The cost parameter can change over time as hardware improves
+        if (password_verify($userPassInput, $userPassDB)){                             // Verify stored hash against plain-text password
+            if (password_needs_rehash($userPassDB, PASSWORD_DEFAULT,$options)) { // Check if a newer hashing algorithm is available or the cost has changed
+                // If so, create a new hash, and replace the old one
+            }
+        }else{
+            throw new Exception("Parola incorecta");
+        }
+    }
+    public static function getUserWithEmailOrNicknameAndPass($emailUser,$userPassInput)
     {
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT CH_USER_PASS FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
@@ -54,28 +87,27 @@ class handlerDB
                     // If so, create a new hash, and replace the old one
                 }
             }else{
-                throw new Exception("Parola incorecta");
+                handlerDB::getUserWithNicknameAndPass($emailUser,$userPassInput);
             }
-    }
-    public static function getChatUser(){
-
     }
     public static function registerChatUser($nume,$prenume,$sex,$email,$parola,$ip,$username){
 
         try{
-        $conn = ConexiuneFactory::getConexiuneObject();
-        $stmt = $conn->prepare("INSERT INTO web_project_pie.ch_user(CH_USER_NAME,CH_USER_SURNAME,CH_USER_SEX,CH_USER_EMAIL,CH_USER_PASS,CH_USER_IP)VALUES(:nume, :prenume, :sex, :email, :pass, :ip);");
-        $stmt->bindParam(':nume', $nume, PDO::PARAM_STR);
-        $stmt->bindParam(':prenume', $prenume, PDO::PARAM_STR);
-        $stmt->bindParam(':sex', $sex, PDO::PARAM_STR);
-        $stmt->bindParam(':email', $email, PDO::PARAM_STR);
-        $stmt->bindParam(':pass', $parola, PDO::PARAM_STR);
-        $stmt->bindParam(':ip', $ip, PDO::PARAM_STR);
-        $stmt->execute();
-        $last_id = $conn->lastInsertId();
-        handlerDB::createProfileUser($last_id,$username);
+            $conn = ConexiuneFactory::getConexiuneObject();
+            $stmt = $conn->prepare("INSERT INTO web_project_pie.ch_user(CH_USER_NAME,CH_USER_SURNAME,CH_USER_SEX,CH_USER_EMAIL,CH_USER_PASS,CH_USER_IP)VALUES(:nume, :prenume, :sex, :email, :pass, :ip);");
+            $stmt->bindParam(':nume', $nume, PDO::PARAM_STR);
+            $stmt->bindParam(':prenume', $prenume, PDO::PARAM_STR);
+            $stmt->bindParam(':sex', $sex, PDO::PARAM_STR);
+            $stmt->bindParam(':email', $email, PDO::PARAM_STR);
+            $stmt->bindParam(':pass', $parola, PDO::PARAM_STR);
+            $stmt->bindParam(':ip', $ip, PDO::PARAM_STR);
+            $stmt->execute();
+            $last_id = $conn->lastInsertId();
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            $log4Debug->debug_StringValue("Id-ul contului creat: ",$last_id);
+            handlerDB::createProfileUser($last_id,$username);
         }catch(Exception $e){
-            throw new Exception("Nu sa putut face insertul");
+            throw new Exception("Nu sa putut realiza inregistrarea");
         }
 
 
@@ -87,12 +119,13 @@ class handlerDB
         $stmt->bindParam(':id', $id, PDO::PARAM_STR);
         $stmt->bindParam(':nickname', $username, PDO::PARAM_STR);
         $stmt->execute();
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("->crearea profilului.");
         return true;
     }
-    public static function updateChatUser(){
+    public static function getChatUser(){
 
     }
-
 
 }
 

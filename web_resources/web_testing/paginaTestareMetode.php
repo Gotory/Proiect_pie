@@ -10,18 +10,18 @@
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
 
-echo gettype(ConexiuneFactory::getConexiuneObject())."<br>";
-echo gettype(ConexiuneFactory::getConexiuneObject())."<br>";
-echo gettype(ConexiuneFactory::getConexiuneObject())."<br>";
+#echo gettype(ConexiuneFactory::getConexiuneObject())."<br>";
+#echo gettype(ConexiuneFactory::getConexiuneObject())."<br>";
+#echo gettype(ConexiuneFactory::getConexiuneObject())."<br>";
 
 
-echo "Nr. vizitatori: ".handlerDB::numberOfVisitorDay()."<br>";
+#echo "Nr. vizitatori: ".handlerDB::numberOfVisitorDay()."<br>";
 //-----------------------------------------
-$userPassInput = password_hash('1234',PASSWORD_DEFAULT);
-$userPassInput2 = password_hash('1234',PASSWORD_DEFAULT);
-echo "Parola hasurata: ".$userPassInput."<br>";
+#$userPassInput = password_hash('1234',PASSWORD_DEFAULT);
+#$userPassInput2 = password_hash('1234',PASSWORD_DEFAULT);
+#echo "Parola hasurata: ".$userPassInput."<br>";
 //-----------------------------------------
-echo "True/Fals: ".password_verify($userPassInput,$userPassInput2)."<br>";
+#echo "True/Fals: ".password_verify($userPassInput,$userPassInput2)."<br>";
 #echo handlerDB::getUserWithEmailAndPass('a',$userPassInput)."<br>";
 //-----------------------------------------
 #echo date_default_timezone_set ( "Europe/Bucharest")."<br>";
@@ -53,16 +53,22 @@ echo "True/Fals: ".password_verify($userPassInput,$userPassInput2)."<br>";
 //-----------------------------------------
 #Log4DebugFactory::getLog4DebugObject();
 //-----------------------------------------
-$argInput = 1234123;
-echo Filtre::getTypeArgument($argInput)."<br>";
-Filtre::checkTypeInput($argInput,"string");
-$argInput2 = "sadffsda";
-echo Filtre::getTypeArgument($argInput2)."<br>";
-Filtre::checkTypeInput($argInput2,"string");
-$argInput3 = "23w4r123sadffsda";
-echo Filtre::getTypeArgument($argInput3)."<br>";
-Filtre::checkTypeInput($argInput3,"string");
-
+#$argInput = 1234123;
+#echo Filtre::getTypeArgument($argInput)."<br>";
+#Filtre::checkTypeInput($argInput,"string");
+#$argInput2 = "sadffsda";
+#echo Filtre::getTypeArgument($argInput2)."<br>";
+#Filtre::checkTypeInput($argInput2,"string");
+#$argInput3 = "23w4r123sadffsda";
+#echo Filtre::getTypeArgument($argInput3)."<br>";
+#Filtre::checkTypeInput($argInput3,"string");
+//-----------------------------------------
+#echo handlerDB::checkEmailOrNickname("kanames")."<br>";
+#echo handlerDB::checkNickname("gotory")."<br>";
+#echo handlerDB::checkEmail("stefan.paladuta17@gmail.com")."<br>";
+#echo handlerDB::checkEmailOrNickname("stefan.paladuta17@gmail.com")."<br>";
+#echo handlerDB::getUserWithNicknameAndPass("stefan.paladuta17@gmail.com",1234)."<br>"
+//-----------------------------------------
 ?>
 </body>
 </html>
