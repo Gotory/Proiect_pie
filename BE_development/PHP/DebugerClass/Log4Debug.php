@@ -1,22 +1,24 @@
 <?php 
 # Pentru anularea de PHP Notice:
 error_reporting(E_ALL ^ E_NOTICE);
-include 'ILog4Debug.php';
 class Log4Debug implements ILog4Debug{
 	const headerDebug = "DEBUG"."::";
 	const headerAlert = "ALERT"."::";
     protected $path;
     protected $date;
 	protected $msgErr;
-	
+    protected $logObje;
+
 	public function __construct(){
         date_default_timezone_set ( "Europe/Bucharest");
         $pathSistemPCstr = getcwd();
         $pathSistemPC= substr($pathSistemPCstr, 0, strpos($pathSistemPCstr, "Proiect_pie"))."Proiect_pie\\";
         self::setPath($pathSistemPC."logFile.txt");
-            self::setDate((new DateTime())->format('Y-m-d H:i:s'));
+        self::setDate((new DateTime())->format('Y-m-d H:i:s'));
         $msgErr = "----------------------------------------------------------".self::getDate();
         file_put_contents(self::getPath(),$msgErr.PHP_EOL, FILE_APPEND);
+        self::setLog4Debug($this);
+        self::debug_StringValue("Log4Debug pid: ",getmypid());
 	}
     function setPath($string){
         $this->path = $string;
@@ -74,6 +76,23 @@ class Log4Debug implements ILog4Debug{
             self::debug_StringValue("Brower version: ",$browerVersion);
             self::debug_StringValue("OS: ",$os);
         handlerDB::logVisitor($adresaIP,$brower,$browerVersion,$os);
+    }
+
+    public function  setLog4Debug($obj){
+        $this->logObje=$obj;
+    }
+    public static function getLog4Debug(){
+        #start
+        static $instance = null;
+        if(null==$instance){
+            $instance = new Log4Debug();
+        }else{
+            #using same obj
+            //echo "same object";
+        }
+        #end
+        #codul de mai sus foloseste principiul la singleton. Fiecare obiect conn db chemat va fi acelasi astfel incat sa evitam crearea mereu a unui obiect nou!
+        return $instance;
     }
 
 }

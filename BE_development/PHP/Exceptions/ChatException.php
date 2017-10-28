@@ -5,13 +5,12 @@
  * Date: 10/22/2017
  * Time: 10:22 PM
  */
-Class ChatException extends  Exception{
+Class ChatException extends Exception{
 
     // Redefine the exception so message isn't optional
     public function __construct($message, $code = 0, Exception $previous = null)
     {
         ChatException::checkMessageCategoryCode($code);
-
         // make sure everything is assigned properly
         parent::__construct($message, $code, $previous);
     }
@@ -30,7 +29,7 @@ Class ChatException extends  Exception{
             echo "Categorie SQLException"."<BR>";
             break;
         case $code < 300 && $code > 200:
-            echo "Categorie "."<BR>";
+            echo "Categorie pagina 1 Login"."<BR>";
             break;
         default:
             echo "nici o categorie de exceptie"."<BR>";

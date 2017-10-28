@@ -25,6 +25,9 @@ function my_autoloader($class) {
         include $pathSistemPC."BE_development\\PHP\\Extra\\". $class . '.php';
     }elseif($class== 'Filtre'){
         include $pathSistemPC."BE_development\\PHP\\Extra\\". $class . '.php';
+    }elseif($class== 'ChatException'){
+        include $pathSistemPC."BE_development\\PHP\\Extra\\". $class . '.php';
     }
+
 
 }

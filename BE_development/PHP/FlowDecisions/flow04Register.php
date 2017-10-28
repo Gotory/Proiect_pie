@@ -5,7 +5,7 @@ spl_autoload_register('my_autoloader');
 #Pas  hash the password la inregistare !!!!
 //$userPassInput = password_hash($userPassIn,PASSWORD_DEFAULT);
 
-    $log4Debug = (new Log4DebugFactory())->getLog4DebugObject();
+    $log4Debug =Log4DebugFactory::getLog4DebugObject();
     $log4Debug->alert_String("-> Intrat in LogicFlow pagina 04 <-");
 
     #Pas  scoaterea datelor din form
@@ -15,7 +15,6 @@ spl_autoload_register('my_autoloader');
         $log4Debug->alert_StringValue("reg_username: ", $reg_username);
         echo $reg_username."<br>";
     }
-
 
     IF(isset( $_REQUEST['reg_password_confirm']) && isset( $_REQUEST['reg_password'])){
          $reg_password_confirm = $_REQUEST['reg_password_confirm'];

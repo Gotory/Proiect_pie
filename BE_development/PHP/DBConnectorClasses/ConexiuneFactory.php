@@ -5,7 +5,9 @@ error_reporting(E_ALL ^ E_NOTICE);
 class ConexiuneFactory
 {
     public static function getConexiuneObject()
-    {  
-    	return (new Conexiune())->getConn();
+    {
+
+    	return (Conexiune::getInstance());
+
     }
 }

@@ -10,4 +10,23 @@ Class Filtre{
            return true;
         }
 
+        public static function getTypeArgument($arg){
+            #In php exista 5 tipuri de data
+            #String, Integer, Float (floating point numbers - also called double), Boolean, Array, Object, NULL, Resource
+            return gettype ( $arg );
+        }
+
+        public static function checkTypeInput($argInput,$argumentType){
+         #In php exista 5 tipuri de data
+         #String, Integer, Float (floating point numbers - also called double), Boolean, Array, Object, NULL, Resource
+        if($argumentType!==Filtre::getTypeArgument($argInput)){
+            throw new Exception("Verifica formatul introdus a datelor.");
+        }
+
+    }
+
 }
+
+
+
+

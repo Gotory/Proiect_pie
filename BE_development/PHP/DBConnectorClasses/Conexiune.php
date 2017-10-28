@@ -1,13 +1,13 @@
 <?php
 class Conexiune implements IConexiune
 {
-	private $conn;
+private static $conn;
 	
 public function __construct(){
 	try {
-		$log4Debug =  new Log4Debug();
+		$log4Debug =Log4DebugFactory::getLog4DebugObject();
 		$log4Debug->debug_String("Intrat in constructor Conexiune");
-		
+        $log4Debug->debug_StringValue("Connection pid: ",getmypid());
 		$pathSistemPCstr = getcwd();
 		$pathSistemPC= substr($pathSistemPCstr, 0, strpos($pathSistemPCstr, "Proiect_pie"))."Proiect_pie\\";
 		$ini_array= parse_ini_file($pathSistemPC."DB_development\\mySQL\\configInfoDB.ini");
@@ -34,8 +34,8 @@ public function __construct(){
 		$con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);
 		$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 		$con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8
-		self::setConn($con);
         $log4Debug->debug_String("conexiune creata cu succese");
+        self::setConn($con);
 	}
 	catch (PDOException $err) {
 		echo "Connection to MySQL failed: ";
@@ -48,13 +48,26 @@ public function __construct(){
 	}
 	$log4Debug->debug_String("Iesit din constructor Conexiune");
 }
-   public function  setConn($conn){
-        $this->conn=$conn;
-   }
-	public function getConn(){
+
+    public function setConn($conObj){
+        $this->conn=$conObj;
+    }
+    public function getConn(){
         return $this->conn;
     }
-	
+
+	public static function getInstance(){
+       #start
+        static $instance = null;
+        if(null==$instance){
+            $instance = (new Conexiune())->getConn();
+            //echo $instance->getAttribute(PDO::ATTR_CONNECTION_STATUS)."<br>";
+        }else{
+            #using same obj
+        }
+        #end
+        #codul de mai sus foloseste principiul la singleton. Fiecare obiect conn db chemat va fi acelasi astfel incat sa evitam crearea mereu a unui obiect nou!
+        return $instance;
+    }
+
 }
-
-

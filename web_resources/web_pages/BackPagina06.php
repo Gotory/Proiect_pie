@@ -1,5 +1,6 @@
 <html>
 <?php
+session_start();
 if(!isset($_SESSION['login'])){
     header("Location: BackPagina01.php");
 }
