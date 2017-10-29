@@ -91,9 +91,10 @@ class Log4Debug implements ILog4Debug{
         static $instance = null;
         if(null==$instance){
             $instance = (new Log4Debug())->getLog4Debug();
+            $instance->debug_String("New Log4Debug oject");
         }else{
             #using same obj
-            //echo "same object";
+            //$instance->debug_String("Same Log4Debug oject");
         }
         #end
         #codul de mai sus foloseste principiul la singleton. Fiecare obiect conn db chemat va fi acelasi astfel incat sa evitam crearea mereu a unui obiect nou!

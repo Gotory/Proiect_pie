@@ -1,5 +1,5 @@
 <?php
-class Conexiune implements IConexiune
+class Conexiune
 {
 private static $conn;
 	
@@ -58,12 +58,17 @@ public function __construct(){
 
 	public static function getInstance(){
        #start
+        $log4Debug =Log4DebugFactory::getLog4DebugObject();
         static $instance = null;
         if(null==$instance){
             $instance = (new Conexiune())->getConn();
+            $log4Debug->debug_String("#!!#A new Connection object created");
+            $log4Debug->debug_AssArray($instance->query('SELECT CONNECTION_ID()')->fetch(PDO::FETCH_ASSOC));
             //echo $instance->getAttribute(PDO::ATTR_CONNECTION_STATUS)."<br>";
         }else{
             #using same obj
+            $log4Debug->debug_String("#!!#Using same connection object");
+            $log4Debug->debug_AssArray($instance->query('SELECT CONNECTION_ID()')->fetch(PDO::FETCH_ASSOC));
         }
         #end
         #codul de mai sus foloseste principiul la singleton. Fiecare obiect conn db chemat va fi acelasi astfel incat sa evitam crearea mereu a unui obiect nou!

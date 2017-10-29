@@ -1,3 +1,8 @@
+<?php
+$checkHome = "";
+$checkAbout = "";
+$checkContact = "active";
+?>
 <html>
 <head>
     <!-- Required meta tags -->

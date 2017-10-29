@@ -13,7 +13,7 @@ function my_autoloader($class) {
         include $pathSistemPC."BE_development\\PHP\\DebugerClass\\". $class . '.php';
     }elseif($class== 'ConexiuneFactory'){
         include $pathSistemPC."BE_development\\PHP\\DBConnectorClasses\\". $class . '.php';
-    }elseif($class== 'IConexiune'){
+    }elseif($class== 'IConexiuneFactory'){
         include $pathSistemPC."BE_development\\PHP\\DBConnectorClasses\\". $class . '.php';
     }elseif($class== 'Conexiune'){
         include $pathSistemPC."BE_development\\PHP\\DBConnectorClasses\\". $class . '.php';
