@@ -2,8 +2,6 @@
 Class Filtre{
         CONST E_MAIL_FORMAT = "/^[a-zA-Z1-9._]{3,}@[a-zA-Z1-9]{2,15}[.][a-zA-z1-9]{2,5}/";
 
-
-
         public static function checkEmailFormat($emailFormat){
             $log4Debug = Log4DebugFactory::getLog4DebugObject();
             settype($exist,"boolean");

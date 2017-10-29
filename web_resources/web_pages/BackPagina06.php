@@ -37,7 +37,7 @@ if(!isset($_SESSION['login'])){
                 </div>
             </div>
             <!--  include footer bar -->
-            <?php include("footerBar.php"); ?>
+            <?php //include("footerBar.php"); ?>
         </div>
     </div>
 </div>
