@@ -93,6 +93,7 @@ class handlerDB
     {
         $log4Debug = Log4DebugFactory::getLog4DebugObject();
         settype($exist,"boolean");
+        $exist=true;
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT CH_USER_PASS FROM  web_project_pie.ch_user, web_project_pie.ch_profile WHERE CH_USER_ID=CH_PRF_ID AND CH_PRF_NICKNAME=:nickname;");
         $stmt->bindParam(':nickname', $nickNameUser, PDO::PARAM_STR);
@@ -114,6 +115,7 @@ class handlerDB
     {
         $log4Debug = Log4DebugFactory::getLog4DebugObject();
         settype($exist,"boolean");
+        $exist=true;
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT CH_USER_PASS FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
         $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);

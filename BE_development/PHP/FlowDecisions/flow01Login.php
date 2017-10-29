@@ -27,12 +27,12 @@ spl_autoload_register('my_autoloader');
 
         if(Filtre::checkEmailFormat($userName)){#Pas  check if account does exist with this EMAIL or NICKNAME
             handlerDB::checkEmail($userName);
-            if(handlerDB::checkExistUserNicknameAndPass($userName,$userPassIn) !== true ){#Pas  check if password incorrect
+            if(handlerDB::checkExistUserEmailAndPass($userName,$userPassIn) !== true ){#Pas  check if password incorrect
                 throw new Exception("Parola gresita !");
             }
         }else{
             handlerDB::checkNickname($userName);
-            if(handlerDB::checkExistUserEmailAndPass($userName,$userPassIn) !== true ){#Pas  check if password incorrect
+            if(handlerDB::checkExistUserNicknameAndPass($userName,$userPassIn) !== true ){#Pas  check if password incorrect
                 throw new Exception("Parola gresita !");
             }
 

@@ -19,15 +19,6 @@ spl_autoload_register('my_autoloader');
         Filtre::checkTypeInput($_REQUEST['reg_password'],"string");
         $reg_password = $_REQUEST['reg_password'];
         $reg_password_confirm = $_REQUEST['reg_password_confirm'];
-        try{
-            if($reg_password != $reg_password_confirm){
-                session_start();
-                throw new Exception("parolele trebuie sa fie identice");
-            }
-        }catch(Exception $exceptione){
-            $_SESSION['exceptie'] = $exceptione;
-            header("Location: ../../../web_resources/web_pages/BackPagina04.php");
-        }
         $log4Debug->alert_StringValue("Inregistrare password: ",$reg_password);
         $log4Debug->alert_StringValue("Inregistrare password_confirm: ",$reg_password_confirm);
         $reg_password_final =  password_hash($reg_password,PASSWORD_DEFAULT);
@@ -36,14 +27,12 @@ spl_autoload_register('my_autoloader');
         $reg_email= $_REQUEST['reg_email'];
         $log4Debug->alert_StringValue("Inregistrare email: ",$reg_email);
     }
-
     IF(isset( $_REQUEST['reg_fullname'])){
         Filtre::checkTypeInput($_REQUEST['reg_fullname'],"string");
         $reg_fullname = $_REQUEST['reg_fullname'];
         $log4Debug->alert_StringValue("Inregistrare fullname: ",$reg_fullname);
         $reg_fullnameArray = $pieces = explode(" ", $reg_fullname);
     }
-
     IF(isset( $_REQUEST['reg_gender'])){
         Filtre::checkTypeInput($_REQUEST['reg_gender'],"string");
         $reg_gender = $_REQUEST['reg_gender'];
@@ -56,8 +45,11 @@ spl_autoload_register('my_autoloader');
         $log4Debug->alert_StringValue("Inregistrare agree: ",$reg_agree);
         $agree = true;
     }
-
     try {
+        if($reg_password != $reg_password_confirm){
+            session_start();
+            throw new Exception("parolele trebuie sa fie identice");
+        }
         if(Filtre::checkEmailFormat($reg_email) !== true){
             throw new Exception("Formatul la mail nu este acceptat");
         }
