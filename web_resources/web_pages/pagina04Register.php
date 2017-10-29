@@ -31,24 +31,24 @@ session_start();
 				<div class="login-group">
 					<div class="form-group">
 						<label for="reg_username" class="sr-only">Email address</label>
-						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="nickname">
+						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="nickname" required>
 					</div>
 					<div class="form-group">
 						<label for="reg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password">
+						<input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password" required>
 					</div>
 					<div class="form-group">
 						<label for="reg_password_confirm" class="sr-only">Password Confirm</label>
-						<input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password">
+						<input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password" required>
 					</div>
 
 					<div class="form-group">
 						<label for="reg_email" class="sr-only">Email</label>
-						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
+						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email" required>
 					</div>
 					<div class="form-group">
 						<label for="reg_fullname" class="sr-only">Full Name</label>
-						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name">
+						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name" required>
 					</div>
 
 					<div class="form-group login-group-checkbox">

@@ -21,23 +21,39 @@ class handlerDB
         $result = $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
         return $result[0];
     }
-    public static function checkEmailOrNickname($emailOrNicknameUser)
+    public static function checkEmail($emailUser)
     {
         settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
-        $stmt->bindParam(':email', $emailOrNicknameUser, PDO::PARAM_STR);
+        $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        $log4Debug = Log4DebugFactory::getLog4DebugObject();
         if ($result){
             $exist= true;
             $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $log4Debug->debug_StringValue("Check made with E-mail for: ",$emailOrNicknameUser);
+            $log4Debug->debug_StringValue("Check made with E-mail for: ",$emailUser);
         }else{
-            handlerDB::checkNickname($emailOrNicknameUser);
+            throw new Exception("Cont neinregistrat cu acest mail");
         }
        return $exist;
+    }
+    public static function checkExistEmail($emailUser)
+    {
+        settype($exist,"boolean");
+        $conn = ConexiuneFactory::getConexiuneObject();
+        $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
+        $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if ($result){
+            $exist= true;
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            $log4Debug->debug_StringValue("Check made with E-mail for: ",$emailUser);
+        }else{
+            $exist = false;
+        }
+        return $exist;
     }
     public static function checkNickname($nickNameUser)
     {
@@ -52,12 +68,31 @@ class handlerDB
             $log4Debug = Log4DebugFactory::getLog4DebugObject();
             $log4Debug->debug_StringValue("Check made with Nickname for: ",$nickNameUser);
         }else{
-            throw new Exception("Cont neinregistrat cu acest mail sau nickname");
+            throw new Exception("Cont neinregistrat cu acest nickname");
         }
         return $exist;
     }
-    public static function getUserWithNicknameAndPass($nickNameUser,$userPassInput)
+    public static function checkExistNickname($nickNameUser)
     {
+        settype($exist,"boolean");
+        $conn = ConexiuneFactory::getConexiuneObject();
+        $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_profile WHERE ch_prf_nickname = :nickname;");
+        $stmt->bindParam(':nickname', $nickNameUser, PDO::PARAM_STR);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if ($result){
+            $exist = true;
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            $log4Debug->debug_StringValue("Check made with Nickname for: ",$nickNameUser);
+        }else{
+            $exist = false;
+        }
+        return $exist;
+    }
+    public static function checkExistUserNicknameAndPass($nickNameUser, $userPassInput)
+    {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT CH_USER_PASS FROM  web_project_pie.ch_user, web_project_pie.ch_profile WHERE CH_USER_ID=CH_PRF_ID AND CH_PRF_NICKNAME=:nickname;");
         $stmt->bindParam(':nickname', $nickNameUser, PDO::PARAM_STR);
@@ -70,11 +105,15 @@ class handlerDB
                 // If so, create a new hash, and replace the old one
             }
         }else{
-            throw new Exception("Parola incorecta");
+            $exist = false;
         }
+        $log4Debug->debug_StringValue("Check made with nickname and pass 1/0 : ",$exist);
+        return $exist;
     }
-    public static function getUserWithEmailOrNicknameAndPass($emailUser,$userPassInput)
+    public static function checkExistUserEmailAndPass($emailUser, $userPassInput)
     {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT CH_USER_PASS FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
         $stmt->bindParam(':email', $emailUser, PDO::PARAM_STR);
@@ -87,8 +126,10 @@ class handlerDB
                     // If so, create a new hash, and replace the old one
                 }
             }else{
-                handlerDB::getUserWithNicknameAndPass($emailUser,$userPassInput);
+                $exist = false;
             }
+             $log4Debug->debug_StringValue("Check made with nickname and pass 1/0 : ",$exist);
+            return $exist;
     }
     public static function registerChatUser($nume,$prenume,$sex,$email,$parola,$ip,$username){
 

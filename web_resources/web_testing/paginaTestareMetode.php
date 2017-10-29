@@ -68,7 +68,12 @@ spl_autoload_register('my_autoloader');
 #echo handlerDB::checkEmail("stefan.paladuta17@gmail.com")."<br>";
 #echo handlerDB::checkEmailOrNickname("stefan.paladuta17@gmail.com")."<br>";
 #echo handlerDB::getUserWithNicknameAndPass("stefan.paladuta17@gmail.com",1234)."<br>"
+#echo handlerDB::checkExistUserNicknameAndPass("gotory",1234)."<br>";
+#echo handlerDB::checkExistUserEmailAndPass("stefan.paladuta17@gmail.com","1234")."<br>";
 //-----------------------------------------
+echo Filtre::checkEmailFormat("stef@yaho.com")."<br>";
+echo Filtre::checkEmailFormat(123)."<br>";
+echo Filtre::checkEmailFormat("fadsgasd")."<br>";
 ?>
 </body>
 </html>

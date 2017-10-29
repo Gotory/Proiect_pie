@@ -1,929 +1,1433 @@
-----------------------------------------------------------2017-10-29 00:21:49
-DEBUG::2017-10-29 00:21:49::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:21:49::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:21:49::- Brower: Google Chrome
-DEBUG::2017-10-29 00:21:49::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:21:49::- OS: Windows
-DEBUG::2017-10-29 00:21:49::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:21:49::- Connection pid: 4984
-ALERT::2017-10-29 00:21:49::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:21:49::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:21:49::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:21:49::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:21:49::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:21:49::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:21:49::- $db_hostV: localhost
-DEBUG::2017-10-29 00:21:49::- conexiune creata cu succese
-DEBUG::2017-10-29 00:21:49::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:22:45
-DEBUG::2017-10-29 00:22:45::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:22:45::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:22:45::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:22:45::- Connection pid: 4984
-ALERT::2017-10-29 00:22:45::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:22:45::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:22:45::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:22:45::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:22:45::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:22:45::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:22:45::- $db_hostV: localhost
-DEBUG::2017-10-29 00:22:45::- conexiune creata cu succese
-DEBUG::2017-10-29 00:22:45::- Iesit din constructor Conexiune
-DEBUG::2017-10-29 00:22:45::- Punerea in sesiune a lui login: 1
-ALERT::2017-10-29 00:22:45::- -> Iesire in LogicFlow pagina 1 succes <-
-
-----------------------------------------------------------2017-10-29 00:29:03
-DEBUG::2017-10-29 00:29:03::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:29:03::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:29:03::- Brower: Google Chrome
-DEBUG::2017-10-29 00:29:03::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:29:03::- OS: Windows
-DEBUG::2017-10-29 00:29:03::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:29:03::- Connection pid: 4984
-ALERT::2017-10-29 00:29:03::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:29:03::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:29:03::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:29:03::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:29:03::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:29:03::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:29:03::- $db_hostV: localhost
-DEBUG::2017-10-29 00:29:03::- conexiune creata cu succese
-DEBUG::2017-10-29 00:29:03::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:29:07
-DEBUG::2017-10-29 00:29:07::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:29:07::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:29:07::- Connection pid: 4984
-ALERT::2017-10-29 00:29:07::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:29:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:29:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:29:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:29:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:29:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:29:07::- $db_hostV: localhost
-DEBUG::2017-10-29 00:29:07::- conexiune creata cu succese
-DEBUG::2017-10-29 00:29:07::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:29:40
-DEBUG::2017-10-29 00:29:40::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:29:40::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:29:40::- Connection pid: 4984
-ALERT::2017-10-29 00:29:40::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:29:40::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:29:40::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:29:40::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:29:40::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:29:40::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:29:40::- $db_hostV: localhost
-DEBUG::2017-10-29 00:29:40::- conexiune creata cu succese
-DEBUG::2017-10-29 00:29:40::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:36:38
-DEBUG::2017-10-29 00:36:38::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:36:38::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:36:38::- Connection pid: 4984
-ALERT::2017-10-29 00:36:38::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:36:38::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:36:38::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:36:38::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:36:38::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:36:38::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:36:38::- $db_hostV: localhost
-DEBUG::2017-10-29 00:36:38::- conexiune creata cu succese
-DEBUG::2017-10-29 00:36:38::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:36:51
-DEBUG::2017-10-29 00:36:51::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:36:51::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:36:51::- Connection pid: 4984
-ALERT::2017-10-29 00:36:51::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:36:51::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:36:51::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:36:51::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:36:51::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:36:51::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:36:51::- $db_hostV: localhost
-DEBUG::2017-10-29 00:36:51::- conexiune creata cu succese
-DEBUG::2017-10-29 00:36:51::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:38:19
-DEBUG::2017-10-29 00:38:19::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:38:19::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:38:19::- Brower: Google Chrome
-DEBUG::2017-10-29 00:38:19::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:38:19::- OS: Windows
-DEBUG::2017-10-29 00:38:19::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:19::- Connection pid: 4984
-ALERT::2017-10-29 00:38:19::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:19::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:19::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:19::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:19::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:19::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:19::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:19::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:19::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:38:26
-DEBUG::2017-10-29 00:38:26::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:38:26::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:38:26::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:26::- Connection pid: 4984
-ALERT::2017-10-29 00:38:26::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:26::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:26::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:26::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:26::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:26::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:26::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:26::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:26::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:38:26::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:38:27
-DEBUG::2017-10-29 00:38:27::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:38:27::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:38:27::- Brower: Google Chrome
-DEBUG::2017-10-29 00:38:27::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:38:27::- OS: Windows
-DEBUG::2017-10-29 00:38:27::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:27::- Connection pid: 4984
-ALERT::2017-10-29 00:38:27::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:27::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:27::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:27::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:27::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:27::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:27::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:27::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:27::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:38:33
-DEBUG::2017-10-29 00:38:33::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:38:33::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:38:33::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:33::- Connection pid: 4984
-ALERT::2017-10-29 00:38:33::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:33::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:33::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:33::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:33::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:33::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:33::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:33::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:33::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:38:33::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:38:34
-DEBUG::2017-10-29 00:38:34::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:38:34::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:38:34::- Brower: Google Chrome
-DEBUG::2017-10-29 00:38:34::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:38:34::- OS: Windows
-DEBUG::2017-10-29 00:38:34::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:34::- Connection pid: 4984
-ALERT::2017-10-29 00:38:34::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:34::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:34::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:34::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:34::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:34::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:34::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:34::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:34::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:38:38
-DEBUG::2017-10-29 00:38:38::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:38:38::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:38:38::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:38::- Connection pid: 4984
-ALERT::2017-10-29 00:38:38::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:38::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:38::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:38::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:38::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:38::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:38::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:38::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:38::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:38:38::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:38:39
-DEBUG::2017-10-29 00:38:39::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:38:39::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:38:39::- Brower: Google Chrome
-DEBUG::2017-10-29 00:38:39::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:38:39::- OS: Windows
-DEBUG::2017-10-29 00:38:39::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:38:39::- Connection pid: 4984
-ALERT::2017-10-29 00:38:39::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:38:39::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:38:39::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:38:39::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:38:39::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:38:39::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:38:39::- $db_hostV: localhost
-DEBUG::2017-10-29 00:38:39::- conexiune creata cu succese
-DEBUG::2017-10-29 00:38:39::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:43:30
-DEBUG::2017-10-29 00:43:30::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:43:30::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:43:30::- Brower: Google Chrome
-DEBUG::2017-10-29 00:43:30::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:43:30::- OS: Windows
-DEBUG::2017-10-29 00:43:30::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:43:30::- Connection pid: 4984
-ALERT::2017-10-29 00:43:30::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:43:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:43:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:43:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:43:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:43:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:43:30::- $db_hostV: localhost
-DEBUG::2017-10-29 00:43:30::- conexiune creata cu succese
-DEBUG::2017-10-29 00:43:30::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:43:33
-DEBUG::2017-10-29 00:43:33::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:43:33::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:43:33::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:43:33::- Connection pid: 4984
-ALERT::2017-10-29 00:43:33::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:43:33::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:43:33::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:43:33::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:43:33::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:43:33::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:43:33::- $db_hostV: localhost
-DEBUG::2017-10-29 00:43:33::- conexiune creata cu succese
-DEBUG::2017-10-29 00:43:33::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:44:12
-DEBUG::2017-10-29 00:44:12::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:44:12::- -> Intrat in LogicFlow pagina 1 <-
-ALERT::2017-10-29 00:44:12::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:44:13
-DEBUG::2017-10-29 00:44:13::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:44:13::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:44:13::- Brower: Google Chrome
-DEBUG::2017-10-29 00:44:13::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:44:13::- OS: Windows
-DEBUG::2017-10-29 00:44:13::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:44:13::- Connection pid: 4984
-ALERT::2017-10-29 00:44:13::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:44:13::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:44:13::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:44:13::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:44:13::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:44:13::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:44:13::- $db_hostV: localhost
-DEBUG::2017-10-29 00:44:13::- conexiune creata cu succese
-DEBUG::2017-10-29 00:44:13::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:44:18
-DEBUG::2017-10-29 00:44:18::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:44:18::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:44:18::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:44:18::- Connection pid: 4984
-ALERT::2017-10-29 00:44:18::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:44:18::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:44:18::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:44:18::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:44:18::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:44:18::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:44:18::- $db_hostV: localhost
-DEBUG::2017-10-29 00:44:18::- conexiune creata cu succese
-DEBUG::2017-10-29 00:44:18::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:44:18::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:44:19
-DEBUG::2017-10-29 00:44:19::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:44:19::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:44:19::- Brower: Google Chrome
-DEBUG::2017-10-29 00:44:19::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:44:19::- OS: Windows
-DEBUG::2017-10-29 00:44:19::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:44:19::- Connection pid: 4984
-ALERT::2017-10-29 00:44:19::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:44:19::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:44:19::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:44:19::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:44:19::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:44:19::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:44:19::- $db_hostV: localhost
-DEBUG::2017-10-29 00:44:19::- conexiune creata cu succese
-DEBUG::2017-10-29 00:44:19::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:44:30
-DEBUG::2017-10-29 00:44:30::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:44:30::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:44:30::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:44:30::- Connection pid: 4984
-ALERT::2017-10-29 00:44:30::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:44:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:44:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:44:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:44:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:44:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:44:30::- $db_hostV: localhost
-DEBUG::2017-10-29 00:44:30::- conexiune creata cu succese
-DEBUG::2017-10-29 00:44:30::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:44:30::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:44:31
-DEBUG::2017-10-29 00:44:31::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:44:31::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:44:31::- Brower: Google Chrome
-DEBUG::2017-10-29 00:44:31::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:44:31::- OS: Windows
-DEBUG::2017-10-29 00:44:31::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:44:31::- Connection pid: 4984
-ALERT::2017-10-29 00:44:31::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:44:31::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:44:31::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:44:31::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:44:31::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:44:31::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:44:31::- $db_hostV: localhost
-DEBUG::2017-10-29 00:44:31::- conexiune creata cu succese
-DEBUG::2017-10-29 00:44:31::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:46:05
-DEBUG::2017-10-29 00:46:05::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:46:05::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:46:05::- Connection pid: 4984
-ALERT::2017-10-29 00:46:05::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:46:05::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:46:05::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:46:05::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:46:05::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:46:05::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:46:05::- $db_hostV: localhost
-DEBUG::2017-10-29 00:46:05::- conexiune creata cu succese
-DEBUG::2017-10-29 00:46:05::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:46:25
-DEBUG::2017-10-29 00:46:25::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:46:25::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:46:25::- Connection pid: 4984
-ALERT::2017-10-29 00:46:25::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:46:25::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:46:25::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:46:25::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:46:25::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:46:25::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:46:25::- $db_hostV: localhost
-DEBUG::2017-10-29 00:46:25::- conexiune creata cu succese
-DEBUG::2017-10-29 00:46:25::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:47:52
-DEBUG::2017-10-29 00:47:52::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:47:52::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:47:52::- Brower: Google Chrome
-DEBUG::2017-10-29 00:47:52::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:47:52::- OS: Windows
-DEBUG::2017-10-29 00:47:52::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:47:52::- Connection pid: 4984
-ALERT::2017-10-29 00:47:52::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:47:52::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:47:52::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:47:52::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:47:52::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:47:52::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:47:52::- $db_hostV: localhost
-DEBUG::2017-10-29 00:47:52::- conexiune creata cu succese
-DEBUG::2017-10-29 00:47:52::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:47:57
-DEBUG::2017-10-29 00:47:57::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:47:57::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:47:57::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:47:57::- Connection pid: 4984
-ALERT::2017-10-29 00:47:57::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:47:57::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:47:57::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:47:57::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:47:57::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:47:57::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:47:57::- $db_hostV: localhost
-DEBUG::2017-10-29 00:47:57::- conexiune creata cu succese
-DEBUG::2017-10-29 00:47:57::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:47:57::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:47:58
-DEBUG::2017-10-29 00:47:58::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:47:58::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:47:58::- Brower: Google Chrome
-DEBUG::2017-10-29 00:47:58::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:47:58::- OS: Windows
-DEBUG::2017-10-29 00:47:58::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:47:58::- Connection pid: 4984
-ALERT::2017-10-29 00:47:58::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:47:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:47:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:47:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:47:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:47:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:47:58::- $db_hostV: localhost
-DEBUG::2017-10-29 00:47:58::- conexiune creata cu succese
-DEBUG::2017-10-29 00:47:58::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:48:11
-DEBUG::2017-10-29 00:48:11::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:48:11::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:48:11::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:11::- Connection pid: 4984
-ALERT::2017-10-29 00:48:11::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:11::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:11::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:11::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:11::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:11::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:11::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:11::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:11::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:48:11::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:48:12
-DEBUG::2017-10-29 00:48:12::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:48:12::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:48:12::- Brower: Google Chrome
-DEBUG::2017-10-29 00:48:12::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:48:12::- OS: Windows
-DEBUG::2017-10-29 00:48:12::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:12::- Connection pid: 4984
-ALERT::2017-10-29 00:48:12::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:12::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:12::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:12::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:12::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:12::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:12::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:12::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:12::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:48:19
-DEBUG::2017-10-29 00:48:19::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:48:19::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:48:19::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:19::- Connection pid: 4984
-ALERT::2017-10-29 00:48:19::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:19::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:19::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:19::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:19::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:19::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:19::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:19::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:19::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:48:19::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:48:21
-DEBUG::2017-10-29 00:48:21::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:48:21::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:48:21::- Brower: Google Chrome
-DEBUG::2017-10-29 00:48:21::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:48:21::- OS: Windows
-DEBUG::2017-10-29 00:48:21::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:21::- Connection pid: 4984
-ALERT::2017-10-29 00:48:21::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:21::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:21::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:21::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:21::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:21::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:21::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:21::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:21::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:48:27
-DEBUG::2017-10-29 00:48:27::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:48:27::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:48:27::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:27::- Connection pid: 4984
-ALERT::2017-10-29 00:48:27::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:27::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:27::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:27::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:27::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:27::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:27::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:27::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:27::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:48:27::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:48:28
-DEBUG::2017-10-29 00:48:28::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:48:28::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:48:28::- Brower: Google Chrome
-DEBUG::2017-10-29 00:48:28::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:48:28::- OS: Windows
-DEBUG::2017-10-29 00:48:28::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:28::- Connection pid: 4984
-ALERT::2017-10-29 00:48:28::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:28::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:28::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:28::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:28::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:28::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:28::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:28::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:28::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:48:56
-DEBUG::2017-10-29 00:48:56::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:48:56::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:48:56::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:56::- Connection pid: 4984
-ALERT::2017-10-29 00:48:56::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:56::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:56::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:56::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:56::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:56::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:56::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:56::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:56::- Iesit din constructor Conexiune
-ALERT::2017-10-29 00:48:56::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 00:48:57
-DEBUG::2017-10-29 00:48:57::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:48:57::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:48:57::- Brower: Google Chrome
-DEBUG::2017-10-29 00:48:57::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:48:57::- OS: Windows
-DEBUG::2017-10-29 00:48:57::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:48:57::- Connection pid: 4984
-ALERT::2017-10-29 00:48:57::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:48:57::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:48:57::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:48:57::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:48:57::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:48:57::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:48:57::- $db_hostV: localhost
-DEBUG::2017-10-29 00:48:57::- conexiune creata cu succese
-DEBUG::2017-10-29 00:48:57::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:49:57
-DEBUG::2017-10-29 00:49:57::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:49:57::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:49:57::- Connection pid: 4984
-ALERT::2017-10-29 00:49:57::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:49:57::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:49:57::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:49:57::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:49:57::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:49:57::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:49:57::- $db_hostV: localhost
-DEBUG::2017-10-29 00:49:57::- conexiune creata cu succese
-DEBUG::2017-10-29 00:49:57::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:50:04
-DEBUG::2017-10-29 00:50:04::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:50:04::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:50:04::- Connection pid: 4984
-ALERT::2017-10-29 00:50:04::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:50:04::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:50:04::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:50:04::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:50:04::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:50:04::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:50:04::- $db_hostV: localhost
-DEBUG::2017-10-29 00:50:04::- conexiune creata cu succese
-DEBUG::2017-10-29 00:50:04::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:50:07
-DEBUG::2017-10-29 00:50:07::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:50:07::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:50:07::- Connection pid: 4984
-ALERT::2017-10-29 00:50:07::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:50:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:50:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:50:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:50:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:50:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:50:07::- $db_hostV: localhost
-DEBUG::2017-10-29 00:50:07::- conexiune creata cu succese
-DEBUG::2017-10-29 00:50:07::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:50:21
-DEBUG::2017-10-29 00:50:21::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:50:21::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:50:21::- Connection pid: 4984
-ALERT::2017-10-29 00:50:21::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:50:21::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:50:21::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:50:21::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:50:21::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:50:21::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:50:21::- $db_hostV: localhost
-DEBUG::2017-10-29 00:50:21::- conexiune creata cu succese
-DEBUG::2017-10-29 00:50:21::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:51:03
-DEBUG::2017-10-29 00:51:03::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:51:03::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:51:03::- Connection pid: 4984
-ALERT::2017-10-29 00:51:03::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:51:03::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:51:03::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:51:03::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:51:03::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:51:03::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:51:03::- $db_hostV: localhost
-DEBUG::2017-10-29 00:51:03::- conexiune creata cu succese
-DEBUG::2017-10-29 00:51:03::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:51:32
-DEBUG::2017-10-29 00:51:32::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:51:32::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:51:32::- Connection pid: 4984
-ALERT::2017-10-29 00:51:32::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:51:32::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:51:32::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:51:32::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:51:32::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:51:32::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:51:32::- $db_hostV: localhost
-DEBUG::2017-10-29 00:51:32::- conexiune creata cu succese
-DEBUG::2017-10-29 00:51:32::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:52:30
-DEBUG::2017-10-29 00:52:30::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:52:30::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:52:30::- Connection pid: 4984
-ALERT::2017-10-29 00:52:30::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:52:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:52:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:52:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:52:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:52:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:52:30::- $db_hostV: localhost
-DEBUG::2017-10-29 00:52:30::- conexiune creata cu succese
-DEBUG::2017-10-29 00:52:30::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:52:34
-DEBUG::2017-10-29 00:52:34::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:52:34::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:52:34::- Connection pid: 4984
-ALERT::2017-10-29 00:52:34::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:52:34::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:52:34::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:52:34::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:52:34::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:52:34::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:52:34::- $db_hostV: localhost
-DEBUG::2017-10-29 00:52:34::- conexiune creata cu succese
-DEBUG::2017-10-29 00:52:34::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:53:32
-DEBUG::2017-10-29 00:53:32::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:53:32::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:53:32::- Connection pid: 4984
-ALERT::2017-10-29 00:53:32::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:53:32::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:53:32::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:53:32::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:53:32::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:53:32::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:53:32::- $db_hostV: localhost
-DEBUG::2017-10-29 00:53:32::- conexiune creata cu succese
-DEBUG::2017-10-29 00:53:32::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:55:58
-DEBUG::2017-10-29 00:55:58::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:55:58::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:55:58::- Connection pid: 4984
-ALERT::2017-10-29 00:55:58::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:55:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:55:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:55:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:55:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:55:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:55:58::- $db_hostV: localhost
-DEBUG::2017-10-29 00:55:58::- conexiune creata cu succese
-DEBUG::2017-10-29 00:55:58::- Iesit din constructor Conexiune
-DEBUG::2017-10-29 00:55:58::- checkEmailOrNickname()->result: Array
-DEBUG::2017-10-29 00:55:58::- checkEmailOrNickname()->result: Array
-----------------------------------------------------------2017-10-29 00:56:46
-DEBUG::2017-10-29 00:56:46::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:56:46::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:56:46::- Connection pid: 4984
-ALERT::2017-10-29 00:56:46::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:56:46::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:56:46::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:56:46::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:56:46::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:56:46::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:56:46::- $db_hostV: localhost
-DEBUG::2017-10-29 00:56:46::- conexiune creata cu succese
-DEBUG::2017-10-29 00:56:46::- Iesit din constructor Conexiune
-DEBUG::2017-10-29 00:56:46::- checkEmailOrNickname()->result: Array
-DEBUG::2017-10-29 00:56:46::- checkEmailOrNickname()->result: Array
-----------------------------------------------------------2017-10-29 00:56:57
-DEBUG::2017-10-29 00:56:57::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:56:57::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:56:57::- Brower: Google Chrome
-DEBUG::2017-10-29 00:56:57::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:56:57::- OS: Windows
-DEBUG::2017-10-29 00:56:57::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:56:57::- Connection pid: 4984
-ALERT::2017-10-29 00:56:57::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:56:57::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:56:57::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:56:57::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:56:57::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:56:57::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:56:57::- $db_hostV: localhost
-DEBUG::2017-10-29 00:56:57::- conexiune creata cu succese
-DEBUG::2017-10-29 00:56:57::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:57:04
-DEBUG::2017-10-29 00:57:04::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:57:04::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:57:04::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:57:04::- Connection pid: 4984
-ALERT::2017-10-29 00:57:04::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:57:04::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:57:04::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:57:04::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:57:04::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:57:04::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:57:04::- $db_hostV: localhost
-DEBUG::2017-10-29 00:57:04::- conexiune creata cu succese
-DEBUG::2017-10-29 00:57:04::- Iesit din constructor Conexiune
-DEBUG::2017-10-29 00:57:04::- Punerea in sesiune a lui login: 1
-ALERT::2017-10-29 00:57:04::- -> Iesire in LogicFlow pagina 1 succes <-
-----------------------------------------------------------2017-10-29 00:57:07
-DEBUG::2017-10-29 00:57:07::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:57:07::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:57:07::- Brower: Google Chrome
-DEBUG::2017-10-29 00:57:07::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:57:07::- OS: Windows
-DEBUG::2017-10-29 00:57:07::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:57:07::- Connection pid: 4984
-ALERT::2017-10-29 00:57:07::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:57:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:57:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:57:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:57:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:57:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:57:07::- $db_hostV: localhost
-DEBUG::2017-10-29 00:57:07::- conexiune creata cu succese
-DEBUG::2017-10-29 00:57:07::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 00:57:11
-DEBUG::2017-10-29 00:57:11::- Log4Debug pid: 4984
-ALERT::2017-10-29 00:57:11::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 00:57:11::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:57:11::- Connection pid: 4984
-ALERT::2017-10-29 00:57:11::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:57:11::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:57:11::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:57:11::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:57:11::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:57:11::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:57:11::- $db_hostV: localhost
-DEBUG::2017-10-29 00:57:11::- conexiune creata cu succese
-DEBUG::2017-10-29 00:57:11::- Iesit din constructor Conexiune
-DEBUG::2017-10-29 00:57:11::- Punerea in sesiune a lui login: 1
-ALERT::2017-10-29 00:57:11::- -> Iesire in LogicFlow pagina 1 succes <-
-----------------------------------------------------------2017-10-29 00:59:49
-DEBUG::2017-10-29 00:59:49::- Log4Debug pid: 4984
-DEBUG::2017-10-29 00:59:49::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 00:59:49::- Brower: Google Chrome
-DEBUG::2017-10-29 00:59:49::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 00:59:49::- OS: Windows
-DEBUG::2017-10-29 00:59:49::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 00:59:49::- Connection pid: 4984
-ALERT::2017-10-29 00:59:49::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 00:59:49::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 00:59:49::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 00:59:49::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 00:59:49::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 00:59:49::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 00:59:49::- $db_hostV: localhost
-DEBUG::2017-10-29 00:59:49::- conexiune creata cu succese
-DEBUG::2017-10-29 00:59:49::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:00:07
-DEBUG::2017-10-29 01:00:07::- Log4Debug pid: 4984
-ALERT::2017-10-29 01:00:07::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 01:00:07::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:00:07::- Connection pid: 4984
-ALERT::2017-10-29 01:00:07::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:00:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:00:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:00:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:00:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:00:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:00:07::- $db_hostV: localhost
-DEBUG::2017-10-29 01:00:07::- conexiune creata cu succese
-DEBUG::2017-10-29 01:00:07::- Iesit din constructor Conexiune
-ALERT::2017-10-29 01:00:07::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 01:00:08
-DEBUG::2017-10-29 01:00:08::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:00:08::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:00:08::- Brower: Google Chrome
-DEBUG::2017-10-29 01:00:08::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:00:08::- OS: Windows
-DEBUG::2017-10-29 01:00:08::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:00:08::- Connection pid: 4984
-ALERT::2017-10-29 01:00:08::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:00:08::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:00:08::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:00:08::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:00:08::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:00:08::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:00:08::- $db_hostV: localhost
-DEBUG::2017-10-29 01:00:08::- conexiune creata cu succese
-DEBUG::2017-10-29 01:00:08::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:00:48
-DEBUG::2017-10-29 01:00:48::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:00:48::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:00:48::- Brower: Google Chrome
-DEBUG::2017-10-29 01:00:48::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:00:48::- OS: Windows
-DEBUG::2017-10-29 01:00:48::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:00:48::- Connection pid: 4984
-ALERT::2017-10-29 01:00:48::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:00:48::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:00:48::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:00:48::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:00:48::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:00:48::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:00:48::- $db_hostV: localhost
-DEBUG::2017-10-29 01:00:48::- conexiune creata cu succese
-DEBUG::2017-10-29 01:00:48::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:01:05
-DEBUG::2017-10-29 01:01:05::- Log4Debug pid: 4984
-ALERT::2017-10-29 01:01:05::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 01:01:05::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:01:05::- Connection pid: 4984
-ALERT::2017-10-29 01:01:05::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:01:05::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:01:05::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:01:05::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:01:05::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:01:05::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:01:05::- $db_hostV: localhost
-DEBUG::2017-10-29 01:01:05::- conexiune creata cu succese
-DEBUG::2017-10-29 01:01:05::- Iesit din constructor Conexiune
-ALERT::2017-10-29 01:01:05::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 01:01:06
-DEBUG::2017-10-29 01:01:06::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:01:06::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:01:06::- Brower: Google Chrome
-DEBUG::2017-10-29 01:01:06::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:01:06::- OS: Windows
-DEBUG::2017-10-29 01:01:06::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:01:06::- Connection pid: 4984
-ALERT::2017-10-29 01:01:06::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:01:06::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:01:06::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:01:06::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:01:06::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:01:06::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:01:06::- $db_hostV: localhost
-DEBUG::2017-10-29 01:01:06::- conexiune creata cu succese
-DEBUG::2017-10-29 01:01:06::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:01:58
-DEBUG::2017-10-29 01:01:58::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:01:58::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:01:58::- Brower: Google Chrome
-DEBUG::2017-10-29 01:01:58::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:01:58::- OS: Windows
-DEBUG::2017-10-29 01:01:58::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:01:58::- Connection pid: 4984
-ALERT::2017-10-29 01:01:58::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:01:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:01:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:01:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:01:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:01:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:01:58::- $db_hostV: localhost
-DEBUG::2017-10-29 01:01:58::- conexiune creata cu succese
-DEBUG::2017-10-29 01:01:58::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:03:07
-DEBUG::2017-10-29 01:03:07::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:03:07::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:03:07::- Brower: Google Chrome
-DEBUG::2017-10-29 01:03:07::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:03:07::- OS: Windows
-DEBUG::2017-10-29 01:03:07::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:03:07::- Connection pid: 4984
-ALERT::2017-10-29 01:03:07::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:03:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:03:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:03:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:03:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:03:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:03:07::- $db_hostV: localhost
-DEBUG::2017-10-29 01:03:07::- conexiune creata cu succese
-DEBUG::2017-10-29 01:03:07::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:03:31
-DEBUG::2017-10-29 01:03:31::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:03:31::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:03:31::- Brower: Google Chrome
-DEBUG::2017-10-29 01:03:31::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:03:31::- OS: Windows
-DEBUG::2017-10-29 01:03:31::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:03:31::- Connection pid: 4984
-ALERT::2017-10-29 01:03:31::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:03:31::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:03:31::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:03:31::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:03:31::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:03:31::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:03:31::- $db_hostV: localhost
-DEBUG::2017-10-29 01:03:31::- conexiune creata cu succese
-DEBUG::2017-10-29 01:03:31::- Iesit din constructor Conexiune
-----------------------------------------------------------2017-10-29 01:03:58
-DEBUG::2017-10-29 01:03:58::- Log4Debug pid: 4984
-ALERT::2017-10-29 01:03:58::- -> Intrat in LogicFlow pagina 1 <-
-DEBUG::2017-10-29 01:03:58::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:03:58::- Connection pid: 4984
-ALERT::2017-10-29 01:03:58::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:03:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:03:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:03:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:03:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:03:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:03:58::- $db_hostV: localhost
-DEBUG::2017-10-29 01:03:58::- conexiune creata cu succese
-DEBUG::2017-10-29 01:03:58::- Iesit din constructor Conexiune
-ALERT::2017-10-29 01:03:58::- -> Iesire in LogicFlow pagina 1 fail  <-
-----------------------------------------------------------2017-10-29 01:03:59
-DEBUG::2017-10-29 01:03:59::- Log4Debug pid: 4984
-DEBUG::2017-10-29 01:03:59::-  ->INTRAT IN logingVisitorActiviti<- 
-DEBUG::2017-10-29 01:03:59::- Brower: Google Chrome
-DEBUG::2017-10-29 01:03:59::- Brower version: 61.0.3163.
-DEBUG::2017-10-29 01:03:59::- OS: Windows
-DEBUG::2017-10-29 01:03:59::- Intrat in constructor Conexiune
-DEBUG::2017-10-29 01:03:59::- Connection pid: 4984
-ALERT::2017-10-29 01:03:59::- Loaded configInfoDB.ini: 
-DEBUG::2017-10-29 01:03:59::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
-DEBUG::2017-10-29 01:03:59::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
-DEBUG::2017-10-29 01:03:59::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
-DEBUG::2017-10-29 01:03:59::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
-DEBUG::2017-10-29 01:03:59::- ARRAY Array: (KEY)DbPort - (VALUE)3306
-DEBUG::2017-10-29 01:03:59::- $db_hostV: localhost
-DEBUG::2017-10-29 01:03:59::- conexiune creata cu succese
-DEBUG::2017-10-29 01:03:59::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 01:58:35
+DEBUG::2017-10-29 01:58:35::- Log4Debug pid: 4984
+DEBUG::2017-10-29 01:58:35::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 01:58:35::- Brower: Google Chrome
+DEBUG::2017-10-29 01:58:35::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 01:58:35::- OS: Windows
+DEBUG::2017-10-29 01:58:35::- IP: 127.0.0.1
+DEBUG::2017-10-29 01:58:35::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 01:58:35::- Connection pid: 4984
+ALERT::2017-10-29 01:58:35::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 01:58:35::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 01:58:35::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 01:58:35::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 01:58:35::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 01:58:35::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 01:58:35::- $db_hostV: localhost
+DEBUG::2017-10-29 01:58:35::- conexiune creata cu succese
+DEBUG::2017-10-29 01:58:35::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 01:58:47
+DEBUG::2017-10-29 01:58:47::- Log4Debug pid: 4984
+ALERT::2017-10-29 01:58:47::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 01:58:47::- Inregistrare userName: 
+ALERT::2017-10-29 01:58:47::- Inregistrare password: 123
+ALERT::2017-10-29 01:58:47::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 01:58:47::- Inregistrare email: kanames72@gmail.com
+ALERT::2017-10-29 01:58:47::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 01:58:47::- Inregistrare gender: M
+ALERT::2017-10-29 01:58:47::- Inregistrare agree: on
+DEBUG::2017-10-29 01:58:47::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 01:58:47::- Connection pid: 4984
+ALERT::2017-10-29 01:58:47::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 01:58:47::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 01:58:47::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 01:58:47::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 01:58:47::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 01:58:47::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 01:58:47::- $db_hostV: localhost
+DEBUG::2017-10-29 01:58:47::- conexiune creata cu succese
+DEBUG::2017-10-29 01:58:47::- Iesit din constructor Conexiune
+ALERT::2017-10-29 01:58:47::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 01:58:48
+DEBUG::2017-10-29 01:58:48::- Log4Debug pid: 4984
+DEBUG::2017-10-29 01:58:48::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 01:58:48::- Brower: Google Chrome
+DEBUG::2017-10-29 01:58:48::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 01:58:48::- OS: Windows
+DEBUG::2017-10-29 01:58:48::- IP: 127.0.0.1
+DEBUG::2017-10-29 01:58:48::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 01:58:48::- Connection pid: 4984
+ALERT::2017-10-29 01:58:48::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 01:58:48::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 01:58:48::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 01:58:48::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 01:58:48::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 01:58:48::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 01:58:48::- $db_hostV: localhost
+DEBUG::2017-10-29 01:58:48::- conexiune creata cu succese
+DEBUG::2017-10-29 01:58:48::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 01:59:38
+DEBUG::2017-10-29 01:59:38::- Log4Debug pid: 4984
+ALERT::2017-10-29 01:59:38::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 01:59:38::- Inregistrare userName: 
+ALERT::2017-10-29 01:59:38::- Inregistrare password: 123
+ALERT::2017-10-29 01:59:38::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 01:59:38::- Inregistrare email: kanames72@gmail.com
+ALERT::2017-10-29 01:59:38::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 01:59:38::- Inregistrare gender: M
+ALERT::2017-10-29 01:59:38::- Inregistrare agree: on
+DEBUG::2017-10-29 01:59:38::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 01:59:38::- Connection pid: 4984
+ALERT::2017-10-29 01:59:38::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 01:59:38::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 01:59:38::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 01:59:38::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 01:59:38::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 01:59:38::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 01:59:38::- $db_hostV: localhost
+DEBUG::2017-10-29 01:59:38::- conexiune creata cu succese
+DEBUG::2017-10-29 01:59:38::- Iesit din constructor Conexiune
+ALERT::2017-10-29 01:59:38::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 01:59:39
+DEBUG::2017-10-29 01:59:39::- Log4Debug pid: 4984
+DEBUG::2017-10-29 01:59:39::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 01:59:39::- Brower: Google Chrome
+DEBUG::2017-10-29 01:59:39::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 01:59:39::- OS: Windows
+DEBUG::2017-10-29 01:59:39::- IP: 127.0.0.1
+DEBUG::2017-10-29 01:59:39::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 01:59:39::- Connection pid: 4984
+ALERT::2017-10-29 01:59:39::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 01:59:39::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 01:59:39::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 01:59:39::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 01:59:39::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 01:59:39::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 01:59:39::- $db_hostV: localhost
+DEBUG::2017-10-29 01:59:39::- conexiune creata cu succese
+DEBUG::2017-10-29 01:59:39::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 02:01:05
+DEBUG::2017-10-29 02:01:05::- Log4Debug pid: 4984
+DEBUG::2017-10-29 02:01:05::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 02:01:05::- Brower: Google Chrome
+DEBUG::2017-10-29 02:01:05::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 02:01:05::- OS: Windows
+DEBUG::2017-10-29 02:01:05::- IP: 127.0.0.1
+DEBUG::2017-10-29 02:01:05::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:01:05::- Connection pid: 4984
+ALERT::2017-10-29 02:01:05::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:01:05::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:01:05::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:01:05::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:01:05::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:01:05::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:01:05::- $db_hostV: localhost
+DEBUG::2017-10-29 02:01:05::- conexiune creata cu succese
+DEBUG::2017-10-29 02:01:05::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 02:01:16
+DEBUG::2017-10-29 02:01:16::- Log4Debug pid: 4984
+ALERT::2017-10-29 02:01:16::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 02:01:16::- Inregistrare userName: 
+ALERT::2017-10-29 02:01:16::- Inregistrare password: 123
+ALERT::2017-10-29 02:01:16::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 02:01:16::- Inregistrare email: kanames72@gmail.com
+ALERT::2017-10-29 02:01:16::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 02:01:16::- Inregistrare gender: M
+ALERT::2017-10-29 02:01:16::- Inregistrare agree: on
+DEBUG::2017-10-29 02:01:16::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:01:16::- Connection pid: 4984
+ALERT::2017-10-29 02:01:16::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:01:16::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:01:16::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:01:16::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:01:16::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:01:16::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:01:16::- $db_hostV: localhost
+DEBUG::2017-10-29 02:01:16::- conexiune creata cu succese
+DEBUG::2017-10-29 02:01:16::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 02:01:16::- Check made with Nickname for: kanames
+DEBUG::2017-10-29 02:01:16::- Id-ul contului creat: 30
+DEBUG::2017-10-29 02:01:16::- ->crearea profilului.
+ALERT::2017-10-29 02:01:16::- -> Iesire in LogicFlow pagina 4 succes <-
+----------------------------------------------------------2017-10-29 02:01:18
+DEBUG::2017-10-29 02:01:18::- Log4Debug pid: 4984
+DEBUG::2017-10-29 02:01:18::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 02:01:18::- Brower: Google Chrome
+DEBUG::2017-10-29 02:01:18::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 02:01:18::- OS: Windows
+DEBUG::2017-10-29 02:01:18::- IP: 127.0.0.1
+DEBUG::2017-10-29 02:01:18::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:01:18::- Connection pid: 4984
+ALERT::2017-10-29 02:01:18::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:01:18::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:01:18::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:01:18::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:01:18::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:01:18::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:01:18::- $db_hostV: localhost
+DEBUG::2017-10-29 02:01:18::- conexiune creata cu succese
+DEBUG::2017-10-29 02:01:18::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 02:03:43
+DEBUG::2017-10-29 02:03:43::- Log4Debug pid: 4984
+DEBUG::2017-10-29 02:03:43::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 02:03:43::- Brower: Google Chrome
+DEBUG::2017-10-29 02:03:43::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 02:03:43::- OS: Windows
+DEBUG::2017-10-29 02:03:43::- IP: 127.0.0.1
+DEBUG::2017-10-29 02:03:43::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:03:43::- Connection pid: 4984
+ALERT::2017-10-29 02:03:43::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:03:43::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:03:43::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:03:43::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:03:43::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:03:43::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:03:43::- $db_hostV: localhost
+DEBUG::2017-10-29 02:03:43::- conexiune creata cu succese
+DEBUG::2017-10-29 02:03:43::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 02:03:54
+DEBUG::2017-10-29 02:03:54::- Log4Debug pid: 4984
+ALERT::2017-10-29 02:03:54::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 02:03:54::- Inregistrare userName: 
+ALERT::2017-10-29 02:03:54::- Inregistrare password: 123
+ALERT::2017-10-29 02:03:54::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 02:03:54::- Inregistrare email: kanames72@gmail.com
+ALERT::2017-10-29 02:03:54::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 02:03:54::- Inregistrare gender: M
+ALERT::2017-10-29 02:03:54::- Inregistrare agree: on
+DEBUG::2017-10-29 02:03:54::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:03:54::- Connection pid: 4984
+ALERT::2017-10-29 02:03:54::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:03:54::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:03:54::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:03:54::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:03:54::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:03:54::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:03:54::- $db_hostV: localhost
+DEBUG::2017-10-29 02:03:54::- conexiune creata cu succese
+DEBUG::2017-10-29 02:03:54::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 02:03:54::- Check made with Nickname for: kanames
+DEBUG::2017-10-29 02:03:54::- Id-ul contului creat: 31
+DEBUG::2017-10-29 02:03:54::- ->crearea profilului.
+ALERT::2017-10-29 02:03:54::- -> Iesire in LogicFlow pagina 4 succes <-
+----------------------------------------------------------2017-10-29 02:03:55
+DEBUG::2017-10-29 02:03:55::- Log4Debug pid: 4984
+DEBUG::2017-10-29 02:03:55::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 02:03:55::- Brower: Google Chrome
+DEBUG::2017-10-29 02:03:55::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 02:03:55::- OS: Windows
+DEBUG::2017-10-29 02:03:55::- IP: 127.0.0.1
+DEBUG::2017-10-29 02:03:55::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:03:55::- Connection pid: 4984
+ALERT::2017-10-29 02:03:55::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:03:55::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:03:55::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:03:55::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:03:55::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:03:55::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:03:55::- $db_hostV: localhost
+DEBUG::2017-10-29 02:03:55::- conexiune creata cu succese
+DEBUG::2017-10-29 02:03:55::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 02:06:01
+DEBUG::2017-10-29 02:06:01::- Log4Debug pid: 4984
+DEBUG::2017-10-29 02:06:01::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 02:06:01::- Brower: Google Chrome
+DEBUG::2017-10-29 02:06:01::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 02:06:01::- OS: Windows
+DEBUG::2017-10-29 02:06:01::- IP: 127.0.0.1
+DEBUG::2017-10-29 02:06:01::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 02:06:01::- Connection pid: 4984
+ALERT::2017-10-29 02:06:01::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 02:06:01::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 02:06:01::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 02:06:01::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 02:06:01::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 02:06:01::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 02:06:01::- $db_hostV: localhost
+DEBUG::2017-10-29 02:06:01::- conexiune creata cu succese
+DEBUG::2017-10-29 02:06:01::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 10:47:24
+DEBUG::2017-10-29 10:47:24::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:47:24::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:47:24::- Connection pid: 4984
+ALERT::2017-10-29 10:47:24::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:47:24::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:47:24::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:47:24::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:47:24::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:47:24::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:47:24::- $db_hostV: localhost
+DEBUG::2017-10-29 10:47:24::- conexiune creata cu succese
+DEBUG::2017-10-29 10:47:24::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:47:24::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:47:24::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:51:55
+DEBUG::2017-10-29 10:51:55::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:51:55::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:51:55::- Connection pid: 4984
+ALERT::2017-10-29 10:51:55::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:51:55::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:51:55::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:51:55::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:51:55::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:51:55::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:51:55::- $db_hostV: localhost
+DEBUG::2017-10-29 10:51:55::- conexiune creata cu succese
+DEBUG::2017-10-29 10:51:55::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:51:55::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:51:55::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:52:12
+DEBUG::2017-10-29 10:52:12::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:52:12::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:52:12::- Connection pid: 4984
+ALERT::2017-10-29 10:52:12::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:52:12::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:52:12::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:52:12::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:52:12::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:52:12::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:52:12::- $db_hostV: localhost
+DEBUG::2017-10-29 10:52:12::- conexiune creata cu succese
+DEBUG::2017-10-29 10:52:12::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:52:12::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:52:12::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:52:23
+DEBUG::2017-10-29 10:52:23::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:52:23::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:52:23::- Connection pid: 4984
+ALERT::2017-10-29 10:52:23::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:52:23::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:52:23::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:52:23::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:52:23::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:52:23::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:52:23::- $db_hostV: localhost
+DEBUG::2017-10-29 10:52:23::- conexiune creata cu succese
+DEBUG::2017-10-29 10:52:23::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:52:23::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:52:23::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:52:57
+DEBUG::2017-10-29 10:52:57::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:52:57::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:52:57::- Connection pid: 4984
+ALERT::2017-10-29 10:52:57::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:52:57::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:52:57::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:52:57::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:52:57::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:52:57::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:52:57::- $db_hostV: localhost
+DEBUG::2017-10-29 10:52:57::- conexiune creata cu succese
+DEBUG::2017-10-29 10:52:57::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:52:57::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:52:57::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:54:07
+DEBUG::2017-10-29 10:54:07::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:54:07::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:54:07::- Connection pid: 4984
+ALERT::2017-10-29 10:54:07::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:54:07::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:54:07::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:54:07::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:54:07::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:54:07::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:54:07::- $db_hostV: localhost
+DEBUG::2017-10-29 10:54:07::- conexiune creata cu succese
+DEBUG::2017-10-29 10:54:07::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:54:07::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:54:07::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:54:40
+DEBUG::2017-10-29 10:54:40::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:54:40::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:54:40::- Connection pid: 4984
+ALERT::2017-10-29 10:54:40::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:54:40::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:54:40::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:54:40::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:54:40::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:54:40::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:54:40::- $db_hostV: localhost
+DEBUG::2017-10-29 10:54:40::- conexiune creata cu succese
+DEBUG::2017-10-29 10:54:40::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:54:40::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:54:40::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:58:39
+DEBUG::2017-10-29 10:58:39::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:58:39::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:58:39::- Connection pid: 4984
+ALERT::2017-10-29 10:58:39::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:58:39::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:58:39::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:58:39::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:58:39::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:58:39::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:58:39::- $db_hostV: localhost
+DEBUG::2017-10-29 10:58:39::- conexiune creata cu succese
+DEBUG::2017-10-29 10:58:39::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:58:39::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:58:39::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:58:41
+DEBUG::2017-10-29 10:58:41::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:58:41::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:58:41::- Connection pid: 4984
+ALERT::2017-10-29 10:58:41::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:58:41::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:58:41::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:58:41::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:58:41::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:58:41::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:58:41::- $db_hostV: localhost
+DEBUG::2017-10-29 10:58:41::- conexiune creata cu succese
+DEBUG::2017-10-29 10:58:41::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:58:41::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:58:41::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 10:58:42
+DEBUG::2017-10-29 10:58:42::- Log4Debug pid: 4984
+DEBUG::2017-10-29 10:58:42::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 10:58:42::- Connection pid: 4984
+ALERT::2017-10-29 10:58:42::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 10:58:42::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 10:58:42::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 10:58:42::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 10:58:42::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 10:58:42::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 10:58:42::- $db_hostV: localhost
+DEBUG::2017-10-29 10:58:42::- conexiune creata cu succese
+DEBUG::2017-10-29 10:58:42::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 10:58:42::- Check made with Nickname for: gotory
+DEBUG::2017-10-29 10:58:42::- Check made with E-mail for: stefan.paladuta17@gmail.com
+----------------------------------------------------------2017-10-29 11:00:21
+DEBUG::2017-10-29 11:00:21::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:00:21::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:00:21::- Brower: Google Chrome
+DEBUG::2017-10-29 11:00:21::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:00:21::- OS: Windows
+DEBUG::2017-10-29 11:00:21::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:00:21::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:00:21::- Connection pid: 4984
+ALERT::2017-10-29 11:00:21::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:00:21::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:00:21::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:00:21::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:00:21::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:00:21::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:00:21::- $db_hostV: localhost
+DEBUG::2017-10-29 11:00:21::- conexiune creata cu succese
+DEBUG::2017-10-29 11:00:21::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:00:29
+DEBUG::2017-10-29 11:00:29::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:00:29::- -> Intrat in LogicFlow pagina 1 <-
+DEBUG::2017-10-29 11:00:29::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:00:29::- Connection pid: 4984
+ALERT::2017-10-29 11:00:29::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:00:29::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:00:29::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:00:29::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:00:29::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:00:29::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:00:29::- $db_hostV: localhost
+DEBUG::2017-10-29 11:00:29::- conexiune creata cu succese
+DEBUG::2017-10-29 11:00:29::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:00:29::- Check made with Nickname for: Kanames
+DEBUG::2017-10-29 11:00:29::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:00:29::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:00:32
+DEBUG::2017-10-29 11:00:32::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:00:32::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:00:32::- Brower: Google Chrome
+DEBUG::2017-10-29 11:00:32::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:00:32::- OS: Windows
+DEBUG::2017-10-29 11:00:32::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:00:32::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:00:32::- Connection pid: 4984
+ALERT::2017-10-29 11:00:32::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:00:32::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:00:32::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:00:32::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:00:32::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:00:32::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:00:32::- $db_hostV: localhost
+DEBUG::2017-10-29 11:00:32::- conexiune creata cu succese
+DEBUG::2017-10-29 11:00:32::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:00:38
+DEBUG::2017-10-29 11:00:38::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:00:38::- -> Intrat in LogicFlow pagina 1 <-
+DEBUG::2017-10-29 11:00:38::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:00:38::- Connection pid: 4984
+ALERT::2017-10-29 11:00:38::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:00:38::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:00:38::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:00:38::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:00:38::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:00:38::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:00:38::- $db_hostV: localhost
+DEBUG::2017-10-29 11:00:38::- conexiune creata cu succese
+DEBUG::2017-10-29 11:00:38::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:00:38::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:00:38::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:00:38::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:00:41
+DEBUG::2017-10-29 11:00:41::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:00:41::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:00:41::- Brower: Google Chrome
+DEBUG::2017-10-29 11:00:41::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:00:41::- OS: Windows
+DEBUG::2017-10-29 11:00:41::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:00:41::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:00:41::- Connection pid: 4984
+ALERT::2017-10-29 11:00:41::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:00:41::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:00:41::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:00:41::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:00:41::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:00:41::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:00:41::- $db_hostV: localhost
+DEBUG::2017-10-29 11:00:41::- conexiune creata cu succese
+DEBUG::2017-10-29 11:00:41::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:09:26
+DEBUG::2017-10-29 11:09:26::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:09:26::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:09:26::- Brower: Google Chrome
+DEBUG::2017-10-29 11:09:26::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:09:26::- OS: Windows
+DEBUG::2017-10-29 11:09:26::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:09:26::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:09:26::- Connection pid: 4984
+ALERT::2017-10-29 11:09:26::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:09:26::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:09:26::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:09:26::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:09:26::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:09:26::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:09:26::- $db_hostV: localhost
+DEBUG::2017-10-29 11:09:26::- conexiune creata cu succese
+DEBUG::2017-10-29 11:09:26::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:09:36
+DEBUG::2017-10-29 11:09:36::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:09:36::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:09:36::- Inregistrare userName: 
+ALERT::2017-10-29 11:09:36::- Inregistrare password: 123
+ALERT::2017-10-29 11:09:36::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:09:36::- Inregistrare email: kanames72@gmail.com
+ALERT::2017-10-29 11:09:36::- Inregistrare fullname: Stefan Stefano
+DEBUG::2017-10-29 11:09:36::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:09:36::- Connection pid: 4984
+ALERT::2017-10-29 11:09:36::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:09:36::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:09:36::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:09:36::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:09:36::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:09:36::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:09:36::- $db_hostV: localhost
+DEBUG::2017-10-29 11:09:36::- conexiune creata cu succese
+DEBUG::2017-10-29 11:09:36::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:09:36::- Check made with Nickname for: kanames
+ALERT::2017-10-29 11:09:36::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:09:37
+DEBUG::2017-10-29 11:09:37::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:09:37::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:09:37::- Brower: Google Chrome
+DEBUG::2017-10-29 11:09:37::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:09:37::- OS: Windows
+DEBUG::2017-10-29 11:09:37::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:09:37::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:09:37::- Connection pid: 4984
+ALERT::2017-10-29 11:09:37::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:09:37::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:09:37::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:09:37::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:09:37::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:09:37::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:09:37::- $db_hostV: localhost
+DEBUG::2017-10-29 11:09:37::- conexiune creata cu succese
+DEBUG::2017-10-29 11:09:37::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:09:49
+DEBUG::2017-10-29 11:09:49::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:09:49::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:09:49::- Inregistrare userName: 
+ALERT::2017-10-29 11:09:49::- Inregistrare password: 123
+ALERT::2017-10-29 11:09:49::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:09:49::- Inregistrare email: stefan.paladuta17@gmail.com
+ALERT::2017-10-29 11:09:49::- Inregistrare fullname: Stefan Stefano
+DEBUG::2017-10-29 11:09:49::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:09:49::- Connection pid: 4984
+ALERT::2017-10-29 11:09:49::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:09:49::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:09:49::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:09:49::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:09:49::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:09:49::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:09:49::- $db_hostV: localhost
+DEBUG::2017-10-29 11:09:49::- conexiune creata cu succese
+DEBUG::2017-10-29 11:09:49::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:09:49::- Check made with E-mail for: stefan.paladuta17@gmail.com
+ALERT::2017-10-29 11:09:49::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:09:50
+DEBUG::2017-10-29 11:09:50::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:09:50::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:09:50::- Brower: Google Chrome
+DEBUG::2017-10-29 11:09:50::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:09:50::- OS: Windows
+DEBUG::2017-10-29 11:09:50::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:09:50::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:09:50::- Connection pid: 4984
+ALERT::2017-10-29 11:09:50::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:09:50::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:09:50::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:09:50::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:09:50::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:09:50::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:09:50::- $db_hostV: localhost
+DEBUG::2017-10-29 11:09:50::- conexiune creata cu succese
+DEBUG::2017-10-29 11:09:50::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:11:05
+DEBUG::2017-10-29 11:11:05::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:11:05::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:11:05::- Brower: Google Chrome
+DEBUG::2017-10-29 11:11:05::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:11:05::- OS: Windows
+DEBUG::2017-10-29 11:11:05::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:11:05::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:11:05::- Connection pid: 4984
+ALERT::2017-10-29 11:11:05::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:11:05::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:11:05::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:11:05::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:11:05::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:11:05::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:11:05::- $db_hostV: localhost
+DEBUG::2017-10-29 11:11:05::- conexiune creata cu succese
+DEBUG::2017-10-29 11:11:05::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:11:25
+DEBUG::2017-10-29 11:11:25::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:11:25::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:11:25::- Brower: Google Chrome
+DEBUG::2017-10-29 11:11:25::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:11:25::- OS: Windows
+DEBUG::2017-10-29 11:11:25::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:11:25::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:11:25::- Connection pid: 4984
+ALERT::2017-10-29 11:11:25::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:11:25::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:11:25::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:11:25::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:11:25::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:11:25::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:11:25::- $db_hostV: localhost
+DEBUG::2017-10-29 11:11:25::- conexiune creata cu succese
+DEBUG::2017-10-29 11:11:25::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:11:29
+DEBUG::2017-10-29 11:11:29::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:11:29::- -> Intrat in LogicFlow pagina 1 <-
+DEBUG::2017-10-29 11:11:29::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:11:29::- Connection pid: 4984
+ALERT::2017-10-29 11:11:29::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:11:29::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:11:29::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:11:29::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:11:29::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:11:29::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:11:29::- $db_hostV: localhost
+DEBUG::2017-10-29 11:11:29::- conexiune creata cu succese
+DEBUG::2017-10-29 11:11:29::- Iesit din constructor Conexiune
+ALERT::2017-10-29 11:11:29::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:11:30
+DEBUG::2017-10-29 11:11:30::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:11:30::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:11:30::- Brower: Google Chrome
+DEBUG::2017-10-29 11:11:30::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:11:30::- OS: Windows
+DEBUG::2017-10-29 11:11:30::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:11:30::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:11:30::- Connection pid: 4984
+ALERT::2017-10-29 11:11:30::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:11:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:11:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:11:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:11:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:11:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:11:30::- $db_hostV: localhost
+DEBUG::2017-10-29 11:11:30::- conexiune creata cu succese
+DEBUG::2017-10-29 11:11:30::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:13:49
+DEBUG::2017-10-29 11:13:49::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:13:49::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:13:49::- Email format check 1/0: 0
+DEBUG::2017-10-29 11:13:49::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:13:49::- Connection pid: 4984
+ALERT::2017-10-29 11:13:49::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:13:49::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:13:49::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:13:49::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:13:49::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:13:49::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:13:49::- $db_hostV: localhost
+DEBUG::2017-10-29 11:13:49::- conexiune creata cu succese
+DEBUG::2017-10-29 11:13:49::- Iesit din constructor Conexiune
+ALERT::2017-10-29 11:13:49::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:13:50
+DEBUG::2017-10-29 11:13:50::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:13:50::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:13:50::- Brower: Google Chrome
+DEBUG::2017-10-29 11:13:50::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:13:50::- OS: Windows
+DEBUG::2017-10-29 11:13:50::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:13:50::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:13:50::- Connection pid: 4984
+ALERT::2017-10-29 11:13:50::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:13:50::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:13:50::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:13:50::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:13:50::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:13:50::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:13:50::- $db_hostV: localhost
+DEBUG::2017-10-29 11:13:50::- conexiune creata cu succese
+DEBUG::2017-10-29 11:13:50::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:14:42
+DEBUG::2017-10-29 11:14:42::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:14:42::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:14:42::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:14:42::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:14:42::- Connection pid: 4984
+ALERT::2017-10-29 11:14:42::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:14:42::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:14:42::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:14:42::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:14:42::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:14:42::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:14:42::- $db_hostV: localhost
+DEBUG::2017-10-29 11:14:42::- conexiune creata cu succese
+DEBUG::2017-10-29 11:14:42::- Iesit din constructor Conexiune
+ALERT::2017-10-29 11:14:42::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:14:43
+DEBUG::2017-10-29 11:14:43::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:14:43::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:14:43::- Brower: Google Chrome
+DEBUG::2017-10-29 11:14:43::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:14:43::- OS: Windows
+DEBUG::2017-10-29 11:14:43::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:14:43::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:14:43::- Connection pid: 4984
+ALERT::2017-10-29 11:14:43::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:14:43::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:14:43::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:14:43::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:14:43::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:14:43::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:14:43::- $db_hostV: localhost
+DEBUG::2017-10-29 11:14:43::- conexiune creata cu succese
+DEBUG::2017-10-29 11:14:43::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:14:50
+DEBUG::2017-10-29 11:14:50::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:14:50::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:14:50::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:14:50::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:14:50::- Connection pid: 4984
+ALERT::2017-10-29 11:14:50::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:14:50::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:14:50::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:14:50::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:14:50::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:14:50::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:14:50::- $db_hostV: localhost
+DEBUG::2017-10-29 11:14:50::- conexiune creata cu succese
+DEBUG::2017-10-29 11:14:50::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:14:50::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:14:50::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:14:50::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:14:53
+DEBUG::2017-10-29 11:14:53::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:14:53::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:14:53::- Brower: Google Chrome
+DEBUG::2017-10-29 11:14:53::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:14:53::- OS: Windows
+DEBUG::2017-10-29 11:14:53::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:14:53::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:14:53::- Connection pid: 4984
+ALERT::2017-10-29 11:14:53::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:14:53::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:14:53::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:14:53::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:14:53::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:14:53::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:14:53::- $db_hostV: localhost
+DEBUG::2017-10-29 11:14:53::- conexiune creata cu succese
+DEBUG::2017-10-29 11:14:53::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:14:56
+DEBUG::2017-10-29 11:14:56::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:14:56::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:14:56::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:14:56::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:14:56::- Connection pid: 4984
+ALERT::2017-10-29 11:14:56::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:14:56::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:14:56::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:14:56::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:14:56::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:14:56::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:14:56::- $db_hostV: localhost
+DEBUG::2017-10-29 11:14:56::- conexiune creata cu succese
+DEBUG::2017-10-29 11:14:56::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:14:56::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:14:56::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:14:56::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:14:59
+DEBUG::2017-10-29 11:14:59::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:14:59::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:14:59::- Brower: Google Chrome
+DEBUG::2017-10-29 11:14:59::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:14:59::- OS: Windows
+DEBUG::2017-10-29 11:14:59::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:14:59::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:14:59::- Connection pid: 4984
+ALERT::2017-10-29 11:14:59::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:14:59::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:14:59::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:14:59::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:14:59::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:14:59::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:14:59::- $db_hostV: localhost
+DEBUG::2017-10-29 11:14:59::- conexiune creata cu succese
+DEBUG::2017-10-29 11:14:59::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:16:16
+DEBUG::2017-10-29 11:16:16::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:16:16::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:16:16::- Brower: Google Chrome
+DEBUG::2017-10-29 11:16:16::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:16:16::- OS: Windows
+DEBUG::2017-10-29 11:16:16::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:16:16::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:16:16::- Connection pid: 4984
+ALERT::2017-10-29 11:16:16::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:16:16::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:16:16::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:16:16::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:16:16::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:16:16::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:16:16::- $db_hostV: localhost
+DEBUG::2017-10-29 11:16:16::- conexiune creata cu succese
+DEBUG::2017-10-29 11:16:16::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:16:24
+DEBUG::2017-10-29 11:16:24::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:16:24::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:16:24::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:16:24::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:16:24::- Connection pid: 4984
+ALERT::2017-10-29 11:16:24::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:16:24::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:16:24::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:16:24::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:16:24::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:16:24::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:16:24::- $db_hostV: localhost
+DEBUG::2017-10-29 11:16:24::- conexiune creata cu succese
+DEBUG::2017-10-29 11:16:24::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:16:24::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:16:24::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:16:24::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:16:27
+DEBUG::2017-10-29 11:16:27::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:16:27::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:16:27::- Brower: Google Chrome
+DEBUG::2017-10-29 11:16:27::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:16:27::- OS: Windows
+DEBUG::2017-10-29 11:16:27::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:16:27::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:16:27::- Connection pid: 4984
+ALERT::2017-10-29 11:16:27::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:16:27::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:16:27::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:16:27::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:16:27::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:16:27::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:16:27::- $db_hostV: localhost
+DEBUG::2017-10-29 11:16:27::- conexiune creata cu succese
+DEBUG::2017-10-29 11:16:27::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:16:41
+DEBUG::2017-10-29 11:16:41::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:16:41::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:16:41::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:16:41::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:16:41::- Connection pid: 4984
+ALERT::2017-10-29 11:16:41::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:16:41::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:16:41::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:16:41::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:16:41::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:16:41::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:16:41::- $db_hostV: localhost
+DEBUG::2017-10-29 11:16:41::- conexiune creata cu succese
+DEBUG::2017-10-29 11:16:41::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:16:41::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:16:41::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:16:41::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:16:44
+DEBUG::2017-10-29 11:16:44::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:16:44::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:16:44::- Brower: Google Chrome
+DEBUG::2017-10-29 11:16:44::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:16:44::- OS: Windows
+DEBUG::2017-10-29 11:16:44::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:16:44::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:16:44::- Connection pid: 4984
+ALERT::2017-10-29 11:16:44::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:16:44::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:16:44::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:16:44::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:16:44::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:16:44::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:16:44::- $db_hostV: localhost
+DEBUG::2017-10-29 11:16:44::- conexiune creata cu succese
+DEBUG::2017-10-29 11:16:44::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:17:46
+DEBUG::2017-10-29 11:17:46::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:17:46::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:17:46::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:17:46::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:17:46::- Connection pid: 4984
+ALERT::2017-10-29 11:17:46::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:17:46::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:17:46::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:17:46::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:17:46::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:17:46::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:17:46::- $db_hostV: localhost
+DEBUG::2017-10-29 11:17:46::- conexiune creata cu succese
+DEBUG::2017-10-29 11:17:46::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:17:46::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:17:46::- Check made with nickname and pass 1/0 : 
+DEBUG::2017-10-29 11:17:46::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:17:46::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:18:13
+DEBUG::2017-10-29 11:18:13::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:18:13::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:18:13::- Brower: Google Chrome
+DEBUG::2017-10-29 11:18:13::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:18:13::- OS: Windows
+DEBUG::2017-10-29 11:18:13::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:18:13::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:18:13::- Connection pid: 4984
+ALERT::2017-10-29 11:18:13::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:18:13::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:18:13::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:18:13::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:18:13::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:18:13::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:18:13::- $db_hostV: localhost
+DEBUG::2017-10-29 11:18:13::- conexiune creata cu succese
+DEBUG::2017-10-29 11:18:13::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:18:18
+DEBUG::2017-10-29 11:18:18::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:18:18::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:18:18::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:18:18::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:18:18::- Connection pid: 4984
+ALERT::2017-10-29 11:18:18::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:18:18::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:18:18::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:18:18::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:18:18::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:18:18::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:18:18::- $db_hostV: localhost
+DEBUG::2017-10-29 11:18:18::- conexiune creata cu succese
+DEBUG::2017-10-29 11:18:18::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:18:18::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:18:18::- Check made with nickname and pass 1/0 : 
+DEBUG::2017-10-29 11:18:18::- Punerea in sesiune a lui login: 1
+ALERT::2017-10-29 11:18:18::- -> Iesire in LogicFlow pagina 1 succes <-
+----------------------------------------------------------2017-10-29 11:19:08
+DEBUG::2017-10-29 11:19:08::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:19:08::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:19:08::- Brower: Google Chrome
+DEBUG::2017-10-29 11:19:08::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:19:08::- OS: Windows
+DEBUG::2017-10-29 11:19:08::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:19:08::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:08::- Connection pid: 4984
+ALERT::2017-10-29 11:19:08::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:08::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:08::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:08::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:08::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:08::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:08::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:08::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:08::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:19:11
+DEBUG::2017-10-29 11:19:11::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:19:11::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:19:11::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:19:11::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:11::- Connection pid: 4984
+ALERT::2017-10-29 11:19:11::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:11::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:11::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:11::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:11::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:11::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:11::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:11::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:11::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:19:11::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:19:11::- Check made with nickname and pass 1/0 : 
+ALERT::2017-10-29 11:19:11::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:19:12
+DEBUG::2017-10-29 11:19:12::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:19:12::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:19:12::- Brower: Google Chrome
+DEBUG::2017-10-29 11:19:12::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:19:12::- OS: Windows
+DEBUG::2017-10-29 11:19:12::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:19:12::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:12::- Connection pid: 4984
+ALERT::2017-10-29 11:19:12::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:12::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:12::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:12::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:12::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:12::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:12::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:12::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:12::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:19:17
+DEBUG::2017-10-29 11:19:17::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:19:17::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:19:17::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:19:17::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:17::- Connection pid: 4984
+ALERT::2017-10-29 11:19:17::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:17::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:17::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:17::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:19:17::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:19:17::- Check made with nickname and pass 1/0 : 
+ALERT::2017-10-29 11:19:17::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:19:17
+DEBUG::2017-10-29 11:19:17::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:19:17::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:19:17::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:19:17::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:17::- Connection pid: 4984
+ALERT::2017-10-29 11:19:17::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:17::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:17::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:17::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:17::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:19:17::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:19:17::- Check made with nickname and pass 1/0 : 
+ALERT::2017-10-29 11:19:17::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:19:18
+DEBUG::2017-10-29 11:19:18::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:19:18::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:19:18::- Brower: Google Chrome
+DEBUG::2017-10-29 11:19:18::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:19:18::- OS: Windows
+DEBUG::2017-10-29 11:19:18::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:19:18::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:18::- Connection pid: 4984
+ALERT::2017-10-29 11:19:18::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:18::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:18::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:18::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:18::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:18::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:18::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:18::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:18::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:19:26
+DEBUG::2017-10-29 11:19:26::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:19:26::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:19:26::- Email format check 1/0: 0
+DEBUG::2017-10-29 11:19:26::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:26::- Connection pid: 4984
+ALERT::2017-10-29 11:19:26::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:26::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:26::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:26::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:26::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:26::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:26::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:26::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:26::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:19:26::- Check made with Nickname for: kanames
+DEBUG::2017-10-29 11:19:26::- Check made with nickname and pass 1/0 : 
+ALERT::2017-10-29 11:19:26::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:19:28
+DEBUG::2017-10-29 11:19:28::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:19:28::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:19:28::- Brower: Google Chrome
+DEBUG::2017-10-29 11:19:28::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:19:28::- OS: Windows
+DEBUG::2017-10-29 11:19:28::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:19:28::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:28::- Connection pid: 4984
+ALERT::2017-10-29 11:19:28::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:28::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:28::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:28::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:28::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:28::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:28::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:28::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:28::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:19:32
+DEBUG::2017-10-29 11:19:32::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:19:32::- -> Intrat in LogicFlow pagina 1 <-
+ALERT::2017-10-29 11:19:32::- Email format check 1/0: 1
+DEBUG::2017-10-29 11:19:32::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:32::- Connection pid: 4984
+ALERT::2017-10-29 11:19:32::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:32::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:32::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:32::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:32::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:32::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:32::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:32::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:32::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:19:32::- Check made with E-mail for: stefan.paladuta17@gmail.com
+DEBUG::2017-10-29 11:19:32::- Check made with nickname and pass 1/0 : 
+ALERT::2017-10-29 11:19:32::- -> Iesire in LogicFlow pagina 1 fail  <-
+----------------------------------------------------------2017-10-29 11:19:33
+DEBUG::2017-10-29 11:19:33::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:19:33::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:19:33::- Brower: Google Chrome
+DEBUG::2017-10-29 11:19:33::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:19:33::- OS: Windows
+DEBUG::2017-10-29 11:19:33::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:19:33::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:19:33::- Connection pid: 4984
+ALERT::2017-10-29 11:19:33::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:19:33::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:19:33::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:19:33::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:19:33::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:19:33::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:19:33::- $db_hostV: localhost
+DEBUG::2017-10-29 11:19:33::- conexiune creata cu succese
+DEBUG::2017-10-29 11:19:33::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:20:11
+DEBUG::2017-10-29 11:20:11::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:20:11::- -> Intrat in LogicFlow pagina 04 <-
+DEBUG::2017-10-29 11:20:11::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:11::- Connection pid: 4984
+ALERT::2017-10-29 11:20:11::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:11::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:11::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:11::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:11::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:11::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:11::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:11::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:11::- Iesit din constructor Conexiune
+ALERT::2017-10-29 11:20:11::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:20:12
+DEBUG::2017-10-29 11:20:12::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:20:12::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:20:12::- Brower: Google Chrome
+DEBUG::2017-10-29 11:20:12::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:20:12::- OS: Windows
+DEBUG::2017-10-29 11:20:12::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:20:12::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:12::- Connection pid: 4984
+ALERT::2017-10-29 11:20:12::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:12::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:12::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:12::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:12::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:12::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:12::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:12::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:12::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:20:24
+DEBUG::2017-10-29 11:20:24::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:20:24::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:20:24::- Brower: Google Chrome
+DEBUG::2017-10-29 11:20:24::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:20:24::- OS: Windows
+DEBUG::2017-10-29 11:20:24::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:20:24::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:24::- Connection pid: 4984
+ALERT::2017-10-29 11:20:24::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:24::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:24::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:24::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:24::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:24::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:24::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:24::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:24::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:20:36
+DEBUG::2017-10-29 11:20:36::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:20:36::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:20:36::- Inregistrare userName: 
+ALERT::2017-10-29 11:20:36::- Inregistrare password: 123
+ALERT::2017-10-29 11:20:36::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:20:36::- Inregistrare email: gdasfhfd
+ALERT::2017-10-29 11:20:36::- Email format check 1/0: 0
+ALERT::2017-10-29 11:20:36::- Inregistrare fullname: Stefan Stefano
+DEBUG::2017-10-29 11:20:36::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:36::- Connection pid: 4984
+ALERT::2017-10-29 11:20:36::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:36::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:36::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:36::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:36::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:36::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:36::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:36::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:36::- Iesit din constructor Conexiune
+ALERT::2017-10-29 11:20:36::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:20:37
+DEBUG::2017-10-29 11:20:37::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:20:37::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:20:37::- Brower: Google Chrome
+DEBUG::2017-10-29 11:20:37::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:20:37::- OS: Windows
+DEBUG::2017-10-29 11:20:37::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:20:37::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:37::- Connection pid: 4984
+ALERT::2017-10-29 11:20:37::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:37::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:37::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:37::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:37::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:37::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:37::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:37::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:37::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:20:49
+DEBUG::2017-10-29 11:20:49::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:20:49::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:20:49::- Inregistrare userName: 
+ALERT::2017-10-29 11:20:49::- Inregistrare password: 23
+ALERT::2017-10-29 11:20:49::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:20:49::- Inregistrare email: kanamesgasdg
+ALERT::2017-10-29 11:20:49::- Email format check 1/0: 0
+ALERT::2017-10-29 11:20:49::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 11:20:49::- Inregistrare gender: M
+ALERT::2017-10-29 11:20:49::- Inregistrare agree: on
+DEBUG::2017-10-29 11:20:49::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:49::- Connection pid: 4984
+ALERT::2017-10-29 11:20:49::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:49::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:49::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:49::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:49::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:49::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:49::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:49::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:49::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:20:49::- Id-ul contului creat: 32
+DEBUG::2017-10-29 11:20:49::- ->crearea profilului.
+ALERT::2017-10-29 11:20:49::- -> Iesire in LogicFlow pagina 4 succes <-
+----------------------------------------------------------2017-10-29 11:20:50
+DEBUG::2017-10-29 11:20:50::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:20:50::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:20:50::- Brower: Google Chrome
+DEBUG::2017-10-29 11:20:50::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:20:50::- OS: Windows
+DEBUG::2017-10-29 11:20:50::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:20:50::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:20:50::- Connection pid: 4984
+ALERT::2017-10-29 11:20:50::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:20:50::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:20:50::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:20:50::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:20:50::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:20:50::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:20:50::- $db_hostV: localhost
+DEBUG::2017-10-29 11:20:50::- conexiune creata cu succese
+DEBUG::2017-10-29 11:20:50::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:21:22
+DEBUG::2017-10-29 11:21:22::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:21:22::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:21:22::- Brower: Google Chrome
+DEBUG::2017-10-29 11:21:22::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:21:22::- OS: Windows
+DEBUG::2017-10-29 11:21:22::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:21:22::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:21:22::- Connection pid: 4984
+ALERT::2017-10-29 11:21:22::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:21:22::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:21:22::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:21:22::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:21:22::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:21:22::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:21:22::- $db_hostV: localhost
+DEBUG::2017-10-29 11:21:22::- conexiune creata cu succese
+DEBUG::2017-10-29 11:21:22::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:23:42
+DEBUG::2017-10-29 11:23:42::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:23:42::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:23:42::- Inregistrare userName: 
+ALERT::2017-10-29 11:23:42::- Inregistrare password: 123
+ALERT::2017-10-29 11:23:42::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:23:42::- Inregistrare email: kanamesgasdg
+ALERT::2017-10-29 11:23:42::- Email format check 1/0: 0
+ALERT::2017-10-29 11:23:42::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 11:23:42::- Inregistrare gender: M
+ALERT::2017-10-29 11:23:42::- Inregistrare agree: on
+DEBUG::2017-10-29 11:23:42::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:23:42::- Connection pid: 4984
+ALERT::2017-10-29 11:23:42::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:23:42::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:23:42::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:23:42::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:23:42::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:23:42::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:23:42::- $db_hostV: localhost
+DEBUG::2017-10-29 11:23:42::- conexiune creata cu succese
+DEBUG::2017-10-29 11:23:42::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:23:42::- Check made with E-mail for: kanamesgasdg
+ALERT::2017-10-29 11:23:42::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:23:44
+DEBUG::2017-10-29 11:23:44::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:23:44::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:23:44::- Brower: Google Chrome
+DEBUG::2017-10-29 11:23:44::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:23:44::- OS: Windows
+DEBUG::2017-10-29 11:23:44::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:23:44::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:23:44::- Connection pid: 4984
+ALERT::2017-10-29 11:23:44::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:23:44::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:23:44::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:23:44::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:23:44::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:23:44::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:23:44::- $db_hostV: localhost
+DEBUG::2017-10-29 11:23:44::- conexiune creata cu succese
+DEBUG::2017-10-29 11:23:44::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:23:58
+DEBUG::2017-10-29 11:23:58::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:23:58::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:23:58::- Inregistrare userName: 
+ALERT::2017-10-29 11:23:58::- Inregistrare password: 123
+ALERT::2017-10-29 11:23:58::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:23:58::- Inregistrare email: kanames
+ALERT::2017-10-29 11:23:58::- Email format check 1/0: 0
+ALERT::2017-10-29 11:23:58::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 11:23:58::- Inregistrare gender: M
+ALERT::2017-10-29 11:23:58::- Inregistrare agree: on
+DEBUG::2017-10-29 11:23:58::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:23:58::- Connection pid: 4984
+ALERT::2017-10-29 11:23:58::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:23:58::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:23:58::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:23:58::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:23:58::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:23:58::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:23:58::- $db_hostV: localhost
+DEBUG::2017-10-29 11:23:58::- conexiune creata cu succese
+DEBUG::2017-10-29 11:23:58::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:23:58::- Check made with Nickname for: Kanames
+ALERT::2017-10-29 11:23:58::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:23:59
+DEBUG::2017-10-29 11:23:59::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:23:59::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:23:59::- Brower: Google Chrome
+DEBUG::2017-10-29 11:23:59::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:23:59::- OS: Windows
+DEBUG::2017-10-29 11:23:59::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:23:59::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:23:59::- Connection pid: 4984
+ALERT::2017-10-29 11:23:59::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:23:59::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:23:59::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:23:59::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:23:59::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:23:59::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:23:59::- $db_hostV: localhost
+DEBUG::2017-10-29 11:23:59::- conexiune creata cu succese
+DEBUG::2017-10-29 11:23:59::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:24:08
+DEBUG::2017-10-29 11:24:08::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:24:08::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:24:08::- Inregistrare userName: 
+ALERT::2017-10-29 11:24:08::- Inregistrare password: 213
+ALERT::2017-10-29 11:24:08::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:24:08::- Inregistrare email: kana3123
+ALERT::2017-10-29 11:24:08::- Email format check 1/0: 0
+ALERT::2017-10-29 11:24:08::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 11:24:08::- Inregistrare gender: M
+ALERT::2017-10-29 11:24:08::- Inregistrare agree: on
+DEBUG::2017-10-29 11:24:08::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:24:08::- Connection pid: 4984
+ALERT::2017-10-29 11:24:08::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:24:08::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:24:08::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:24:08::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:24:08::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:24:08::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:24:08::- $db_hostV: localhost
+DEBUG::2017-10-29 11:24:08::- conexiune creata cu succese
+DEBUG::2017-10-29 11:24:08::- Iesit din constructor Conexiune
+DEBUG::2017-10-29 11:24:08::- Id-ul contului creat: 33
+DEBUG::2017-10-29 11:24:08::- ->crearea profilului.
+ALERT::2017-10-29 11:24:08::- -> Iesire in LogicFlow pagina 4 succes <-
+----------------------------------------------------------2017-10-29 11:24:09
+DEBUG::2017-10-29 11:24:09::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:24:09::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:24:09::- Brower: Google Chrome
+DEBUG::2017-10-29 11:24:09::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:24:09::- OS: Windows
+DEBUG::2017-10-29 11:24:09::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:24:09::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:24:09::- Connection pid: 4984
+ALERT::2017-10-29 11:24:09::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:24:09::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:24:09::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:24:09::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:24:09::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:24:09::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:24:09::- $db_hostV: localhost
+DEBUG::2017-10-29 11:24:09::- conexiune creata cu succese
+DEBUG::2017-10-29 11:24:09::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:25:30
+DEBUG::2017-10-29 11:25:30::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:25:30::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:25:30::- Brower: Google Chrome
+DEBUG::2017-10-29 11:25:30::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:25:30::- OS: Windows
+DEBUG::2017-10-29 11:25:30::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:25:30::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:25:30::- Connection pid: 4984
+ALERT::2017-10-29 11:25:30::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:25:30::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:25:30::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:25:30::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:25:30::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:25:30::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:25:30::- $db_hostV: localhost
+DEBUG::2017-10-29 11:25:30::- conexiune creata cu succese
+DEBUG::2017-10-29 11:25:30::- Iesit din constructor Conexiune
+----------------------------------------------------------2017-10-29 11:25:37
+DEBUG::2017-10-29 11:25:37::- Log4Debug pid: 4984
+ALERT::2017-10-29 11:25:37::- -> Intrat in LogicFlow pagina 04 <-
+ALERT::2017-10-29 11:25:37::- Inregistrare userName: 
+ALERT::2017-10-29 11:25:37::- Inregistrare password: 123
+ALERT::2017-10-29 11:25:37::- Inregistrare password_confirm: 123
+ALERT::2017-10-29 11:25:37::- Inregistrare email: kana3123
+ALERT::2017-10-29 11:25:37::- Inregistrare fullname: Stefan Stefano
+ALERT::2017-10-29 11:25:37::- Inregistrare gender: M
+ALERT::2017-10-29 11:25:37::- Inregistrare agree: on
+ALERT::2017-10-29 11:25:37::- Email format check 1/0: 0
+ALERT::2017-10-29 11:25:37::- -> Iesire in LogicFlow pagina 4 fail <-
+----------------------------------------------------------2017-10-29 11:25:38
+DEBUG::2017-10-29 11:25:38::- Log4Debug pid: 4984
+DEBUG::2017-10-29 11:25:38::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2017-10-29 11:25:38::- Brower: Google Chrome
+DEBUG::2017-10-29 11:25:38::- Brower version: 61.0.3163.
+DEBUG::2017-10-29 11:25:38::- OS: Windows
+DEBUG::2017-10-29 11:25:38::- IP: 127.0.0.1
+DEBUG::2017-10-29 11:25:38::- Intrat in constructor Conexiune
+DEBUG::2017-10-29 11:25:38::- Connection pid: 4984
+ALERT::2017-10-29 11:25:38::- Loaded configInfoDB.ini: 
+DEBUG::2017-10-29 11:25:38::- ARRAY Array: (KEY)DbUserName - (VALUE)user_pie
+DEBUG::2017-10-29 11:25:38::- ARRAY Array: (KEY)DbUserPass - (VALUE)proiectpie
+DEBUG::2017-10-29 11:25:38::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2017-10-29 11:25:38::- ARRAY Array: (KEY)DbIP - (VALUE)5.15.221.120
+DEBUG::2017-10-29 11:25:38::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2017-10-29 11:25:38::- $db_hostV: localhost
+DEBUG::2017-10-29 11:25:38::- conexiune creata cu succese
+DEBUG::2017-10-29 11:25:38::- Iesit din constructor Conexiune

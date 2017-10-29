@@ -6,7 +6,7 @@ spl_autoload_register('my_autoloader');
 #Pas  hash the password la inregistare !!!!
 //$userPassInput = password_hash($userPassIn,PASSWORD_DEFAULT);
     $log4Debug =Log4DebugFactory::getLog4DebugObject();
-    $log4Debug->debug_String("-> Intrat in LogicFlow pagina 1 <-");
+    $log4Debug->alert_String("-> Intrat in LogicFlow pagina 1 <-");
     try{
         #Pas  scoaterea datelor din form
         IF(isset( $_REQUEST['tmp_username'])){
@@ -25,11 +25,22 @@ spl_autoload_register('my_autoloader');
             throw new Exception("Lipseste user password");
         }
 
-        handlerDB::checkEmailOrNickname($userName);                         #Pas  check if account does exist with this EMAIL or NICKNAME
-        handlerDB::getUserWithEmailOrNicknameAndPass($userName,$userPassIn);          #Pas  check if password incorrect
+        if(Filtre::checkEmailFormat($userName)){#Pas  check if account does exist with this EMAIL or NICKNAME
+            handlerDB::checkEmail($userName);
+            if(handlerDB::checkExistUserNicknameAndPass($userName,$userPassIn) !== true ){#Pas  check if password incorrect
+                throw new Exception("Parola gresita !");
+            }
+        }else{
+            handlerDB::checkNickname($userName);
+            if(handlerDB::checkExistUserEmailAndPass($userName,$userPassIn) !== true ){#Pas  check if password incorrect
+                throw new Exception("Parola gresita !");
+            }
+
+        }
+
         $_SESSION['SESSION_LOGIN_USER'] = true;
-        $log4Debug->debug_StringValue("Punerea in sesiune a lui SESSION_LOGIN_USER: ",$_SESSION['SESSION_LOGIN_USER']);
-        $log4Debug->debug_String("-> Iesire in LogicFlow pagina 1 succes <-");
+        $log4Debug->debug_StringValue("Punerea in sesiune a lui login: ",$_SESSION['SESSION_LOGIN_USER']);
+        $log4Debug->alert_String("-> Iesire in LogicFlow pagina 1 succes <-");
         header("Location: ../../../web_resources/web_pages/BackPagina06.php");
     }catch(Exception $exceptione){
         session_start();

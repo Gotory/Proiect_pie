@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
 #-------------------------------------------------------------------- 1.0 START-Logarea utilizatorului inregistrat/neinregistrat pe site

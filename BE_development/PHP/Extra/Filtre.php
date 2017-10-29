@@ -5,11 +5,16 @@ Class Filtre{
 
 
         public static function checkEmailFormat($emailFormat){
-           $rez = preg_match(self::E_MAIL_FORMAT,$emailFormat);
-           if($rez !== 1){
-                throw new Exception("Formatul la mail este gresit");
-           }
-           return true;
+            $log4Debug = Log4DebugFactory::getLog4DebugObject();
+            settype($exist,"boolean");
+            $exist=true;
+            $rez = preg_match(self::E_MAIL_FORMAT,$emailFormat);
+            $log4Debug->alert_StringValue("Email format check 1/0: ",$rez);
+            if($rez !== 1){
+                //throw new Exception("Formatul la mail este gresit");
+               $exist=false;
+            }
+             return $exist;
         }
 
         public static function getTypeArgument($arg){

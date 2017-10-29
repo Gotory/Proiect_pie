@@ -79,14 +79,18 @@ class Log4Debug implements ILog4Debug{
             handlerDB::logVisitor($adresaIP,$brower,$browerVersion,$os);
     }
 
-    public function  setLog4Debug($obj){
+    public function setLog4Debug($obj){
         $this->logObje=$obj;
     }
-    public static function getLog4Debug(){
+    public function getLog4Debug(){
+        return $this->logObje;
+    }
+
+    public static function getInstanceOfLog4Debug(){
         #start
         static $instance = null;
         if(null==$instance){
-            $instance = new Log4Debug();
+            $instance = (new Log4Debug())->getLog4Debug();
         }else{
             #using same obj
             //echo "same object";

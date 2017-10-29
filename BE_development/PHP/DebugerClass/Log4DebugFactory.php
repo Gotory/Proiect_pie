@@ -6,6 +6,6 @@ class Log4DebugFactory
 {
     public static function getLog4DebugObject()
     {
-        return Log4Debug::getLog4Debug();
+        return Log4Debug::getInstanceOfLog4Debug();
     }
 }
