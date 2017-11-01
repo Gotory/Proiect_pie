@@ -1,6 +1,6 @@
 <?php
 Class Filtre{
-        CONST E_MAIL_FORMAT = "/^[a-zA-Z1-9._]{3,}@[a-zA-Z1-9]{2,15}[.][a-zA-z1-9]{2,5}/";
+        CONST E_MAIL_FORMAT = "/^[a-zA-Z1-9._]{3,}@[a-zA-Z1-9]{2,15}[.][a-zA-z1-9]{2,3}/";
 
         public static function checkEmailFormat($emailFormat){
             $log4Debug = Log4DebugFactory::getLog4DebugObject();
@@ -22,8 +22,9 @@ Class Filtre{
         }
 
         public static function checkTypeInput($argInput,$argumentType){
-            $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $argInputClean = htmlEntities($argInput);
+             $log4Debug = Log4DebugFactory::getLog4DebugObject();
+             $argInputClean = htmlEntities($argInput);
+             $argInputClean = Filtre::trimSpace($argInputClean);
              if(strpos($argInputClean, '&lt;') !== false || strpos($argInputClean, '&gt;') !== false){
                  $log4Debug->alert_StringValue("Tentativa mallware cu: ",$argInputClean);
                  throw new Exception("Tentativa de mallware !");
@@ -34,7 +35,20 @@ Class Filtre{
                 $log4Debug->alert_StringValue("Formatul datelor, argumentul trebuie sa fie $argumentType dar este: ",$argInputClean);
                  throw new Exception("Verifica formatul introdus a datelor.");
             }
+            $log4Debug->debug_StringValue("Final clearning var: ",$argInputClean);
+            return $argInputClean;
 
+        }
+
+    public static function trimSpace($argInput){
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $argInputProcessed = trim($argInput);
+        $log4Debug->debug_StringValue("Lungimea: ",strlen( $argInputProcessed ));
+        if(strlen( $argInputProcessed ) <= 0){
+            throw new Exception("Fara spatii !");
+        }
+        $log4Debug->debug_StringValue("Var. with clean spaces: ",$argInputProcessed);
+        return $argInputProcessed;
     }
 
 }

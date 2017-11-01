@@ -4,32 +4,29 @@ spl_autoload_register('my_autoloader');
 
 #Pas  hash the password la inregistare !!!!
 //$userPassInput = password_hash($userPassIn,PASSWORD_DEFAULT);
-
 $log4Debug = Log4DebugFactory::getLog4DebugObject();
 $log4Debug->alert_String("-> Intrat in LogicFlow pagina 04 <-");
 try {
     #Pas  scoaterea datelor din form
     IF (isset($_REQUEST['reg_username'])) {
-        Filtre::checkTypeInput($_REQUEST['reg_username'], "string");
-        $reg_username = $_REQUEST['reg_username'];
+        $reg_username = Filtre::checkTypeInput($_REQUEST['reg_username'], "string");
         $log4Debug->alert_StringValue("Inregistrare userName: ", $reg_username);
     }
     IF (isset($_REQUEST['reg_password_confirm']) && isset($_REQUEST['reg_password'])) {
-        Filtre::checkTypeInput($_REQUEST['reg_password_confirm'], "string");
-        Filtre::checkTypeInput($_REQUEST['reg_password'], "string");
-        $reg_password = $_REQUEST['reg_password'];
+         Filtre::checkTypeInput($_REQUEST['reg_password_confirm'], "string");
+         Filtre::checkTypeInput($_REQUEST['reg_password'], "string");
         $reg_password_confirm = $_REQUEST['reg_password_confirm'];
+        $reg_password =$_REQUEST['reg_password'];
         $log4Debug->alert_StringValue("Inregistrare password: ", $reg_password);
         $log4Debug->alert_StringValue("Inregistrare password_confirm: ", $reg_password_confirm);
         $reg_password_final = password_hash($reg_password, PASSWORD_DEFAULT);
     }
     IF (isset($_REQUEST['reg_email'])) {
-        $reg_email = $_REQUEST['reg_email'];
+        $reg_email = Filtre::checkTypeInput($_REQUEST['reg_email'], "string");
         $log4Debug->alert_StringValue("Inregistrare email: ", $reg_email);
     }
     IF (isset($_REQUEST['reg_fullname'])) {
-        Filtre::checkTypeInput($_REQUEST['reg_fullname'], "string");
-        $reg_fullname = $_REQUEST['reg_fullname'];
+        $reg_fullname = Filtre::checkTypeInput($_REQUEST['reg_fullname'], "string");
         $log4Debug->alert_StringValue("Inregistrare fullname: ", $reg_fullname);
         $reg_fullnameArray = $pieces = explode(" ", $reg_fullname);
     }

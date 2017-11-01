@@ -9,8 +9,8 @@ try {
     #Scoaterea datelor din form
     #Username
     IF (isset($_REQUEST['tmp_username'])) {
-        Filtre::checkTypeInput($_REQUEST['tmp_username'], "string");
-        $userName = $_REQUEST['tmp_username'];
+
+        $userName = Filtre::checkTypeInput($_REQUEST['tmp_username'], "string");
     } ELSE {
         throw new Exception("Lipseste user name");
     }
