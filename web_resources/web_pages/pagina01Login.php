@@ -48,11 +48,11 @@ session_start();
 				<div class="login-group">
 					<div class="form-group">
 						<label for="lg_username" class="sr-only">Username</label>
-						<input type="text" class="form-control" id="lg_username" name="tmp_username" placeholder="username or email" required>
+						<input type="text" class="form-control" id="lg_username" name="tmp_username" placeholder="username or email" pattern=".{3,}"   title="Trebuie sa contina min 3 caractere" required>
 					</div>
 					<div class="form-group">
 						<label for="lg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="lg_password" name="tmp_password" placeholder="password" required>
+						<input type="password" class="form-control" id="lg_password" name="tmp_password" placeholder="password" maxlength=15" pattern=".{5,15}" title="Parola trebuie sa aiba min 5 si maxim 15 caractere" required >
 					</div>
 					<div class="form-group login-group-checkbox">
 						<input type="checkbox" id="lg_remember" name="tmp_remember">

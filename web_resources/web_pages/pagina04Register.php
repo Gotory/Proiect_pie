@@ -31,24 +31,24 @@ session_start();
 				<div class="login-group">
 					<div class="form-group">
 						<label for="reg_username" class="sr-only">Email address</label>
-						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="nickname" required>
+						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="nickname" required pattern=".{3,}"   title="Trebuie sa contina min 3 caractere" required>
 					</div>
 					<div class="form-group">
 						<label for="reg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password" required>
+						<input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password" maxlength=15" pattern=".{5,15}" title="Parola trebuie sa aiba min 5 si maxim 15 caractere" required >
 					</div>
 					<div class="form-group">
 						<label for="reg_password_confirm" class="sr-only">Password Confirm</label>
-						<input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password" required>
+						<input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password" maxlength=15" pattern=".{5,15}" title="Parola trebuie sa aiba min 5 si maxim 15 caractere" required >
 					</div>
 
 					<div class="form-group">
 						<label for="reg_email" class="sr-only">Email</label>
-						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email" required>
+						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email" pattern=".{7,}"   title="Trebuie sa contina min 7 caractere" required>
 					</div>
 					<div class="form-group">
 						<label for="reg_fullname" class="sr-only">Full Name</label>
-						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name" required>
+						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name"  pattern=".{5,}"   title="Trebuie sa contina min 5 caractere" required>
 					</div>
 
 					<div class="form-group login-group-checkbox">
