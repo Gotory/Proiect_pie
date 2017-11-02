@@ -48,9 +48,9 @@ try {
 //      echo "File: ".$exceptione->getFile()."<br>";
 //      echo "Line: ".$exceptione->getLine()."<br>";
 //      echo "Msg: " .$exceptione->getMessage()."<br>";
-    $log4Debug->alert_String("-> Iesire in LogicFlow pagina 1 fail  <-");
-    header("Location: ../../../web_resources/web_pages/BackPagina01.php");
-}
+        $log4Debug->alert_String("-> Iesire din LogicFlow pagina 1 fail  <-");
+        header("Location: ../../../web_resources/web_pages/BackPagina01.php");
+    }
 
 
 

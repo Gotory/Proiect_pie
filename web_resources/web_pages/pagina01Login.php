@@ -1,14 +1,12 @@
 <?php
-session_start();
 include_once('../SPL_MODULE_STEFAN.php');
 spl_autoload_register('my_autoloader');
 #-------------------------------------------------------------------- 1.0 START-Logarea utilizatorului inregistrat/neinregistrat pe site
     $log4Debug = Log4DebugFactory::getLog4DebugObject();
-    $log4Debug->debug_String("apelat");
+    $log4Debug->alert_String('object log4Debug created in pagina01Login.php');
     $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
 #-------------------------------------------------------------------- 1.0 END-Logarea utilizatorului inregistrat/neinregistrat pe site
 
-session_start();
 ?>
 <!-- Introducerea form-ului -->
 <div class="text-center" style="padding:50px 0">

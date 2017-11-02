@@ -4,6 +4,8 @@ class handlerDB
 
     public static function logVisitor($adresaIP, $brower, $browerVersion, $os)
     {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: logVisitor");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("INSERT INTO web_project_pie.ch_visitlog (CH_VISITLOG_IP,CH_VISITLOG_BROWSER,CH_VISITLOG_BROWSER_VER,CH_VISITLOG_OS) VALUES (:ip, :brower, :brower_version, :os)");
         $stmt->bindParam(':ip', $adresaIP, PDO::PARAM_STR);
@@ -11,7 +13,7 @@ class handlerDB
         $stmt->bindParam(':brower_version', $browerVersion, PDO::PARAM_STR);
         $stmt->bindParam(':os', $os, PDO::PARAM_STR);
         $stmt->execute();
-        //print "procedure returned $return_value\n";
+        $log4Debug->debug_String("^^handlerDB^^->iesit: logVisitor");
     }
     public static function numberOfVisitorDay()
     {
@@ -23,6 +25,8 @@ class handlerDB
     }
     public static function checkEmail($emailUser)
     {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: checkEmail");
         settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
@@ -31,15 +35,18 @@ class handlerDB
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if ($result){
             $exist= true;
-            $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $log4Debug->debug_StringValue("Check made with E-mail for: ",$emailUser);
+            $log4Debug->debug_StringValue("^^handlerDB^^ Verificare facuta cu mail-ul: ",$emailUser);
         }else{
-            throw new Exception("Cont neinregistrat cu acest mail");
+            $log4Debug->alert_String("^^handlerDB^^ Cont neinregistrat cu acest mail !");
+            throw new Exception("Cont neinregistrat cu acest mail !");
         }
+        $log4Debug->debug_String("^^handlerDB^^->iesit: checkEmail");
        return $exist;
     }
     public static function checkExistEmail($emailUser)
     {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: checkExistEmail");
         settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_user WHERE ch_user_email = :email;");
@@ -48,15 +55,17 @@ class handlerDB
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if ($result){
             $exist= true;
-            $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $log4Debug->debug_StringValue("Check made with E-mail for: ",$emailUser);
+            $log4Debug->debug_StringValue("^^handlerDB^^ Verificare facuta cu mail-ul: ",$emailUser);
         }else{
             $exist = false;
         }
+        $log4Debug->debug_String("^^handlerDB^^->iesit: checkExistEmail");
         return $exist;
     }
     public static function checkNickname($nickNameUser)
     {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: checkNickname");
         settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_profile WHERE ch_prf_nickname = :nickname;");
@@ -65,15 +74,18 @@ class handlerDB
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if ($result){
             $exist = true;
-            $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $log4Debug->debug_StringValue("Check made with Nickname for: ",$nickNameUser);
+            $log4Debug->debug_StringValue("^^handlerDB^^ Verificare facuta cu nickname-ul: ",$nickNameUser);
         }else{
-            throw new Exception("Cont neinregistrat cu acest nickname");
+            $log4Debug->alert_String("^^handlerDB^^ Cont neinregistrat cu acest nickname !");
+            throw new Exception("Cont neinregistrat cu acest nickname !");
         }
+        $log4Debug->debug_String("^^handlerDB^^->iesit: checkNickname");
         return $exist;
     }
     public static function checkExistNickname($nickNameUser)
     {
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: checkExistNickname");
         settype($exist,"boolean");
         $conn = ConexiuneFactory::getConexiuneObject();
         $stmt = $conn->prepare("SELECT * FROM web_project_pie.ch_profile WHERE ch_prf_nickname = :nickname;");
@@ -82,16 +94,17 @@ class handlerDB
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if ($result){
             $exist = true;
-            $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $log4Debug->debug_StringValue("Check made with Nickname for: ",$nickNameUser);
+            $log4Debug->debug_StringValue("^^handlerDB^^ Verificare facuta cu nickname-ul: ",$nickNameUser);
         }else{
             $exist = false;
         }
+        $log4Debug->debug_String("^^handlerDB^^->iesit : checkExistNickname");
         return $exist;
     }
     public static function checkExistUserNicknameAndPass($nickNameUser, $userPassInput)
     {
         $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: checkExistUserNicknameAndPass");
         settype($exist,"boolean");
         $exist=true;
         $conn = ConexiuneFactory::getConexiuneObject();
@@ -108,12 +121,14 @@ class handlerDB
         }else{
             $exist = false;
         }
-        $log4Debug->debug_StringValue("Check made with nickname and pass 1/0 : ",$exist);
+        $log4Debug->debug_StringValue("^^handlerDB^^ Verificare facuta cu nickname si pass 1/0 : ",$exist);
+        $log4Debug->debug_String("^^handlerDB^^->iesit: checkExistUserNicknameAndPass");
         return $exist;
     }
     public static function checkExistUserEmailAndPass($emailUser, $userPassInput)
     {
         $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: checkExistUserEmailAndPass");
         settype($exist,"boolean");
         $exist=true;
         $conn = ConexiuneFactory::getConexiuneObject();
@@ -130,11 +145,13 @@ class handlerDB
             }else{
                 $exist = false;
             }
-             $log4Debug->debug_StringValue("Check made with nickname and pass 1/0 : ",$exist);
-            return $exist;
+        $log4Debug->debug_StringValue("^^handlerDB^^ Verificare facuta cu mail si pass 1/0 : ",$exist);
+        $log4Debug->debug_String("^^handlerDB^^->iesit: checkExistUserEmailAndPass");
+        return $exist;
     }
     public static function registerChatUser($nume,$prenume,$sex,$email,$parola,$ip,$username){
-
+        $log4Debug = Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_String("^^handlerDB^^->intrat: registerChatUser");
         try{
             $conn = ConexiuneFactory::getConexiuneObject();
             $stmt = $conn->prepare("INSERT INTO web_project_pie.ch_user(CH_USER_NAME,CH_USER_SURNAME,CH_USER_SEX,CH_USER_EMAIL,CH_USER_PASS,CH_USER_IP)VALUES(:nume, :prenume, :sex, :email, :pass, :ip);");
@@ -146,15 +163,13 @@ class handlerDB
             $stmt->bindParam(':ip', $ip, PDO::PARAM_STR);
             $stmt->execute();
             $last_id = $conn->lastInsertId();
-            $log4Debug = Log4DebugFactory::getLog4DebugObject();
-            $log4Debug->debug_StringValue("Id-ul contului creat: ",$last_id);
+            $log4Debug->debug_StringValue("^^handlerDB^^ Id-ul contului creat: ",$last_id);
             handlerDB::createProfileUser($last_id,$username);
         }catch(Exception $e){
-            throw new Exception("Nu sa putut realiza inregistrarea");
+            $log4Debug->alert_String("^^handlerDB^^ Nu sa putut realiza inregistrarea !");
+            throw new Exception("Nu sa putut realiza inregistrarea !");
         }
-
-
-
+        $log4Debug->debug_String("^^handlerDB^^->iesit: registerChatUser");
     }
     public static function createProfileUser($id,$username){
         $conn = ConexiuneFactory::getConexiuneObject();
@@ -163,7 +178,7 @@ class handlerDB
         $stmt->bindParam(':nickname', $username, PDO::PARAM_STR);
         $stmt->execute();
         $log4Debug = Log4DebugFactory::getLog4DebugObject();
-        $log4Debug->debug_String("->crearea profilului.");
+        $log4Debug->debug_String("^^handlerDB^^  --> crearea profilului.");
         return true;
     }
     public static function getChatUser(){

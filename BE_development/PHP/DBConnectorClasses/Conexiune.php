@@ -2,16 +2,13 @@
 class Conexiune
 {
 private static $conn;
-	
+
 public function __construct(){
 	try {
 		$log4Debug =Log4DebugFactory::getLog4DebugObject();
 		$log4Debug->debug_String("Intrat in constructor Conexiune");
         $log4Debug->debug_StringValue("Connection pid: ",getmypid());
-		$pathSistemPCstr = getcwd();
-		$pathSistemPC= substr($pathSistemPCstr, 0, strpos($pathSistemPCstr, "Proiect_pie"))."Proiect_pie\\";
-		$ini_array= parse_ini_file($pathSistemPC."DB_development\\mySQL\\configInfoDB.ini");
-		
+		$ini_array= parse_ini_file(self::returneazaCaleCatreFisierIni());
 		if ($ini_array) {
 			$log4Debug->alert_String('Loaded configInfoDB.ini: ');
 		} else {
@@ -19,7 +16,6 @@ public function __construct(){
 		}
 		$log4Debug->debug_AssArray($ini_array);
 		if (gethostname() == 'DESKTOP-CGDSSVT') {
-			
 			$db_hostV = 'localhost';                                  // hostname stefan
 			$log4Debug->debug_StringValue('$db_hostV: ',$db_hostV);
 		} else {
@@ -30,10 +26,10 @@ public function __construct(){
 		$db_name      = $ini_array[DbSchemaName];     // databasename
 		$db_user      = $ini_array[DbUserName];       //  username
 		$db_user_pw   = $ini_array[DbUserPass];       //  password
-		
-		$con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);
-		$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-		$con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8
+
+        $con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);
+        $con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+        $con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8
         $log4Debug->debug_String("conexiune creata cu succese");
         self::setConn($con);
 	}
@@ -47,7 +43,15 @@ public function __construct(){
 		die();  //  terminate connection
 	}
 	$log4Debug->debug_String("Iesit din constructor Conexiune");
+
+
 }
+    public function returneazaCaleCatreFisierIni(){ #-Creare cale catre fisierul de configuratie
+        $pathSistemPCstr = getcwd();
+        $pathSistemPC= substr($pathSistemPCstr, 0, strpos($pathSistemPCstr, "Proiect_pie"))."Proiect_pie\\";
+        $cale = $pathSistemPC."DB_development\\mySQL\\configInfoDB.ini";
+        return $cale;
+    }
 
     public function setConn($conObj){
         $this->conn=$conObj;
@@ -57,8 +61,9 @@ public function __construct(){
     }
 
 	public static function getInstance(){
-       #start
+        #start
         $log4Debug =Log4DebugFactory::getLog4DebugObject();
+        $log4Debug->debug_StringValue("getLog4DebugObject(): ",$instance);
         static $instance = null;
         if(null==$instance){
             $instance = (new Conexiune())->getConn();
@@ -74,5 +79,7 @@ public function __construct(){
         #codul de mai sus foloseste principiul la singleton. Fiecare obiect conn db chemat va fi acelasi astfel incat sa evitam crearea mereu a unui obiect nou!
         return $instance;
     }
+
+
 
 }
