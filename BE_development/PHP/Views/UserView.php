@@ -6,10 +6,23 @@ class UserView{
     protected $id;  
     protected $nume;
     protected $prenume;
+    protected $nickname;
+    protected $sex;
     protected $pass; 
     protected $email;
     protected $ip;
     protected $log4Debug;
+    /**
+     * UserView constructor.
+     * @param $id           TABLE: ch_user
+     * @param $nume         TABLE: ch_user
+     * @param $prenume      TABLE: ch_user
+     * @param $sex          TABLE: ch_user
+     * @param $pass         TABLE: ch_user
+     * @param $email        TABLE: ch_user
+     * @param $ip           TABLE: ch_user
+     * @param $nickname     TABLE: ch_profile
+     */
     //-----------------------------
     function __construct() {
     	self::setLog(Log4DebugFactory::getLog4DebugObject());
@@ -52,7 +65,7 @@ class UserView{
     }
     function setpPass($pass) {
     	$this->pass = $pass;
-    	self::getLog()->debug_StringValue("set_CurrentUser_PASS: ",$prenume);
+    	self::getLog()->debug_StringValue("set_CurrentUser_PASS: ",$pass);
     }
     //-----------------------------
     function getEmail() {
@@ -60,7 +73,7 @@ class UserView{
     }
     function setEmail($email) {
     	$this->email = $email;
-    	self::getLog()->debug_StringValue("set_CurrentUser_EMAIL: ",$prenume);
+    	self::getLog()->debug_StringValue("set_CurrentUser_EMAIL: ",$email);
     }
     //-----------------------------
     function getIp() {
@@ -68,7 +81,23 @@ class UserView{
     }
     function setIp($ip) {
     	$this->ip = $ip;
-    	self::getLog()->debug_StringValue("set_CurrentUser_IP: ",$prenume);
+    	self::getLog()->debug_StringValue("set_CurrentUser_IP: ",$ip);
+    }
+    //----------------------------
+    function getNickname() {
+        return $this->nickname;
+    }
+    function setNickname($nickname) {
+        $this->nickname = $nickname;
+        self::getLog()->debug_StringValue("set_CurrentUser_NICKNAME: ",$nickname);
+    }
+    //----------------------------
+    function getSex() {
+        return $this->sex;
+    }
+    function setSex($sex) {
+        $this->sex = $sex;
+        self::getLog()->debug_StringValue("set_CurrentUser_SEX: ",$sex);
     }
     //----------------------------
     

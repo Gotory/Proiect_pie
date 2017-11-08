@@ -71,12 +71,35 @@ spl_autoload_register('my_autoloader');
 #echo handlerDB::checkExistUserNicknameAndPass("gotory",1234)."<br>";
 #echo handlerDB::checkExistUserEmailAndPass("stefan.paladuta17@gmail.com","1234")."<br>";
 //-----------------------------------------
-echo Filtre::checkEmailFormat("stef@yaho.com")."<br>";
-echo Filtre::checkEmailFormat(123)."<br>";
-echo Filtre::checkEmailFormat("fadsgasd")."<br>";
+#echo Filtre::checkEmailFormat("stef@yaho.com")."<br>";
+#echo Filtre::checkEmailFormat(123)."<br>";
+#echo Filtre::checkEmailFormat("fadsgasd")."<br>";
 //-----------------------------------------
-
-
+//$userCurent = new UserView();
+//$userCurent->setId(1);
+//$userCurent->setNume("Paladuta");
+//$userCurent->setPrenume("Stefan");
+//$userCurent->setSex("M");
+//$userCurent->setNickname('Kanames');
+//$userCurent->setEmail('stefanpaladuta17@gmail.com');
+//$userCurent->setpPass('xxxxx');
+//
+//$log = Log4DebugFactory::getLog4DebugObject();
+//$log->debug_AssArray($userCurent);
+//
+//
+//$userCurent1 = new UserView();
+//$userCurent1->setId(1);
+//$userCurent1->setNume("Paladuta");
+//$userCurent1->setPrenume("Stefan");
+//$userCurent1->setSex("M");
+//$userCurent1->setNickname('Kanames');
+//$userCurent1->setEmail('stefanpaladuta17@gmail.com');
+//$userCurent1->setpPass('xxxxx');
+//
+//$log->debug_AssArray($userCurent1);
+//-----------------------------------------
+mail('kanames72@gmail.com','test','test','From: <testing@testing.com>');
 ?>
 </body>
 </html>

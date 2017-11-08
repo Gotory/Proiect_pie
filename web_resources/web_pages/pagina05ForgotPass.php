@@ -1,12 +1,32 @@
 <!-- FORGOT PASSWORD FORM -->
+<?php
+session_start();
+?>
 <div class="text-center" style="padding:50px 0">
     <div class="logo">forgot password</div>
     <!-- Main Form -->
     <div class="login-form-1">
-        <form id="forgot-password-form" class="text-left">
+        <form id="forgot-password-form" class="text-left"  action="../../BE_development/PHP/FlowDecisions/flow05ForgotPass.php">
             <div class="etc-login-form">
-                <p>When you fill in your registered email address, you will be sent instructions on how to reset your password.</p>
+                <p>Dupa ce vei completa input-ul de email vei primi pe mail instructiuni de recuperare a parolei.</p>
             </div>
+
+            <div class="row" style="display:<?php if(!isset($_SESSION['exceptie'])){print("none");}?>;">
+
+                <div class="col-sm-12" STYLE="text-align: center;">
+                    <div class="alert alert-danger alert-dismissable">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                        <?php
+                        if(isset($_SESSION['exceptie'])){
+                            print_r($_SESSION['exceptie']->getMessage());
+                        }
+                        unset($_SESSION['exceptie']);
+                        ?>
+                    </div>
+                </div>
+
+            </div>
+
             <div class="login-form-main-message"></div>
             <div class="main-login-form">
                 <div class="login-group">
