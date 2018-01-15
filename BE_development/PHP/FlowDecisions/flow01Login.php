@@ -39,11 +39,13 @@ try {
     }
     //$_SESSION['SESSION_LOGIN_USER'] = true;
     //$log4Debug->debug_StringValue("Punerea in sesiune a lui login: ",$_SESSION['SESSION_LOGIN_USER']);
-    $log4Debug->alert_String("-> Iesire in LogicFlow pagina 1 succes <-");
+    $log4Debug->alert_String("-> Iesire din LogicFlow pagina 1 succes <-");
     header("Location: ../../../web_resources/web_pages/BackPagina06.php");
+    $_SESSION['numeUserCurrent'] = $userName;
 } catch (Exception $exceptione) {
     session_start();
     $_SESSION['exceptie'] = $exceptione;
+    $log4Debug->alert_String("-> exceptione: ",$exceptione);
 //      echo "Code: ".$exceptione->getCode()."<br>";
 //      echo "File: ".$exceptione->getFile()."<br>";
 //      echo "Line: ".$exceptione->getLine()."<br>";

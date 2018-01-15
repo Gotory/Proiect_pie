@@ -1,9 +1,9 @@
 <html>
 <?php
 session_start();
-if(!isset($_SESSION['login'])){
-    header("Location: BackPagina01.php");
-}
+//if(!isset($_SESSION['login'])){
+//    header("Location: BackPagina01.php");
+//}
 ?>
 <head>
     <!-- Required meta tags -->
@@ -31,7 +31,7 @@ if(!isset($_SESSION['login'])){
                     <div class="row">
                         <div class="col-md-12">
                             <!--  include about section -->
-
+                            <?php include("pagina06Main.php"); ?>
                         </div>
                     </div>
                 </div>

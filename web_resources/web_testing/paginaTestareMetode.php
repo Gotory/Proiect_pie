@@ -99,7 +99,10 @@ spl_autoload_register('my_autoloader');
 //
 //$log->debug_AssArray($userCurent1);
 //-----------------------------------------
-mail('kanames72@gmail.com','test','test','From: <testing@testing.com>');
+//mail('kanames72@gmail.com','test','test','From: <testing@testing.com>');
+
+
+echo gethostname();
 ?>
 </body>
 </html>

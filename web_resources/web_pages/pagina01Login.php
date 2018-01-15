@@ -6,7 +6,6 @@ spl_autoload_register('my_autoloader');
     $log4Debug->alert_String('object log4Debug created in pagina01Login.php');
     $log4Debug->logingVisitorActiviti(OS_USER_INFO::get_client_ip());
 #-------------------------------------------------------------------- 1.0 END-Logarea utilizatorului inregistrat/neinregistrat pe site
-
 ?>
 <!-- Introducerea form-ului -->
 <div class="text-center" style="padding:50px 0">
@@ -26,6 +25,7 @@ spl_autoload_register('my_autoloader');
             <div class="alert alert-danger alert-dismissable">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                 <?php
+                    $log4Debug->alert_String('>pagina01Login< isset $_SESSION[\'exceptie\'] = ',isset($_SESSION['exceptie']));
                     if(isset($_SESSION['exceptie'])){
                         print_r($_SESSION['exceptie']->getMessage());
                     }

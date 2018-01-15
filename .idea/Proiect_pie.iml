@@ -7,20 +7,20 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
-          <root url="file://C:/xampp/php" />
+          <root url="file://C:/XAMPP/php" />
         </CLASSES>
         <SOURCES>
-          <root url="file://C:/xampp/php" />
+          <root url="file://C:/XAMPP/php" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://C:/xampp/php/pharcommand.phar/" />
+          <root url="phar://C:/XAMPP/php/pharcommand.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://C:/xampp/php/pharcommand.phar/" />
+          <root url="phar://C:/XAMPP/php/pharcommand.phar/" />
         </SOURCES>
       </library>
     </orderEntry>

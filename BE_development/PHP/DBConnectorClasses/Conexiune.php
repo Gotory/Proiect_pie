@@ -15,7 +15,7 @@ public function __construct(){
 			$log4Debug->alert_String('^^Conexiune^^ configInfoDB.ini file is not loaded');
 		}
 		$log4Debug->debug_AssArray($ini_array);
-		if (gethostname() == 'DESKTOP-CGDSSVT') {
+		if (gethostname() == 'DESKTOP-L6U9H28') {
 			$db_hostV = 'localhost';                                  // hostname stefan
 			$log4Debug->debug_StringValue('^^Conexiune^^ -> $db_hostV: ',$db_hostV);
 		} else {
