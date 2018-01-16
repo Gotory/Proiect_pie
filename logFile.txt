@@ -965,3 +965,108 @@ DEBUG::2018-01-15 22:46:46::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)4912
 DEBUG::2018-01-15 22:46:46::- ^^handlerDB^^ Verificare facuta cu nickname si pass 1/0 : 1
 DEBUG::2018-01-15 22:46:46::- ^^handlerDB^^->iesit: checkExistUserNicknameAndPass
 ALERT::2018-01-15 22:46:46::- -> Iesire din LogicFlow pagina 1 succes <-
+----------------------------------------------------------2018-01-16 17:17:29
+DEBUG::2018-01-16 17:17:29::- Log4Debug pid: 10896
+DEBUG::2018-01-16 17:17:29::- New Log4Debug oject
+ALERT::2018-01-16 17:17:29::- object log4Debug created in pagina01Login.php
+DEBUG::2018-01-16 17:17:29::-  ->INTRAT IN logingVisitorActiviti<- 
+DEBUG::2018-01-16 17:17:29::- Brower: Google Chrome
+DEBUG::2018-01-16 17:17:29::- Brower version: 63.0.3239.
+DEBUG::2018-01-16 17:17:29::- OS: Windows
+DEBUG::2018-01-16 17:17:29::- IP: 127.0.0.1
+DEBUG::2018-01-16 17:17:29::- ^^handlerDB^^->intrat: logVisitor
+DEBUG::2018-01-16 17:17:29::- -> Intrat in constructor Conexiune <-
+DEBUG::2018-01-16 17:17:29::- ^^Conexiune^^ pid: 10896
+ALERT::2018-01-16 17:17:29::- ^^Conexiune^^ Loaded configInfoDB.ini: 
+DEBUG::2018-01-16 17:17:29::- ARRAY Array: (KEY)DbUserName - (VALUE)tester
+DEBUG::2018-01-16 17:17:29::- ARRAY Array: (KEY)DbUserPass - (VALUE)tester
+DEBUG::2018-01-16 17:17:29::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2018-01-16 17:17:29::- ARRAY Array: (KEY)DbIP - (VALUE)stefanpaladuta.go.ro
+DEBUG::2018-01-16 17:17:29::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2018-01-16 17:17:29::- ^^Conexiune^^ -> $db_hostV: localhost
+DEBUG::2018-01-16 17:17:29::- ^^Conexiune^^ -> conexiune creata cu succes
+DEBUG::2018-01-16 17:17:29::- -> Iesit din constructor Conexiune <-
+DEBUG::2018-01-16 17:17:29::- ^^Conexiune^^ -> A new Connection object created
+DEBUG::2018-01-16 17:17:29::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)4986
+DEBUG::2018-01-16 17:17:29::- ^^handlerDB^^->iesit: logVisitor
+ALERT::2018-01-16 17:17:29::- >pagina01Login< isset $_SESSION['exceptie'] = 
+----------------------------------------------------------2018-01-16 17:52:06
+DEBUG::2018-01-16 17:52:06::- Log4Debug pid: 13100
+DEBUG::2018-01-16 17:52:06::- New Log4Debug oject
+DEBUG::2018-01-16 17:52:06::- -> Intrat in constructor Conexiune <-
+DEBUG::2018-01-16 17:52:06::- ^^Conexiune^^ pid: 13100
+ALERT::2018-01-16 17:52:06::- ^^Conexiune^^ Loaded configInfoDB.ini: 
+DEBUG::2018-01-16 17:52:06::- ARRAY Array: (KEY)DbUserName - (VALUE)tester
+DEBUG::2018-01-16 17:52:06::- ARRAY Array: (KEY)DbUserPass - (VALUE)tester
+DEBUG::2018-01-16 17:52:06::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2018-01-16 17:52:06::- ARRAY Array: (KEY)DbIP - (VALUE)stefanpaladuta.go.ro
+DEBUG::2018-01-16 17:52:06::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2018-01-16 17:52:06::- ^^Conexiune^^ -> $db_hostV: localhost
+DEBUG::2018-01-16 17:52:06::- ^^Conexiune^^ -> conexiune creata cu succes
+DEBUG::2018-01-16 17:52:06::- -> Iesit din constructor Conexiune <-
+DEBUG::2018-01-16 17:52:06::- ^^Conexiune^^ -> A new Connection object created
+DEBUG::2018-01-16 17:52:06::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)6038
+----------------------------------------------------------2018-01-16 17:52:09
+DEBUG::2018-01-16 17:52:09::- Log4Debug pid: 13100
+DEBUG::2018-01-16 17:52:09::- New Log4Debug oject
+DEBUG::2018-01-16 17:52:09::- -> Intrat in constructor Conexiune <-
+DEBUG::2018-01-16 17:52:09::- ^^Conexiune^^ pid: 13100
+ALERT::2018-01-16 17:52:09::- ^^Conexiune^^ Loaded configInfoDB.ini: 
+DEBUG::2018-01-16 17:52:09::- ARRAY Array: (KEY)DbUserName - (VALUE)tester
+DEBUG::2018-01-16 17:52:09::- ARRAY Array: (KEY)DbUserPass - (VALUE)tester
+DEBUG::2018-01-16 17:52:09::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2018-01-16 17:52:09::- ARRAY Array: (KEY)DbIP - (VALUE)stefanpaladuta.go.ro
+DEBUG::2018-01-16 17:52:09::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2018-01-16 17:52:09::- ^^Conexiune^^ -> $db_hostV: localhost
+DEBUG::2018-01-16 17:52:09::- ^^Conexiune^^ -> conexiune creata cu succes
+DEBUG::2018-01-16 17:52:09::- -> Iesit din constructor Conexiune <-
+DEBUG::2018-01-16 17:52:09::- ^^Conexiune^^ -> A new Connection object created
+DEBUG::2018-01-16 17:52:09::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)6043
+----------------------------------------------------------2018-01-16 17:52:39
+DEBUG::2018-01-16 17:52:39::- Log4Debug pid: 13100
+DEBUG::2018-01-16 17:52:39::- New Log4Debug oject
+DEBUG::2018-01-16 17:52:39::- -> Intrat in constructor Conexiune <-
+DEBUG::2018-01-16 17:52:39::- ^^Conexiune^^ pid: 13100
+ALERT::2018-01-16 17:52:39::- ^^Conexiune^^ Loaded configInfoDB.ini: 
+DEBUG::2018-01-16 17:52:39::- ARRAY Array: (KEY)DbUserName - (VALUE)tester
+DEBUG::2018-01-16 17:52:39::- ARRAY Array: (KEY)DbUserPass - (VALUE)tester
+DEBUG::2018-01-16 17:52:39::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2018-01-16 17:52:39::- ARRAY Array: (KEY)DbIP - (VALUE)stefanpaladuta.go.ro
+DEBUG::2018-01-16 17:52:39::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2018-01-16 17:52:39::- ^^Conexiune^^ -> $db_hostV: localhost
+DEBUG::2018-01-16 17:52:39::- ^^Conexiune^^ -> conexiune creata cu succes
+DEBUG::2018-01-16 17:52:39::- -> Iesit din constructor Conexiune <-
+DEBUG::2018-01-16 17:52:39::- ^^Conexiune^^ -> A new Connection object created
+DEBUG::2018-01-16 17:52:39::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)6075
+----------------------------------------------------------2018-01-16 17:52:42
+DEBUG::2018-01-16 17:52:42::- Log4Debug pid: 13100
+DEBUG::2018-01-16 17:52:42::- New Log4Debug oject
+DEBUG::2018-01-16 17:52:42::- -> Intrat in constructor Conexiune <-
+DEBUG::2018-01-16 17:52:42::- ^^Conexiune^^ pid: 13100
+ALERT::2018-01-16 17:52:42::- ^^Conexiune^^ Loaded configInfoDB.ini: 
+DEBUG::2018-01-16 17:52:42::- ARRAY Array: (KEY)DbUserName - (VALUE)tester
+DEBUG::2018-01-16 17:52:42::- ARRAY Array: (KEY)DbUserPass - (VALUE)tester
+DEBUG::2018-01-16 17:52:42::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2018-01-16 17:52:42::- ARRAY Array: (KEY)DbIP - (VALUE)stefanpaladuta.go.ro
+DEBUG::2018-01-16 17:52:42::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2018-01-16 17:52:42::- ^^Conexiune^^ -> $db_hostV: localhost
+DEBUG::2018-01-16 17:52:42::- ^^Conexiune^^ -> conexiune creata cu succes
+DEBUG::2018-01-16 17:52:42::- -> Iesit din constructor Conexiune <-
+DEBUG::2018-01-16 17:52:42::- ^^Conexiune^^ -> A new Connection object created
+DEBUG::2018-01-16 17:52:42::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)6081
+----------------------------------------------------------2018-01-16 17:52:45
+DEBUG::2018-01-16 17:52:45::- Log4Debug pid: 13100
+DEBUG::2018-01-16 17:52:45::- New Log4Debug oject
+DEBUG::2018-01-16 17:52:45::- -> Intrat in constructor Conexiune <-
+DEBUG::2018-01-16 17:52:45::- ^^Conexiune^^ pid: 13100
+ALERT::2018-01-16 17:52:45::- ^^Conexiune^^ Loaded configInfoDB.ini: 
+DEBUG::2018-01-16 17:52:45::- ARRAY Array: (KEY)DbUserName - (VALUE)tester
+DEBUG::2018-01-16 17:52:45::- ARRAY Array: (KEY)DbUserPass - (VALUE)tester
+DEBUG::2018-01-16 17:52:45::- ARRAY Array: (KEY)DbSchemaName - (VALUE)web_project_pie
+DEBUG::2018-01-16 17:52:45::- ARRAY Array: (KEY)DbIP - (VALUE)stefanpaladuta.go.ro
+DEBUG::2018-01-16 17:52:45::- ARRAY Array: (KEY)DbPort - (VALUE)3306
+DEBUG::2018-01-16 17:52:45::- ^^Conexiune^^ -> $db_hostV: localhost
+DEBUG::2018-01-16 17:52:45::- ^^Conexiune^^ -> conexiune creata cu succes
+DEBUG::2018-01-16 17:52:45::- -> Iesit din constructor Conexiune <-
+DEBUG::2018-01-16 17:52:45::- ^^Conexiune^^ -> A new Connection object created
+DEBUG::2018-01-16 17:52:45::- ARRAY Array: (KEY)CONNECTION_ID() - (VALUE)6086

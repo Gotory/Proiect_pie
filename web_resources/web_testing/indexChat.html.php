@@ -34,10 +34,43 @@
 
         </div>
         <div class="chat-form">
-            <textarea></textarea>
-            <button>Send</button>
+            <textarea id="message"></textarea>
+            <button id="button">Send</button>
         </div>
 </div>
+<textarea id="screen" cols="40" rows="40"> </textarea> <br>
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+    function update()
+    {
+        $.post("server.php", {}, function(data){ $("#screen").val(data);});
+
+        setTimeout('update()', 1000);
+    }
+
+    $(document).ready(
+
+        function()
+        {
+            update();
+
+            $("#button").click(
+                function()
+                {
+                    $.post("server.php",
+                        { message: $("#message").val()},
+                        function(data){
+                            $("#screen").val(data);
+                            $("#message").val("");
+                        }
+                    );
+                }
+            );
+        });
+
+
+</script>
 </body>
 </html>

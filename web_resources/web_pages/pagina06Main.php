@@ -18,18 +18,26 @@
     </div>
     <div class="chat-form">
         <textarea id="mesajScris"></textarea>
-        <button class="problema">Send</button>
+        <button class="btn">Send</button>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
+function update()
+{
+    $.post("../web_testing/server.php", { message: $("#mesajScris").val() , nrmesaje: $(".chatlogs").children().length},
+        function(data){
+            $('.chatlogs').append(data);
+        });
+    setTimeout('update()', 1000);
+}
 $(document).ready(function(){
-    $(".problema").click(function(){
+    $(".btn").click(function(){
+        update();
         if($.trim($("#mesajScris").val())) {
             $('.chatlogs').append('<div class="chat self"><div class="user-photo"></div>\n' +
-                '<p class="chat-msg">'+"(<?php  print_r($_SESSION['numeUserCurrent']); ?>) "+ $('#mesajScris').val()
+                '<p class="chat-msg">'+"(<?php  //print_r($_SESSION['numeUserCurrent']); ?>) "+ $('#mesajScris').val()
                 + '</p>'+'</div>');
             golestMesajScris();
-
         }
     });
 });
