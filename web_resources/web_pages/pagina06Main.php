@@ -5,13 +5,13 @@
 
         <div class="chat friend">
             <div class="user-photo"></div>
-            <p class="chat-msg">hey stef</p>
+            <p class="chat-msg">Type: SayHi</p>
         </div>
 
-        <div class="chat self">
-            <div class="user-photo"></div>
-            <p class="chat-msg">(<?php  if(isset($_SESSION['objUSER'])){ $userObj = $_SESSION['objUSER']; echo $userObj->getNume();}?>) hey yo</php></p>
-        </div>
+<!--        <div class="chat self">-->
+<!--            <div class="user-photo"></div>-->
+<!--            <p class="chat-msg">SayHi</php></p>-->
+<!--        </div>-->
 
     </div>
     <div class="chat-form">
@@ -22,18 +22,24 @@
 <script>
 function update()
 {
-    $.post("../web_testing/server.php", { message: $("#mesajScris").val() , nrmesaje: $(".chatlogs").children().length},
+    $('.chatlogs').children().last().focus();
+    $.post("../web_testing/server.php", { nrmesaje: $(".chatlogs").children().length},
         function(data){
             $('.chatlogs').append(data);
         });
-    setTimeout('update()', 3000);
+    setTimeout('update()', 1000);
 }
 $(document).ready(function(){
     $(".btn").click(function(){
         update();
+        $.post("../web_testing/server.php",
+            { message: $("#mesajScris").val() },
+             function(data){
+                 $('.chatlogs').append(data);
+             });
         if($.trim($("#mesajScris").val())) {
             $('.chatlogs').append('<div class="chat self"><div class="user-photo"></div>\n' +
-                '<p class="chat-msg">'+"(<?php  //print_r($_SESSION['numeUserCurrent']); ?>) "+ $('#mesajScris').val()
+                '<p class="chat-msg"> '+$('#mesajScris').val()
                 + '</p>'+'</div>');
             golestMesajScris();
         }

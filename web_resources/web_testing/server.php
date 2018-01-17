@@ -41,10 +41,10 @@ if(isset($_POST['message'])){
             $userObj->setLoggedDateChat();
             $time = $userObj->getLoggedDateChat();
         }
-        $stmt = $con->prepare("INSERT INTO web_project_pie.chat (Username,Text,Time) VALUES (:numeUser, :message, :time);");
+        $stmt = $con->prepare("INSERT INTO web_project_pie.chat (Username,Text) VALUES (:numeUser, :message);");
         $stmt->bindParam(':message', $message, PDO::PARAM_STR);
         $stmt->bindParam(':numeUser', $numeUser, PDO::PARAM_STR);
-        $stmt->bindParam(':time', $time, PDO::PARAM_STR);
+        //$stmt->bindParam(':time', $time, PDO::PARAM_STR);
         $stmt->execute();
     }
    // unset($_SESSION['onClick']);
@@ -66,6 +66,7 @@ if(isset($_POST['message'])){
     //echo "\n 2 ACUMA ID MAX ESTE  $id \n";
     $userObj = $_SESSION['objUSER'];
     $time = $userObj->getLoggedDateChat();
+    //echo $time."<br>";
 //    $sql1 = "SELECT Text,Id,Username,Time FROM chat WHERE TIME > $time";
 //    $result = mysqli_query($link,$sql1);
 //    $row_cnt = mysqli_num_rows($result);
@@ -81,13 +82,14 @@ $arrValues = $stmt->fetchAll(PDO::FETCH_ASSOC);
 foreach ($arrValues as $row){
 //    echo sizeof($row);
     echo "<div class='chat friend'><div class='user-photo'></div><p class='chat-msg'>($row[Username]) $row[Text]</p></div>";
+    $userObj->setLoggedDateChat();
 }
 //    while ($row = $stmt->fetchAll(PDO::FETCH_COLUMN, 0)) {
 //        echo sizeof($row);
 //        echo "<div class='chat friend'><div class='user-photo'></div><p class='chat-msg'>($time $row[2]) $row[0]</p></div>";
 //    }
 //}
-$userObj->setLoggedDateChat();
+
 //echo $row_cnt;
 //
 //    if($row_cnt!=00) {
