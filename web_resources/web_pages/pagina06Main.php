@@ -8,17 +8,15 @@
             <p class="chat-msg">hey stef</p>
         </div>
 
-
-
         <div class="chat self">
             <div class="user-photo"></div>
-            <p class="chat-msg">(numeOM) hey yo</p>
+            <p class="chat-msg">(<?php  if(isset($_SESSION['objUSER'])){ $userObj = $_SESSION['objUSER']; echo $userObj->getNume();}?>) hey yo</php></p>
         </div>
 
     </div>
     <div class="chat-form">
         <textarea id="mesajScris"></textarea>
-        <button class="btn">Send</button>
+        <button class="btn" onclick="<?php session_start(); $_SESSION['onClick'] = 1; ?>">Send</button>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
@@ -28,7 +26,7 @@ function update()
         function(data){
             $('.chatlogs').append(data);
         });
-    setTimeout('update()', 1000);
+    setTimeout('update()', 3000);
 }
 $(document).ready(function(){
     $(".btn").click(function(){

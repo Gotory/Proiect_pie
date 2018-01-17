@@ -1,4 +1,6 @@
 <?php
+include_once('../SPL_MODULE_STEFAN.php');
+spl_autoload_register('my_autoloader');
 session_start();
 $dbhost = 'localhost';
 $dbuser = 'tester';
@@ -17,28 +19,38 @@ if(isset($_POST['message'])){
     $message="";
 }
 
-include_once('../SPL_MODULE_STEFAN.php');
-spl_autoload_register('my_autoloader');
+
 
 $link  = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+    //echo "aici->>>>>>>>>>>>>> ",isset($_SESSION['onClick']);
+$db_host      = $dbhost;       // hostname
+$db_name      = $dbname;       // databasename
+$db_user      = $dbuser;       //  username
+$db_user_pw   = $dbpass;       //  password
+$con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);
+$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+$con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8
 
 if(isset($_POST['message'])){
+
     if($message != "")
     {
-        $db_host      = $dbhost;       // hostname
-        $db_name      = $dbname;       // databasename
-        $db_user      = $dbuser;       //  username
-        $db_user_pw   = $dbpass;       //  password
-        $con = new PDO('mysql:host='.$db_host.'; dbname='.$db_name, $db_user, $db_user_pw);
-        $con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-        $con->exec("SET CHARACTER SET utf8");  //  return all sql requests as UTF-8
-        $stmt = $con->prepare("INSERT INTO chat (Text) VALUES (:message)");
+        if(isset($_SESSION['objUSER'])){
+            $userObj = $_SESSION['objUSER'];
+            $numeUser= $userObj->getNume();
+            $userObj->setLoggedDateChat();
+            $time = $userObj->getLoggedDateChat();
+        }
+        $stmt = $con->prepare("INSERT INTO web_project_pie.chat (Username,Text,Time) VALUES (:numeUser, :message, :time);");
         $stmt->bindParam(':message', $message, PDO::PARAM_STR);
+        $stmt->bindParam(':numeUser', $numeUser, PDO::PARAM_STR);
+        $stmt->bindParam(':time', $time, PDO::PARAM_STR);
         $stmt->execute();
     }
+   // unset($_SESSION['onClick']);
 }
 
-    $id = $_SESSION['id'];
+        $id = $_SESSION['id'];
 
         if ($nrMesaje==2) {
             //echo "\n 1 ACUMA ID MAX ESTE  $id \n";
@@ -52,23 +64,44 @@ if(isset($_POST['message'])){
         }
 
     //echo "\n 2 ACUMA ID MAX ESTE  $id \n";
-    $sql1 = "SELECT Text,Id FROM chat WHERE Id > $id";
-    $result = mysqli_query($link,$sql1);
-    $row_cnt = mysqli_num_rows($result);
+    $userObj = $_SESSION['objUSER'];
+    $time = $userObj->getLoggedDateChat();
+//    $sql1 = "SELECT Text,Id,Username,Time FROM chat WHERE TIME > $time";
+//    $result = mysqli_query($link,$sql1);
+//    $row_cnt = mysqli_num_rows($result);
+//    $userObj->setLoggedDateChat();
 
-    //echo $row_cnt;
-    if($row_cnt!=00) {
-        while($row1 = mysqli_fetch_row($result)){
-            echo "<div class='chat friend'><div class='user-photo'></div><p class='chat-msg'>$row1[0]</p></div>";
-        }
-        $sql2 = "SELECT max(Id) FROM chat;";
-        $result2 = mysqli_query($link, $sql2);
-        while ($row3 = mysqli_fetch_row($result2)) {
-            $id = $row3[0];
-            $_SESSION['id'] = $row3[0];
-        }
-        $id = 0;
-    }
+$stmt = $con->prepare("SELECT *  FROM web_project_pie.chat WHERE TIME > :time");
+$stmt->bindParam(':time', $time, PDO::PARAM_STR);
+$stmt->execute();
+$arrValues = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//$result = $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
+//if ($result) {
+//print_r($arrValues);
+foreach ($arrValues as $row){
+//    echo sizeof($row);
+    echo "<div class='chat friend'><div class='user-photo'></div><p class='chat-msg'>($row[Username]) $row[Text]</p></div>";
+}
+//    while ($row = $stmt->fetchAll(PDO::FETCH_COLUMN, 0)) {
+//        echo sizeof($row);
+//        echo "<div class='chat friend'><div class='user-photo'></div><p class='chat-msg'>($time $row[2]) $row[0]</p></div>";
+//    }
+//}
+$userObj->setLoggedDateChat();
+//echo $row_cnt;
+//
+//    if($row_cnt!=00) {
+//        while($row1 = mysqli_fetch_row($result)){
+//            echo "<div class='chat friend'><div class='user-photo'></div><p class='chat-msg'>($row1[2]) $row1[0]</p></div>";
+//        }
+//        $sql2 = "SELECT max(Id) FROM chat;";
+//        $result2 = mysqli_query($link, $sql2);
+//        while ($row3 = mysqli_fetch_row($result2)) {
+//            $id = $row3[0];
+//            $_SESSION['id'] = $row3[0];
+//        }
+//        $id = 0;
+//    }
 
 //    echo "\n aici nu exista sesiunea $id \n";
 //    $sql2 = "SELECT Text,Id FROM chat WHERE Id > $id";

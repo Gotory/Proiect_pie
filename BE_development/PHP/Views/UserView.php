@@ -12,6 +12,8 @@ class UserView{
     protected $email;
     protected $ip;
     protected $log4Debug;
+    protected $loggedDateApplication;
+    protected $loggedDateChat;
     /**
      * UserView constructor.
      * @param $id           TABLE: ch_user
@@ -100,7 +102,25 @@ class UserView{
         self::getLog()->debug_StringValue("set_CurrentUser_SEX: ",$sex);
     }
     //----------------------------
-    
+    function getLoggedDateApplication() {
+        return $this->loggedDateApplication;
+    }
+    function setLoggedDateApplication($date) {
+        $this->loggedDateApplication = $date;
+        self::getLog()->debug_StringValue("setLoggedDateApplication: ",$date);
+    }
+    //----------------------------
+    function getLoggedDateChat() {
+        return $this->loggedDateChat;
+    }
+    function setLoggedDateChat() {
+        $date = date('Y-m-d H:i:s', strtotime('1 hour'));;
+        //(new DateTime()->setTimezone('Europe/Bucharest'))->format('Y-m-d H:i:s');
+        $this->loggedDateChat = $date;
+        self::getLog()->debug_StringValue("setLoggedDateChat: ",$this->loggedDateChat);
+    }
+    //----------------------------
+
     function __destruct(){
     	self::getLog()->debug_String("------ UserView exiting ------");
     }

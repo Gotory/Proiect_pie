@@ -42,6 +42,9 @@ try {
     $log4Debug->alert_String("-> Iesire din LogicFlow pagina 1 succes <-");
     header("Location: ../../../web_resources/web_pages/BackPagina06.php");
     $_SESSION['numeUserCurrent'] = $userName;
+    $objUSER = new UserView();
+    $objUSER->setNume($userName);
+    $_SESSION['objUSER'] = $objUSER;
 } catch (Exception $exceptione) {
     session_start();
     $_SESSION['exceptie'] = $exceptione;

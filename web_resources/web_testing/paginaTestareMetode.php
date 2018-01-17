@@ -100,9 +100,9 @@ spl_autoload_register('my_autoloader');
 //$log->debug_AssArray($userCurent1);
 //-----------------------------------------
 //mail('kanames72@gmail.com','test','test','From: <testing@testing.com>');
-
-
-echo gethostname();
+$date = date('Y-m-d H:i:s', strtotime('1 hour'));
+echo $date;
+//echo gethostname();
 ?>
 </body>
 </html>

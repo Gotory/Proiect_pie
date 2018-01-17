@@ -1,5 +1,7 @@
 <html>
 <?php
+include_once('../SPL_MODULE_STEFAN.php');
+spl_autoload_register('my_autoloader');
 session_start();
 //if(!isset($_SESSION['login'])){
 //    header("Location: BackPagina01.php");
